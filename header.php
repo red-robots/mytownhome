@@ -107,13 +107,15 @@ else { document.getElementById(d).style.display = "none"; }
           <div id="header-content">
             
             <div id="header-content1">Residential Realtors serving Charlotte, NC</div><!-- header-content1 -->
-          
+          <div class="header-cont-right">
             <div id="social-icons">
               <div id="social1"><a href="<?php the_field('facebook_link', 'option'); ?>" target="_blank"></a></div><!-- social1 -->
               <div id="social2"><a href="<?php the_field('youtube_link', 'option'); ?>" target="_blank"></a></div><!-- social1 -->
             </div><!-- social-icons -->
 
             <div id="header-content2">704.377.4567</div><!-- header-content2 -->
+            </div><!-- header cont right -->
+            
           </div><!-- header-content -->
         </div><!-- header-content-wrapper -->
 

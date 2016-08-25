@@ -30,7 +30,8 @@
 						<ul>
 							<li><a href="<?php bloginfo('url'); ?>/about">ABOUT</a></li>
 							<li><a href="<?php bloginfo('url'); ?>/careers">CAREERS</a></li>
-							<li><a href="<?php bloginfo('url'); ?>/resources">RESOURCES</a></li>
+							<li><a href="<?php bloginfo('url'); ?>/news">NEWS</a></li>
+							<!-- <li><a href="<?php bloginfo('url'); ?>/resources">RESOURCES</a></li> -->
 							<li><a href="<?php bloginfo('url'); ?>/contact">CONTACT US</a></li>
 						</ul>
 					</div><!-- footer-links -->

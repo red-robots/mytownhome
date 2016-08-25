@@ -9,12 +9,16 @@
 remove_all_filters('posts_orderby');
 // Query the Post type Slides
 $querySlides = array(
-'post_type' => 'post',
+'post_type' => 'community',
 'posts_per_page' => '-1',
-'category_name' => 'featured',
 'orderby'        => 'rand',
-//'order' => 'ASC'
-
+'tax_query' => array(
+    array(
+      'taxonomy' => 'neighborhood', // your custom taxonomy
+      'field' => 'slug',
+      'terms' => array( 'featured' ) // the terms (categories) you created
+    )
+  ),
 );
 // The Query
 
@@ -27,7 +31,30 @@ $the_query = new WP_Query( $querySlides );
 
   <ul class="slides">
       <?php while ( $the_query->have_posts() ) : ?>
-        <?php $the_query->the_post(); ?>
+        <?php $the_query->the_post(); 
+
+        $theID = get_the_ID();
+        $terms = get_the_terms($theID, 'neighborhood');
+        // echo '<pre>';
+        // print_r($terms);
+        // echo '</pre>';
+
+        foreach ( $terms as $term ){
+          // term 1 
+          $term1 = $terms[0]->name;
+          $term2 = $terms[1]->name;
+          
+          if( $term1 !== 'Featured' ) {
+            $myTerm = $term1;
+          } else {
+            $myTerm = $term2;
+          }
+          
+        //   echo '<pre>';
+        // print_r($term);
+        // echo '</pre>';
+        }
+        ?>
 
             <li> 
 
@@ -52,8 +79,9 @@ $the_query = new WP_Query( $querySlides );
                 <div class="communities-short-description-content">
                   <div class="communities-short-description">
                     <h3><?php
-                    $category = get_the_category(); 
-                    echo $category[0]->cat_name;
+                    // $category = get_the_category(); 
+                    // echo $terms[0]->name;
+                    echo $myTerm;
                     ?></h3>
                     <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                     <a href="<?php the_permalink(); ?>"><?php the_field("short_description"); ?></a>

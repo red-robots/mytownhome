@@ -560,7 +560,7 @@ section.tab-buttons {
 	float: left;
 }
 .home-search-column {
-	width: 32%;
+	width: 38%;
 	float: left;
 	padding-right: 5%;
 	font-size: 13px;
@@ -572,7 +572,7 @@ section.tab-buttons {
 	float: right;
 }
 .home-search-column2 {
-	width: 20%;
+	width: 24%;
 	float: left;
 	padding-right: 5%;
 	font-size: 13px;
@@ -1976,5 +1976,32 @@ li.lh:hover {
 
 	input {
 		margin: 0 0 5px 0;
+	}
+}
+article.blogpost {
+	width: 100%;
+	float: left;
+	border-bottom: 3px solid $color-blue;
+	position: relative;
+	padding: 30px 0 50px 0;
+	margin: 0 0 30px 0;
+
+	.readmore {
+		width: auto; 
+		margin: 0 0 20px 0;
+		a {
+			width: auto; 
+			display: inline-block;
+			float: right;
+			background-color: $color-blue;
+			color: #fff;
+			text-decoration: none;
+			padding: 10px 15px;
+			border-radius: 5px;
+
+			&:hover {
+				background-color: rgba($color-blue, .7);
+			}
+		}
 	}
 }

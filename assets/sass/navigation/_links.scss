@@ -1,0 +1,40 @@
+$color__link : #0999F3;
+// a {
+// 	color: $color__link;
+
+// 	/*&:visited {
+// 		color: $color__link-visited;
+// 	}*/
+// 	&:hover,
+// 	&:focus,
+// 	&:active {
+// 		color: $color__link-hover;
+// 	}
+// 	&:focus {
+// 		outline: thin dotted;
+// 	}
+// 	&:hover,
+// 	&:active {
+// 		outline: 0;
+// 	}
+// }
+
+A:link {
+	color: #0099CF;
+	text-decoration: underline;
+}
+A:visited {
+	color: #0099CF;
+	text-decoration: underline;
+}
+A:active {
+	color: #0099CF;
+	text-decoration: underline;
+}
+A:hover {
+	color: #47BCE7;
+	text-decoration: underline;
+}
+a, img {
+	border: none;
+}

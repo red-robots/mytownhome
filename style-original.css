@@ -1,0 +1,1185 @@
+/*
+
+Theme Name: Bellaworks Web Design
+Theme URI: http://bellaworksweb.com
+Author: Bellaworks
+
+
+ */
+
+
+
+
+
+/*div {position: relative; }*/
+
+
+
+
+
+
+
+
+
+/* ipad 768 x 1024 */
+
+
+
+@media all and (min-width: 700px) and (max-width: 1024px) {
+	
+	.bw-search .nav-tabs li {
+    display: inline-block;
+	margin-right: 5px;
+	width: auto;
+}
+	
+	#home-slider2 {
+		width: 645px;
+float: none;
+    margin: 0 auto;
+    padding-left: 55px;
+	}
+
+	
+	#current-listings-frame {
+    width: 100%;
+    margin: 0 auto;
+}
+	
+	.idxprop {
+	width: 40%;
+	float: left;
+	margin-right: 5%!important;
+	margin-bottom: 15px!important;
+	height: 430px!important;
+}
+.idxclear {
+	clear: none!important;
+}
+
+.idxphoto2 {
+    background: #ececec;
+    padding: 0px;
+    margin-top: 0;
+    margin-right: 0px!important;
+    margin-bottom: 10px!important;
+    margin-left: 0;
+    width: 100%!important;
+    height: auto!important;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    float: left;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+
+.idxphoto2 img {
+	width: 100%!important;
+	max-width: 100%!important;
+	height: auto!important;
+}
+
+
+
+#home-slider2 .flex-direction-nav .flex-next {
+	right: 0px;
+}
+#navigation-bar {
+	background-color: #0099D3;
+	position: absolute;
+	top: 10px;
+	right: 0px;
+	width: 37%;
+	max-width: 300px;
+	height: 42px;
+	-moz-border-radius: 10px 0px 0px 10px;
+	border-radius: 10px 0px 0px 10px;
+	z-index: 1000;
+	visibility: visible;
+}
+#navigation {
+	visibility: hidden;
+	height: 0px;
+	margin: 0px;
+	width: 0px;
+	display: none;
+}
+#mobile-navigation {
+	float: left;
+	width: 93%;
+	padding-left: 7%;
+	padding-bottom: 10px;
+	visibility: visible;
+	padding-top: 5px;
+	font-size: 18px;
+	background-color: #009AD1;
+	-moz-border-radius: 10px 0px 0px 10px;
+	border-radius: 10px 0px 0px 10px;
+	position: relative;
+}
+#mobile-navigation a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+#mobile-navigation a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+#mobile-navigation a:hover {
+	color: #7bdcfc;
+	text-decoration: none;
+}
+#uniquename ul {
+	margin: 10px 0 0 0;
+	padding: 0px;
+	font-size: 14px;
+}
+#uniquename li {
+	padding-bottom: 10px;
+	padding-left: 0px;
+	list-style-type: none;
+}
+#uniquename a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+#uniquename a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+#uniquename a:hover {
+	color: #7bdcfc;
+	text-decoration: none;
+}
+#main {
+	width: 100%;
+}
+#main-header {
+	padding-top: 30px;
+	height: auto;
+}
+#logo {
+	width: 100%;
+	height: auto;
+}
+#logo img {
+	width: 100%;
+	height: auto;
+	max-width: 320px;
+}
+#header-content-wrapper {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+#header-wrapper {
+	width: 100%;
+	height: auto;
+}
+#header-content1 {
+	width: 100%;
+	height: 30px;
+	float: left;
+	font-size: 13px;
+	color: #A4A3A4;
+	text-align: center;
+	padding-top: 0px;
+	padding-right: 0px;
+}
+#header-content2 {
+	width: 50%;
+	height: 40px;
+	font-size: 23px;
+}
+#social-icons {
+	width: 50%;
+	margin-bottom: 10px;
+}
+#header-content {
+	width: 100%;
+	height: auto;
+	float: right;
+}
+.communities-photo {
+	width: 100%!important;
+	height: auto!important;
+	max-height: 300px!important;
+}
+.communities-photo img {
+	width: 100%!important;
+	min-height: auto!important;
+	height: auto!important;
+}
+.communities-short-description h2 {
+	font-size: 34px;
+	margin-bottom: 10px;
+	line-height: 30px;
+}
+#find-box {
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.infusion-field {
+	margin-bottom: 15px!important;
+	width: 100%;
+	float: left;
+}
+#main2 {
+	width: 90%;
+	padding-left: 5%;
+	margin-left: inherit;
+	margin-right: inherit;
+	float: left;
+}
+#page-text-left {
+	margin-bottom: 15px;
+	float: left;
+	width: 100%;
+}
+#page-right-column {
+	width: 100%;
+	float: left;
+}
+#main-wrapper {
+	width: 100%;
+}
+#footer {
+	width: 100%;
+	height: auto;
+}
+#footer-wrapper {
+	width: 90%;
+	height: auto;
+	padding-left: 5%;
+	padding-bottom: 75px;
+	margin: 10px 0 0 0;
+	float: left;
+}
+#footer-row1-box1 {
+	width: 100%;
+	height: auto;
+}
+#footer-newsletter {
+	width: 100%;
+}
+#footer-content2 {
+	width: 100%;
+	float: left;
+	padding-top: 0px;
+}
+#footer-links p {
+	display: inline;
+	float: left;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+#footer-links {
+	text-align: center;
+	padding-top: 0px;
+}
+.home-search-column {
+	width: auto;
+}
+.home-search-column2 {
+	width: auto;
+}
+.home-search-column3 {
+	width: auto;
+}
+#home-row1 {
+	width: 100%;
+	height: auto;
+}
+#find-box-wrapper {
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: auto;
+	left: auto;
+	clear: both;
+}
+#home-row2-row1 {
+	width: 100%;
+	height: 350px;
+}
+#home-row2-row1-content {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-right: 0px;
+}
+#home-row2 {
+	background-image: url(images/bg-home-row2.jpg);
+	background-position: top right;
+}
+#home-row2-row2 {
+	width: 100%;
+}
+#home-row2-row2-box1 {
+	width: 90%;
+	padding-left: 5%;
+}
+.communities-short-description {
+	width: 90%;
+	height: auto;
+	position: relative;
+	padding: 5%;
+	top: auto;
+	right: auto;
+	float: left;
+}
+#home-row2-row2-box2 {
+	width: 100%;
+}
+#home-row3-content {
+	width: 100%;
+}
+#home-row3-content-box1 {
+	width: 90%;
+	float: left;
+	margin-right: 0px;
+	margin-left: 5%;
+}
+#home-row3-content-box2 {
+	width: 90%;
+	float: left;
+	margin-right: 0px;
+	margin-left: 5%;
+}
+#home-row3-content-box3 {
+	width: 90%;
+	float: left;
+	margin-right: 0px;
+	margin-left: 5%;
+}
+#home-row4 {
+	width: 100%;
+	height: auto;
+}
+#home-row4-content {
+	width: 100%;
+}
+#home-agents {
+	float: none;
+	width: 680px;
+	height: auto;
+	margin: 0 auto;
+}
+#agents-box {
+	width: 100%;
+	height: auto;
+	padding-bottom: 10px;
+}
+.agent-profile-box {
+	margin: 0 10px 0 0;
+	margin-bottom: 15px;
+	float: left;
+	width: 160px;
+}
+#home-agents .agent-profile-box {
+	height: 230px;
+}
+.agent-photo img {
+	width: 100%;
+	height: auto;
+}
+.agent-photo img:hover {
+	width: 100%;
+	height: auto;
+}
+#view-all-agents {
+	width: 100%;
+	float: left;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+#find-box .responsive-tabs .responsive-tabs__panel {
+	height: auto!important;
+}
+#home-slider {
+	height: auto;
+	position: inherit;
+}
+.communities-short-description-wrapper {
+	width: 100%;
+	height: auto;
+	position: relative;
+	left: auto;
+	bottom: auto;
+	z-index: 99999;
+	float: left;
+}
+.communities-short-description-content {
+	width: 100%;
+	float: left;
+	height: auto;
+}
+.text {
+	width: auto!important;
+}
+.page-content {
+	margin-top: 15px;
+}
+#communities-heading-link {
+	width: 100%;
+	height: auto;
+	bottom: 0px;
+	left: auto;
+	font-size: 24px;
+}
+#communities-title-box {
+	width: 90%;
+	height: auto;
+	padding: 5%;
+	position: relative;
+	bottom: auto;
+	right: auto;
+	background-image: url(images/bg-communities-box-header.png);
+	float: left;
+}
+#communities-heading-photo {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 60px;
+}
+#features {
+	width: 100%;
+	float: left;
+}
+#features-agents {
+	width: 100%;
+	float: left;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+#community-realtors {
+	width: 90%;
+	float: left;
+	margin-left: 5%;
+}
+.community-realtor {
+	width: 90%;
+	float: left;
+	background-color: #DDDDDD;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	padding: 5%;
+}
+#about-links {
+	width: 100%;
+	float: left;
+	padding-top: 10px;
+}
+.about-link1 {
+	width: 100%;
+	float: left;
+	margin-right: 0%;
+}
+.about-link2 {
+	width: 100%;
+	float: left;
+}
+.about-office-image {
+	width: 25%;
+	float: left;
+	overflow: hidden;
+}
+#agents-page-text {
+	width: 100%;
+	float: left;
+}
+#agents-page-box {
+	width: 100%;
+	height: auto;
+	float: left;
+	background-color: #0198CF;
+	color: #ffffff;
+	margin-top: 15px;
+}
+
+#agents-page-box a {
+		width: 90%;
+	height: auto;
+		background-color: #0198CF;
+				padding: 5%;
+			display:block;
+}
+
+
+#agent-search #agent-search1 {
+	width: 160px!important;
+}
+#single-agent-photo {
+	width: 100%;
+	text-align: center;
+	height: auto;
+}
+#single-agent-photo img {
+	width: 90%;
+}
+#single-agent-text1 {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 15px;
+	padding-right: 0;
+}
+h1 {
+	font-size: 28px;
+}
+#single-agent-links {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 15px;
+}
+#single-agent-row1 {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+#single-agent-row2 {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+#single-agent-row4 {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+#full-bio {
+	width: 100%;
+}
+#agent-favorite-neighborhoods {
+	width: 100%;
+}
+#agent-favorite-communities {
+	width: 100%;
+	margin-top: 15px;
+}
+#agent-boxes {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+}
+#bottom-link {
+	width: 100%;
+}
+.community-gallery-photo {
+	width: 80%;
+	height: auto;
+	float: left;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 10%;
+}
+.community-gallery-photo img {
+	width: 100%;
+	height: auto;
+}
+#current-listings-header {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+}
+
+/* mobile */
+
+
+
+@media all and (max-width: 700px) {
+	.bw-search .nav-tabs li {
+    
+	width: 100%;
+}
+	.bw-search #google-search-map {
+    width: 100%;
+    height: 475px;
+    float: left;
+    margin-right: 0px;
+}
+
+#home-slider2 .flex-direction-nav .flex-next {
+	right: 0px;
+}
+#navigation-bar {
+	background-color: #0099D3;
+	position: absolute;
+	top: 10px;
+	right: 0px;
+	width: 37%;
+	max-width: 300px;
+	height: 42px;
+	-moz-border-radius: 10px 0px 0px 10px;
+	border-radius: 10px 0px 0px 10px;
+	z-index: 1000;
+	visibility: visible;
+}
+#navigation {
+	visibility: hidden;
+	height: 0px;
+	margin: 0px;
+	width: 0px;
+	display: none;
+}
+#mobile-navigation {
+	float: left;
+	width: 93%;
+	padding-left: 7%;
+	padding-bottom: 10px;
+	visibility: visible;
+	padding-top: 5px;
+	font-size: 18px;
+	background-color: #009AD1;
+	-moz-border-radius: 10px 0px 0px 10px;
+	border-radius: 10px 0px 0px 10px;
+	position: relative;
+}
+#mobile-navigation a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+#mobile-navigation a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+#mobile-navigation a:hover {
+	color: #7bdcfc;
+	text-decoration: none;
+}
+#uniquename ul {
+	margin: 10px 0 0 0;
+	padding: 0px;
+	font-size: 14px;
+}
+#uniquename li {
+	padding-bottom: 10px;
+	padding-left: 0px;
+	list-style-type: none;
+}
+#uniquename a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+#uniquename a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+#uniquename a:hover {
+	color: #7bdcfc;
+	text-decoration: none;
+}
+#main {
+	width: 100%;
+}
+#main-header {
+	padding-top: 30px;
+	height: auto;
+}
+#logo {
+	width: 100%;
+	height: auto;
+}
+#logo img {
+	width: 100%;
+	height: auto;
+	max-width: 320px;
+}
+#header-content-wrapper {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+#header-wrapper {
+	width: 100%;
+	height: auto;
+}
+#header-content1 {
+	width: 100%;
+	height: 30px;
+	float: left;
+	font-size: 13px;
+	color: #A4A3A4;
+	text-align: center;
+	padding-top: 0px;
+	padding-right: 0px;
+}
+#header-content2 {
+	width: 50%;
+	height: 40px;
+	font-size: 23px;
+}
+#social-icons {
+	width: 50%;
+	margin-bottom: 10px;
+}
+#header-content {
+	width: 100%;
+	height: auto;
+	float: right;
+}
+.communities-photo {
+	width: 100%!important;
+	height: auto!important;
+	max-height: 600px!important;
+}
+.communities-photo img {
+	width: 100%!important;
+	min-height: inherit!important;
+	height: auto!important;
+}
+.communities-short-description h2 {
+	font-size: 34px;
+	margin-bottom: 10px;
+	line-height: 30px;
+}
+#find-box {
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.infusion-field {
+	margin-bottom: 15px!important;
+	width: 100%;
+	float: left;
+}
+#main2 {
+	width: 90%;
+	padding-left: 5%;
+	margin-left: inherit;
+	margin-right: inherit;
+	float: left;
+}
+#page-text-left {
+	margin-bottom: 15px;
+	float: left;
+	width: 100%;
+}
+#page-right-column {
+	width: 100%;
+	float: left;
+}
+#main-wrapper {
+	width: 100%;
+}
+#footer {
+	width: 100%;
+	height: auto;
+}
+#footer-wrapper {
+	width: 90%;
+	height: auto;
+	padding-left: 5%;
+	padding-bottom: 75px;
+	margin: 10px 0 0 0;
+	float: left;
+}
+#footer-row1-box1 {
+	width: 100%;
+	height: auto;
+}
+#footer-newsletter {
+	width: 100%;
+}
+#footer-content2 {
+	width: 100%;
+	float: left;
+	padding-top: 0px;
+}
+#footer-links p {
+	display: inline;
+	float: left;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+#footer-links {
+	text-align: center;
+	padding-top: 0px;
+}
+.home-search-column {
+	width: auto;
+}
+.home-search-column2 {
+	width: auto;
+}
+.home-search-column3 {
+	width: auto;
+}
+#home-row1 {
+	width: 100%;
+	height: auto;
+}
+#find-box-wrapper {
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: auto;
+	left: auto;
+	clear: both;
+}
+#home-row2-row1 {
+	width: 100%;
+	height: 350px;
+}
+#home-row2-row1-content {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-right: 0px;
+}
+#home-row2 {
+	background-image: url(images/bg-home-row2.jpg);
+	background-position: top right;
+}
+#home-row2-row2 {
+	width: 100%;
+}
+#home-row2-row2-box1 {
+	width: 90%;
+	padding-left: 5%;
+}
+.communities-short-description {
+	width: 90%;
+	height: auto;
+	position: relative;
+	padding: 5%;
+	top: auto;
+	right: auto;
+	float: left;
+}
+#home-row2-row2-box2 {
+	width: 100%;
+}
+#home-row3-content {
+	width: 100%;
+}
+#home-row3-content-box1 {
+	width: 90%;
+	float: left;
+	margin-right: 0px;
+	margin-left: 5%;
+}
+#home-row3-content-box2 {
+	width: 90%;
+	float: left;
+	margin-right: 0px;
+	margin-left: 5%;
+}
+#home-row3-content-box3 {
+	width: 90%;
+	float: left;
+	margin-right: 0px;
+	margin-left: 5%;
+}
+#home-row4 {
+	width: 100%;
+	height: auto;
+}
+#home-row4-content {
+	width: 100%;
+}
+#home-agents {
+	float: left;
+	width: 100%;
+	height: auto;
+}
+#agents-box {
+	width: 100%;
+	height: auto;
+	padding-bottom: 10px;
+}
+.agent-profile-box {
+	margin: 0 auto;
+	margin-bottom: 15px;
+	float: none;
+}
+#view-all-agents {
+	width: 100%;
+	float: left;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+#find-box .responsive-tabs .responsive-tabs__panel {
+	height: auto!important;
+}
+#home-slider {
+	height: auto;
+	position: inherit;
+}
+.communities-short-description-wrapper {
+	width: 100%;
+	height: auto;
+	position: relative;
+	left: auto;
+	bottom: auto;
+	z-index: 99999;
+	float: left;
+}
+.communities-short-description-content {
+	width: 100%;
+	float: left;
+	height: auto;
+}
+.text {
+	width: auto!important;
+}
+.page-content {
+	margin-top: 15px;
+}
+#communities-heading-link {
+	width: 100%;
+	height: auto;
+	bottom: 0px;
+	left: auto;
+	font-size: 24px;
+}
+#communities-title-box {
+	width: 90%;
+	height: auto;
+	padding: 5%;
+	position: relative;
+	bottom: auto;
+	right: auto;
+	background-image: url(images/bg-communities-box-header.png);
+	float: left;
+}
+#communities-heading-photo {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 60px;
+}
+#features {
+	width: 100%;
+	float: left;
+}
+#features-agents {
+	width: 100%;
+	float: left;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+#community-realtors {
+	width: 90%;
+	float: left;
+	margin-left: 5%;
+}
+.community-realtor {
+	width: 90%;
+	float: left;
+	background-color: #DDDDDD;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	padding: 5%;
+}
+#about-links {
+	width: 100%;
+	float: left;
+	padding-top: 10px;
+}
+.about-link1 {
+	width: 100%;
+	float: left;
+	margin-right: 0%;
+}
+.about-link2 {
+	width: 100%;
+	float: left;
+}
+.about-office-image {
+	width: 25%;
+	float: left;
+	overflow: hidden;
+}
+#agents-page-text {
+	width: 100%;
+	float: left;
+}
+#agents-page-box {
+	width: 100%;
+	height: auto;
+	float: left;
+	background-color: #0198CF;
+	color: #ffffff;
+	margin-top: 15px;
+}
+
+#agents-page-box a {
+		width: 90%;
+	height: auto;
+		background-color: #0198CF;
+				padding: 5%;
+			display:block;
+}
+
+#agent-search #agent-search1 {
+	width: 160px!important;
+}
+#single-agent-photo {
+	width: 100%;
+	text-align: center;
+	height: auto;
+}
+#single-agent-photo img {
+	width: 90%;
+}
+#single-agent-text1 {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 15px;
+	padding-right: 0;
+}
+h1 {
+	font-size: 28px;
+}
+#single-agent-links {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 15px;
+}
+#single-agent-row1 {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+#single-agent-row2 {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+#single-agent-row4 {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+#full-bio {
+	width: 100%;
+}
+#agent-favorite-neighborhoods {
+	width: 100%;
+}
+#agent-favorite-communities {
+	width: 100%;
+	margin-top: 15px;
+}
+#agent-boxes {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+}
+#bottom-link {
+	width: 100%;
+}
+.community-gallery-photo {
+	width: 80%;
+	height: auto;
+	float: left;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 10%;
+}
+.community-gallery-photo img {
+	width: 100%;
+	height: auto;
+}
+#current-listings-header {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#current-listings-frame {
+	width: 100%;
+	max-width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#agent-personal-photos {
+	width: 100%;
+	float: right;
+}
+#mortgage-calc {
+	padding: 5% 2%;
+	width: 96%;
+}
+#mortgage-calc-left {
+	width: 100%;
+	float: left;
+}
+#mortgage-calc-right {
+	width: 100%;
+	float: right;
+}
+
+.idxprop {
+	width: 100%;
+	float: left;
+	margin-right: 0%!important;
+	margin-bottom: 15px!important;
+	height: auto!important;
+}
+.idxclear {
+	clear: none!important;
+}
+
+.idxphoto2 {
+    background: #ececec;
+    padding: 0px;
+    margin-top: 0;
+    margin-right: 0px!important;
+    margin-bottom: 10px!important;
+    margin-left: 0;
+    width: 100%!important;
+    height: auto!important;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    float: left;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+
+.idxphoto2 img {
+	width: 100%!important;
+	max-width: 100%!important;
+	height: auto!important;
+}
+
+#map-top-right {
+    width: 100%;
+    height: auto;
+	
+    padding-left: 0px;
+}
+
+.bw-search #map-top-left {
+    width: 100%;
+    height: auto;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-right: 0px solid #131313;
+    border-bottom: 1px solid #131313;
+    padding-right: 15px;
+}
+
+.bw-search #search-fields {
+    width: 100%;
+    height: auto;
+    float: left;
+    padding-top: 35px;
+    color: #373737;
+}
+
+
+}

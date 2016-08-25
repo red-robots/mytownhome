@@ -1,0 +1,1143 @@
+@charset "UTF-8";
+
+.container {
+	/*width: 1120px!important;*/
+}
+
+
+#main {
+	width: 1120px!important;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #000000;
+    cursor: default;
+    text-decoration: none!important;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+	color: #000000;
+    background-color: #009ACA;
+}
+
+.nav-tabs > li > a {
+    background-color: #009ACA;
+    color: #ffffff;
+    text-decoration: none!important;	
+	line-height: inherit;
+	
+}
+
+.nav > li > a {
+    text-decoration: none!important;	
+	    /*display: inline-block;*/
+    vertical-align: bottom;
+	    margin-top: 6px;
+    padding: 8px 13px 8px 13px;
+}
+
+.nav-tabs > li.active > a {
+    text-decoration: none!important;	
+padding: 12px;
+    margin-top: 0px;
+	
+}
+
+.nav-tabs > li {
+margin-right: 3px;	
+}
+
+.dfres-price-detail {
+	color: black!important;
+}
+
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+/* CSS Document */
+
+body,td,th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 18px;
+}
+
+a:link {
+    color: #000;
+    text-decoration: none;
+}
+a:visited {
+    color: #666;
+}
+#dfv2-container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    background:#fff;
+    width: 900px;
+    clear: both;
+}
+#dfv2-callform {
+    background-color: #8e8e8e;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 2px;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#dfv2-callform-inner {
+    color: #FFF;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #FFF;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#dfv2-callform-inner a {
+    color: #FFF;
+    text-decoration: none;
+}
+#dfv2-dropdown {
+    margin-top: 5px;
+    color: #FFF;
+    text-transform: none;
+    text-align: left;
+}
+.dfv2-box-lt-gray-left {
+    background-color: #e5e5e5;
+    padding: 10px;
+    margin-right: 15px;
+}
+.dfv2-box-lt-gray-inner {
+    background-color: #e5e5e5;
+    padding: 5px;
+    margin-top: 10px;
+    text-align:left;
+}
+.dfv2-box-lt-gray-right {
+    background-color: #e5e5e5;
+    padding: 10px;
+}
+.dfv2-box-white {
+    background-color: #FFF;
+    margin-top: 10px;
+    padding: 10px;
+    color: #666;
+}
+.dfv2-box-white-nopad {
+    background-color: #FFF;
+    margin-top: 10px;
+    text-align: left;
+}
+#dfv2-price {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.dfv2-pricetag {
+    font-weight: bold;
+    color: #333;
+}
+.dfv2-social {
+    float: right;
+    margin-left: 4px;
+    margin-top: -2px;
+}
+#dfv2-mainpic {
+    margin-bottom: 10px;
+    border: 1px solid #CCC;
+}
+#dfv2-address {
+    border: 1px solid #E5E5E5;
+    padding: 5px;
+    text-align:left;
+    margin-bottom: 15px;
+    height: 1%;
+    overflow: hidden;
+}
+#dfv2-status {
+    float: right;
+    clear: right;
+    color: #C00;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#dfv2-favs  {
+    padding-right: 3px;
+    padding-left: 3px;
+    border: 1px solid #DCDCDC;
+    color: #DCDCDC;
+}
+#dfv2-favs a:link {
+    color: #999;
+    text-decoration: none;
+}
+#dfv2-favs a:visited {
+    color: #999;
+    text-decoration: none;
+}
+.dfv2-thumb {
+    border: 1px solid #8E8E8E;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: left;
+    padding: 0px;
+}
+#dfv2-thumbcontainer {
+    height: 1%;
+    overflow: hidden;
+    padding-top: 10px;
+    width: 440px;
+}
+#dfv2-subdiv {
+    float: right;
+    text-align: right;
+}
+.dfv2-title-dark {
+    color: #282828;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.dfv2-title-light {
+    color: #787878;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.dfv2-title-rev {
+    color: #FFF;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#map {
+    border: 1px solid #8E8E8E;
+    height: 426px;
+    width: 400px;
+    margin-top: 7px;
+}
+.zzdfv2-map-search {
+    border: 1px solid #8E8E8E;
+    height: 430px;
+    width: 400px;
+    margin-top: 7px;
+    font: 8pt arial;
+}
+#dfv2-map {
+    border: 1px solid #8E8E8E;
+    height: 343px;
+    width: 440px;
+}
+#dfv2-walkscore {
+    border: 1px solid #a5cdff;
+    background-image: url(http://c1203752.r52.cf0.rackcdn.com/dfv2-walkscore-bg.gif);
+    background-repeat: repeat-x;
+    height: 1%;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.dfv2-score {
+    font-size: 30px;
+    font-weight: bold;
+    color: #4178c5;
+}
+#dfv2-tools {
+    margin-top: 10px;
+    background-color: #8E8E8E;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align:left;
+}
+#dfv2-footer {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #E5E5E5;
+    width: 900px;
+/*
+    padding-right: 5px;
+    padding-left: 125px;
+    background-image: url(http://c1203752.r52.cf0.rackcdn.com/dfv2-idx_df.gif);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+*/
+}
+#dfv2-footer p {
+    font-size: 8pt;
+}
+#dfv2-button-marketanalysis {
+    background-color: #AAA;
+    background-image: url(http://c1203752.r52.cf0.rackcdn.com/dfv2-btn-market-analysis.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    margin-bottom: 4px;
+    text-align:left;
+}
+#dfv2-button-marketanalysis a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+#dfv2-button-marketanalysis a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+#dfv2-button-marketanalysis:hover {
+    background-color: #717070;
+}
+#dfv2-button-neighborhoodanalysis {
+    background-color: #AAA;
+    background-image: url(http://c1203752.r52.cf0.rackcdn.com/dfv2-btn-neighborhood-analysis.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    margin-bottom: 4px;
+    text-align:left;
+}
+#dfv2-button-neighborhoodanalysis a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+#dfv2-button-neighborhoodanalysis a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+#dfv2-button-neighborhoodanalysis:hover {
+    background-color: #717070;
+}
+#dfv2-button-dealsniffer {
+    background-color: #AAA;
+    background-image: url(http://c1203752.r52.cf0.rackcdn.com/dfv2-btn-deal-sniffer.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    margin-bottom: 4px;
+    text-align:left;
+}
+#dfv2-button-dealsniffer a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+#dfv2-button-dealsniffer a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+#dfv2-button-dealsniffer:hover {
+    background-color: #717070;
+}
+#dfv2-button-mortgagecalc {
+    background-color: #AAA;
+    background-image: url(http://c1203752.r52.cf0.rackcdn.com/dfv2-btn-mortgage-calc.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    margin-bottom: 4px;
+    text-align:left;
+}
+#dfv2-button-mortgagecalc a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+#dfv2-button-mortgagecalc a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+#dfv2-button-mortgagecalc:hover {
+    background-color: #717070;
+}
+#dfv2-button-printflyer {
+    background-color: #AAA;
+    background-image: url(http://c1203752.r52.cf0.rackcdn.com/dfv2-btn-print-flyer.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    margin-bottom: 4px;
+    text-align:left;
+}
+#dfv2-button-printflyer a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+#dfv2-button-printflyer a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+#dfv2-button-printflyer:hover {
+    background-color: #717070;
+}
+#dfv2-button-requestshowing {
+    background-color: #AAA;
+    background-image: url(http://c1203752.r52.cf0.rackcdn.com/dfv2-btn-request-showing.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    margin-bottom: 4px;
+    text-align:left;
+}
+#dfv2-button-requestshowing a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+#dfv2-button-requestshowing a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+#dfv2-button-requestshowing:hover {
+    background-color: #717070;
+}
+#dfv2-button-favorites {
+    background-color: #AAA;
+    background-image: url(http://c1203752.r52.cf0.rackcdn.com/dfv2-btn-favorites.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    margin-bottom: 4px;
+    text-align:left;
+}
+#dfv2-button-favorites a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+#dfv2-button-favorites a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+#dfv2-button-favorites:hover {
+    background-color: #8E8E8E;
+}
+#dfv2-button-green {
+    background-color: #AAA;
+    background-image: url(http://c1203752.r52.cf0.rackcdn.com/dfv2-btn-green.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    margin-bottom: 4px;
+    text-align:left;
+}
+#dfv2-button-green a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+#dfv2-button-green a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+#dfv2-button-green:hover {
+    background-color: #75C64E;
+}
+
+#dfv2-button-search {
+    background-color: #AAA;
+    background-image: url(http://c1203752.r52.cf0.rackcdn.com/dfv2-btn-search.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    margin-bottom: 4px;
+    text-align:left;
+}
+#dfv2-button-search a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+#dfv2-button-search a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+#dfv2-button-search:hover {
+    background-color: #8E8E8E;
+}
+
+.savvybroker {   
+    margin:0px 125px 0px 0;
+    padding:50px 0 0 0;
+    font:bold italic 12px arial;
+    text-align:right;
+    display:block;
+    float:right;
+}   
+
+.dfclear {
+clear: both; height: 0; line-height: 0; font-size: px; /*for IE*/
+}
+#mcd-nav {
+    width: 900px;
+    border: 1px solid #333;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(/images/mcd-nav-bg.jpg);
+    background-repeat: repeat-x;
+    background-position: top;
+    height: 40px;
+    text-align:center;
+}
+#mcd-nav ul {
+    color: #34a400;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 11px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 25px;
+    padding: 0;
+}
+
+#mcd-nav ul li { display: inline; }
+
+#mcd-nav ul li a
+{
+    color: #34a400;
+    text-decoration: none;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight:normal;
+    text-transform: uppercase;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #333;
+    padding-top: 2px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #333;
+    margin-left: -1px;
+}
+
+#mcd-nav ul li a:hover
+{
+    background-color: #34A400;
+    color: #fff;
+}
+
+INPUT.grab {
+    BORDER: #7b7f6c 1px solid; FONT: bold 10pt arial; COLOR: #fff; padding:4px; background: #333;
+}
+#ss_button {
+    width: 890px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 11px;
+    text-align: center;
+    padding: 5px;
+    color: #666;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#ss_button a:hover {
+    cursor:pointer;
+    background-color: #0F9;
+}
+.ss_link {
+    cursor:pointer;
+}
+#ss_form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #666;
+    width: 890px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: dotted;
+    border-left-style: none;
+    border-top-color: #333;
+    border-right-color: #333;
+    border-bottom-color: #333;
+    border-left-color: #333;
+    left: auto;
+    top: 0px;
+    margin-top: 15px;
+    right: auto;
+}
+#ss_container {
+    width: 900px;
+    background-image: url(http://c1203752.cdn.cloudfiles.rackspacecloud.com/save_search_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    min-height:30px;
+    margin-top:10px;
+}
+FORM.ss {
+    clear:both;
+}
+#copyright {
+    MARGIN-TOP: 30px; DISPLAY: block; FLOAT: right
+}
+#copyright .idx_tool {
+    FONT: bold 22px Arial; COLOR: #8d9686
+}
+#copyright .copyright_statement {
+    FONT: bold 10px arial; COLOR: #8d9686
+}
+a.nft { FONT: bold 12px Arial; COLOR: #7b6833 }
+
+
+/* NEW STUFF FOR SEARCH RESULTS PAGE */
+#dfv2-sort {
+    float: right;
+    margin-top: -3px;
+}
+#dfv2-propcount {
+    margin-bottom: 10px;
+}
+.dfv2-listing {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    min-height: 100px;
+}
+.dfv2-listing-alt {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #e2e1e1;
+    border-bottom-color: #e2e1e1;
+    background-color: #f7f7f7;
+    min-height: 100px;
+}
+#dfv2-fixedwrap {
+    position:static;
+}
+#dfv2-fixed {
+}
+#dfv2-fixed.fixed {
+    position: fixed;
+    top: 10px;
+}
+.dfv2-pic-block {
+    float: left;
+    margin-left: 2px;
+}
+.dfv2-pic {
+    margin-left: 5px;
+    z-index: 1;
+    position: absolute;
+}
+.dfv2-listing-detail {
+    float: right;
+    width: 280px;
+    text-align: left;
+}
+.dfv2-google-icon {
+    float: left;
+    position: relative;
+    bottom: 0px;
+    padding-top: 60px;
+    z-index: 10;
+}
+.dfv2-address-results {
+    line-height: normal;
+    margin-bottom: 15px;
+}
+.dfv2-details-right {
+    float: right;
+    margin-left: 5px;
+    text-align: right;
+    line-height: 15px;
+    max-width: 145px;
+}
+.dfv2-bold {
+    font-weight: bold;
+    color: #282828;
+}
+.dfv2-neighborhood-results {
+    line-height: normal;
+}
+.dfv2-formfield {
+    width: 150px;
+    border: 1px solid #8E8E8E;
+}
+.dfv2-btn {
+    color: #FFF;
+    background-color: #8E8E8E;
+    border: 4px double #FFF;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+#dfv2-page-nav {
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 5px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #8E8E8E;
+}
+#dfv2-previous {
+    float: left;
+    text-transform: uppercase;
+    color: #DADADA;
+}
+#dfv2-previous a:link, #dfv2-next a:link {
+    color: #282828;
+}
+#dfv2-next {
+    float: right;
+    text-transform: uppercase;
+    color: #DADADA;
+}
+#dfv2-search-btns {
+    margin-top: 10px;
+}
+.dfv2-active {
+    color: #C00;
+    font-weight: bold;
+}
+.dfv2-clear {
+    clear: both;
+}
+/* I didn't see this in your css but looks like you still referenced the ID in your DIV?? */
+#dfv2-mapcenter, dfv2-mapcenter a:link, dfv2-mapcenter a:visited  {
+    float: right;
+    color: #8E8E8E;
+}
+.dfv2-req { font-size:8pt; }
+a.dfv2-btn { color:#fff; text-decoration:none; }
+div.dfv2-success { text-align:center; text-transform: uppercase; }
+.dfv2-hist { color:#900;font:bold 13pt verdana; }
+.dfv2-hist2 { color:#900;font:bold 15pt verdana; }
+
+
+/* NEW STUFF FOR SEARCH PAGE */
+
+.dfv2-title-search {
+    font-size: 15px;
+    text-align:left;
+    text-transform: uppercase;
+    color: #282828;
+}
+.dfv2-form-labels {
+    color: #787878;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+/* begin css tabs */
+
+ul#tabnav { 
+    text-align: right; 
+    list-style-type: none; 
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #282828;
+    margin-top: -22px;
+    margin-right: 0;
+    margin-bottom: 1em;
+    margin-left: 0;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+}
+
+ul#tabnav li { 
+display: inline;
+}
+body#area li.area, body#address li.address, body#commute li.commute, body#mls li.mls, body#dfv2-map-page li.dfv2-map-pagemap { 
+    border-bottom: 1px solid #fff; 
+    background-color: #fff;
+}
+body#area li.area a, body#address li.address a, body#commute li.commute a, body#mls li.mls a, body#dfv2-map-page li.dfv2-map-page a { 
+    background-color: #fff; 
+    color: #282828; 
+    position: relative; 
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FFF;
+}
+
+ul#tabnav li a { 
+    background-color: #ddd; 
+    color: #282828; 
+    margin-right: 0px; 
+    text-decoration: none;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+}
+
+ul#tabnav a:hover { 
+background: #fff; 
+}
+
+/* end css tabs */
+
+.dfv2-tab-content {
+    background-color: #FFF;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: -14px;
+    text-align:left;
+}
+.dfv2-box-lt-gray-full {
+    background-color: #e5e5e5;
+    padding: 10px;
+}
+#dfv2-fullmap {
+    margin-top: 10px;
+    border: 1px solid #8E8E8E;
+}
+#dfv2-gettingstarted {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #8E8E8E;
+}
+
+div.dfv2-tab-content label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 18px;
+}
+LABEL.ar2 {
+    CLEAR: all; DISPLAY: inline; FONT: 8pt arial; 
+}
+
+#dfbnav { width: 900px; margin-right: auto; margin-left: auto; text-align: right; margin-top: 5px; margin-bottom: -10px; }
+#dfbsearch_icons { float: right; }
+#dfboptions { float: right; margin-left: 5px; }
+
+/* Carolinas Metro stuff */
+#dfb2nav { width: 381px; margin-right: auto; margin-left: auto; text-align: right; margin-top: 5px; margin-bottom: -10px; }
+.dfv2-searchdivider {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #FFF;
+    margin: 0px;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    text-align: center;
+    background-color: #8E8E8E;
+}
+
+/* begin DEAL SNIFFER css */
+.dfv2-grayblockfull {
+    background-color: #e5e5e5;
+    padding: 8px;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.dfv2-DSpic {
+    background-color: #FFF;
+    padding: 7px;
+    width: 350px;
+    margin-right: 10px;
+    border: 1px solid #999;
+    margin-top: 3px;
+}
+#dfv2-DSheader {
+    height: 120px;
+}
+.dfv2-DSmap {
+    margin-top: 10px;
+    border: 1px solid #CCC;
+    width:376px;
+    height:376px;
+}
+#dfv2-DStitle {
+    background-color: #CCC;
+    margin-top: 21px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #282828;
+    border: 1px solid #999;
+    padding-top: 10px;
+    padding-right: 135px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: right;
+}
+#dfv2-DSicon {
+    background-color: #FFF;
+    position: absolute;
+    margin-top: -31px;
+    float: none;
+    margin-left: 400px;
+    height: 103px;
+    width: 100px;
+    -webkit-box-shadow: 0 8px 6px -6px #666;
+    -moz-box-shadow: 0 8px 6px -6px #666;
+    background-image: url(http://043d9683e5abe94fac54-962078c9163573807750020025fa0602.r22.cf1.rackcdn.com/dealsniffer-icon.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.dfv2-DSdisclaimer {
+    margin-top: 15px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+#dfv2-DSaddress {
+    font-size: 14px;
+    text-transform: none;
+}
+.dfv2-DStablehead {
+    background-color: #CCC;
+    font-size: 14px;
+    color: #282828;
+    text-transform: uppercase;
+}
+.dfv2-DSalt {
+    background-color: #F7F7F7;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #CCC;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CCC;
+    font-size: 12px;
+    text-align: center;
+}
+.dfv2-DSrow {
+    font-size: 12px;
+    text-align: center;
+}
+.dfv2-DSlastrow {
+    font-size: 12px;
+    text-align: center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CCC;
+}
+.dfv2-DSsubhead {
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: #E5E5E5;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #FFF;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: #FFF;
+    text-align: center;
+}
+#dfv2-DSpropcount {
+    margin-bottom: 15px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+}
+#dfv2-DSpropcount a {
+    color: #282828;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+.dfv2-DSbtn {
+    color: #FFF;
+    background-color: #8E8E8E;
+    border: 4px double #FFF;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    width: 100px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.dfv2-DSbtn a:link, .dfv2-DSbtn a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+/* begin GO GREEN css */
+#dfv2-GGtitle {
+    background-color: #CCC;
+    margin-top: 21px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #282828;
+    border: 1px solid #999;
+    padding-top: 10px;
+    padding-right: 135px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: right;
+}
+#dfv2-GGicon {
+    background-color: #FFF;
+    position: absolute;
+    margin-top: -31px;
+    float: none;
+    margin-left: 400px;
+    height: 103px;
+    width: 100px;
+    -webkit-box-shadow: 0 8px 6px -6px #666;
+    -moz-box-shadow: 0 8px 6px -6px #666;
+    background-image: url(http://043d9683e5abe94fac54-962078c9163573807750020025fa0602.r22.cf1.rackcdn.com/gogreen-icon.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.dfv2-GGdisclaimer {
+    margin-top: 35px;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 14px;
+    text-align: center;
+}
+.dfv2-GGbtn {
+    color: #FFF;
+    background-color: #8E8E8E;
+    border: 4px double #FFF;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    text-align: center;
+    width: 50px;
+    margin-left: 10px;
+}
+.dfv2-GGbtn a:link, .dfv2-GGbtn a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+.dfv2-GGsubhead {
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5px;
+    background-color: #E5E5E5;
+}
+.dfv2-GGfuel {
+    font-size: 18px;
+    margin: 5px;
+    color: #282828;
+}
+.dfv2-idxlogo-icon {
+    float: left;
+    position: relative;
+    bottom: 0px;
+    padding-top: 80px;
+    z-index: 10;
+}
+.dfv2-error {
+	font: bold 12pt arial;
+    text-transform: uppercase;	
+	padding:4px;
+	margin-top:5px;
+	background:#e0e0e0;
+	text-align:center;
+	color:#900;
+}
+div.dfv2-power {
+	background:#fff; width:900px;
+}
+.dfv2-powertext {
+	font-family:arial;font-size:8pt;
+}
+.dfv2-footerclass {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #E5E5E5;
+    width: 900px;
+    font-size: 8pt;
+}
+#crg-callform {
+    background-color: #0F2379;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 2px;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#crg-callform-inner {
+    color: #FFF;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #FFF;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#crg-callform-inner a {
+    color: #FFF;
+    text-decoration: none;
+}
+.fullurl {
+    font: 8pt arial; color:#999; margin-top: 5px;
+		width: 100px;
+	  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+.dfv2-h3 {
+    color: #282828;
+    font-size: 18pt;
+    text-transform: uppercase;
+}
+
+

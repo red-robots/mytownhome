@@ -1,0 +1,37 @@
+/* Pagination
+
+-------------------------------------------------------------- */
+
+.lhnInviteContainer .LHNInviteAcceptButton {
+ color: #ffffff!important;
+}
+.navigation {
+	margin-top: 10px;
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.pagi {
+	bottom: -50px;
+	left: 125px;
+	position: absolute;
+}
+.navigation li a,  .navigation li a:hover,  .navigation li.active a,  .navigation li.disabled {
+	color: #fff;
+	text-decoration: none;
+}
+.navigation li {
+	display: inline;
+	background: none!important;
+	padding-left: 0px!important;
+}
+.navigation li a,  .navigation li a:hover,  .navigation li.active a,  .navigation li.disabled {
+	background-color: #9C9C9C;
+	border-radius: 3px;
+	cursor: pointer;
+	padding: 12px;
+	padding: 0.75rem;
+}
+.navigation li a:hover,  .navigation li.active a {
+	background-color: #0099CF;
+}

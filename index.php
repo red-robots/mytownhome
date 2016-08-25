@@ -202,7 +202,7 @@ Street name: &nbsp; <input type="text" name="street" size="15">
 <?php 
 // Query the Post type Slides
 $querySlides = array(
-  'post_type' => 'post',
+  'post_type' => 'community',
 'posts_per_page' => '-1'
 );
 // The Query

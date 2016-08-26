@@ -572,6 +572,30 @@ section.tab-buttons {
 		width: 38%;
 	}
 }
+label.qs {
+	width: 100%;
+	margin: 0 0 3px 0;
+	float: left;
+}
+select.qs-s {
+	width: 100%;
+	margin: 0 0 5px 0;
+}
+input.qs-tf {
+	width: 100%;
+	margin: 0 0 5px 0;
+}
+input.qs-sub {
+	margin: 10px 5px 5px;
+	background-color: $color-blue;
+	color: #fff;
+	border: 2px solid rgba(255,255,255,.8);
+	@include transition(all .3s ease);
+
+	&:hover {
+		background-color: rgba($color-blue, .7);
+	}
+}
 .home-search-column select {
 	float: right;
 }
@@ -598,10 +622,10 @@ section.tab-buttons {
 	float: right;
 }
 #property-type {
-	width: 170px;
+	// width: 170px;
 }
 #suggest1 {
-	width: 150px;
+	width: 100%;
 }
 #home-slider2 {
 	width: 100%;

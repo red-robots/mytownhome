@@ -100,9 +100,9 @@ $the_query = new WP_Query( $querySlides );
         <input type="hidden" name="_srf" value="1">
         
         <div class="home-search-column">
-        <label class="qs"> Property Type:</label>
+        <label class="qs">Property Type:</label>
          
-          <select name="proptype" id="property-type">
+          <select class="qs-s" name="proptype" id="property-type">
             <option value="cnd">Condos/Townhomes</option>
             <option value="res">Single-family Homes</option>
             <option value="mul">Multifamily</option>
@@ -111,13 +111,14 @@ $the_query = new WP_Query( $querySlides );
           <input type="hidden" name="proptype" value="">
           <input type="hidden" name="area" value="">
           <!-- PUT THIS WHEREVER YOU WANT THE AUTOCOMPLETE TO GO -->
-          Subdivision/Complex: <input type="text" id="suggest1" name="subdivision" size="35" value=""/>
+          <label class="qs">Subdivision/Complex:</label>
+          <input class="qs-tf" type="text" id="suggest1" name="subdivision" size="35" value=""/>
         </div><!-- home-search-column -->
 
         <div class="home-search-column2">
           <label class="qs">Min. Price:</label>
           
-          <select name="price_min">
+          <select class="qs-s" name="price_min">
             <option value="">none</option>
             <option value="100000">$100,000</option>
             <option value="150000">$150,000</option>
@@ -136,7 +137,7 @@ $the_query = new WP_Query( $querySlides );
           </select>
           <label class="qs">Max Price:</label>
          
-          <select name="price_max">
+          <select  class="qs-s" name="price_max">
             <option value="">none</option>
             <option value="100000">$100,000</option>
             <option value="150000">$150,000</option>
@@ -153,9 +154,9 @@ $the_query = new WP_Query( $querySlides );
             <option value="900000">$900,000</option>
             <option value="1000000">$1,000,000</option>
           </select>
-<label class="qs">Beds:</label>
+          <label class="qs">Beds:</label>
           
-          <select name="beds">
+          <select  class="qs-s" name="beds">
             <option value="">any</option>
             <option value="1">1+</option>
             <option value="2">2+</option>
@@ -163,9 +164,9 @@ $the_query = new WP_Query( $querySlides );
             <option value="4">4+</option>
             <option value="5">5+</option>
           </select>
-<label class="qs">Baths:</label>
+          <label class="qs">Baths:</label>
           
-          <select name="baths">
+          <select class="qs-s" name="baths">
             <option value="">any</option>
             <option value="1">1+</option>
             <option value="2">2+</option>
@@ -177,11 +178,11 @@ $the_query = new WP_Query( $querySlides );
       <div class="home-search-column">
       <label class="qs">MLS #:</label>
         
-        <input type="text" name="mls" size="10" maxlength="15">
+        <input class="qs-tf" type="text" name="mls" size="10" maxlength="15">
         <label class="qs">Street name:</label>
         
-        <input type="text" name="street" size="15">
-        <input type="submit" value="Quick Search">
+        <input class="qs-tf" type="text" name="street" size="15">
+        <input class="qs-sub" type="submit" value="Quick Search">
         <div id="advanced-search-link">
           <a href="http://www.mytownhome.com/property-search">Or, Try our Advanced Search</a>
         </div><!-- advanced-search-link -->

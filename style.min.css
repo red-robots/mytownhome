@@ -1699,15 +1699,19 @@ section.tab-buttons input.right{float:right}
 .home-search-column{width:100%;float:left;padding-right:5%;font-size:13px}
 @media screen and (min-width:600px){.home-search-column{width:38%}
 }@media screen and (min-width:1200px){.home-search-column{width:38%}
-}.home-search-column select{float:right}
+}label.qs{width:100%;margin:0 0 3px 0;float:left}
+select.qs-s{width:100%;margin:0 0 5px 0}
+input.qs-tf{width:100%;margin:0 0 5px 0}
+input.qs-sub{margin:10px 5px 5px;background-color:#334ea5;color:#fff;border:2px solid rgba(255,255,255,0.8);-webkit-transition:all .3s ease;transition:all .3s ease}
+input.qs-sub:hover{background-color:rgba(51,78,165,0.7)}
+.home-search-column select{float:right}
 .home-search-column input{float:right}
 .home-search-column2{width:100%;float:left;padding-right:5%;font-size:13px}
 @media screen and (min-width:600px){.home-search-column2{width:24%}
 }@media screen and (min-width:1200px){.home-search-column2{width:24%}
 }.home-search-column2 select{float:right}
 .home-search-column2 input{float:right}
-#property-type{width:170px}
-#suggest1{width:150px}
+#suggest1{width:100%}
 #home-slider2{width:100%;float:left}
 #home-slider2 .flex-next{background-image:url(images/arrow-black.png);background-repeat:no-repeat}
 #home-slider2 .flex-direction-nav .flex-next{right:-15px}

@@ -34,7 +34,7 @@ get_header(); ?>
 				     </div><!-- / page content -->
 
 					 <div id="page-text">
-					 	<?php the_content(); ?>
+					 	<?php the_excerpt(); ?>
 					 </div><!-- / page-text -->
 
 					 <div class="readmore">

@@ -560,10 +560,17 @@ section.tab-buttons {
 	float: left;
 }
 .home-search-column {
-	width: 38%;
+	width: 100%;
 	float: left;
 	padding-right: 5%;
 	font-size: 13px;
+	@media screen and (min-width: $tabwidth) {
+		width: 38%;
+	}
+
+	@media screen and (min-width: $deskwidth) {
+		width: 38%;
+	}
 }
 .home-search-column select {
 	float: right;
@@ -572,10 +579,17 @@ section.tab-buttons {
 	float: right;
 }
 .home-search-column2 {
-	width: 24%;
+	width: 100%;
 	float: left;
 	padding-right: 5%;
 	font-size: 13px;
+	@media screen and (min-width: $tabwidth) {
+		width: 24%;
+	}
+
+	@media screen and (min-width: $deskwidth) {
+		width: 24%;
+	}
 }
 .home-search-column2 select {
 	float: right;

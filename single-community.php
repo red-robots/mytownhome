@@ -33,7 +33,7 @@ get_header(); ?>
           echo ' -->';
 
         if( !empty($image) ): ?>
-          <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" />
+         <?php echo wp_get_attachment_image( $image, $size ); ?>
         <?php endif; ?>
           <div id="communities-heading-link"><a href="#listings">View Listings</a></div>
           <div id="communities-title-box"><div id="page-heading"><h2><?php
@@ -136,8 +136,13 @@ get_header(); ?>
             $email = get_field( 'email', 'user_'.$userID );   
             $antispam = antispambot($email);
             // image stuff
+            $size = 'agent_feed';
            $image = get_field( 'photo', 'user_'.$userID );
-           $size = 'single_community_agent';
+
+           // echo '<pre>';
+           // print_r($image);
+           // echo '</pre>';
+           // $size = 'single_community_agent';
             $thumb = $image['sizes'][ $size ];
             $link = get_author_posts_url($userID);
             echo '<div class="communities-agents-photo">';
@@ -145,7 +150,8 @@ get_header(); ?>
             //echo $link;
             //echo '">';
             echo '<img src="';
-            print_r($thumb);
+            // echo wp_get_attachment_image( $image, $size );
+            echo $thumb;
             echo '" />';
            // echo '</a>';
             echo '</div>';

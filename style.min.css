@@ -1696,11 +1696,15 @@ section.tab-buttons input.right{float:right}
 #find-box #tablist1-tab2{background-image:url(images/icon-agent.png) !important;background-repeat:no-repeat !important;background-position:center left !important;padding-left:50px !important;padding-right:50px !important}
 #find-box #tablist1-tab3{background-image:url(images/icon-sell.png) !important;background-repeat:no-repeat !important;background-position:center left !important;padding-left:50px !important;padding-right:50px !important}
 #home-search{width:100%;float:left}
-.home-search-column{width:38%;float:left;padding-right:5%;font-size:13px}
-.home-search-column select{float:right}
+.home-search-column{width:100%;float:left;padding-right:5%;font-size:13px}
+@media screen and (min-width:600px){.home-search-column{width:38%}
+}@media screen and (min-width:1200px){.home-search-column{width:38%}
+}.home-search-column select{float:right}
 .home-search-column input{float:right}
-.home-search-column2{width:24%;float:left;padding-right:5%;font-size:13px}
-.home-search-column2 select{float:right}
+.home-search-column2{width:100%;float:left;padding-right:5%;font-size:13px}
+@media screen and (min-width:600px){.home-search-column2{width:24%}
+}@media screen and (min-width:1200px){.home-search-column2{width:24%}
+}.home-search-column2 select{float:right}
 .home-search-column2 input{float:right}
 #property-type{width:170px}
 #suggest1{width:150px}

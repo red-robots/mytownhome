@@ -70,31 +70,22 @@ get_header(); ?>
 
   while ( have_posts() ) : the_post(); ?>
     <div class="community-box">
-      <div class="communities-box-photo">
-      <?php
-      $image = get_field('featured_photo');
-      $url = $image['url'];
-      $title = $image['title'];
-      $alt = $image['alt'];
-      $caption = $image['caption'];
-      // thumbnail or custom size that will go
-      // into the "thumb" variable.
-      $size = 'large';
-      $thumb = $image['sizes'][ $size ];
-      $width = $image['sizes'][ $size . '-width' ];
-      $height = $image['sizes'][ $size . '-height' ];
-      if( !empty($image) ): ?>
-      <a href="<?php the_permalink() ?>"><img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" /></a>
-      <?php endif; ?>
-      </div><!-- / communities-box-photo -->
-        <div class="communities-box-title">
-          <a href="<?php the_permalink() ?>"><?php the_title(); ?>
-            <span class="price-range">
-            <?php the_field("price_range"); ?>
-            </span>
-          </a>
-        </div><!-- / communities-box-title -->
-      </div><!-- / community-box -->
+  <a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
+    <?php 
+    $image = get_field('featured_photo');
+    $size = 'communities-gallery';
+    if( !empty($image) ): ?>
+      <?php echo wp_get_attachment_image( $image, $size ); ?>
+    <?php endif; ?>
+    
+    <div class="communities-box-title">
+      <?php the_title(); ?>
+       <span class="price-range">
+        <?php the_field("price_range"); ?>
+       </span>
+    </div><!-- community-box title -->
+
+  </div><!-- community-box -->
   <?php endwhile;?>
 
   <div class="clear"></div>

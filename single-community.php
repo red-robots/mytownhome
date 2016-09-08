@@ -169,9 +169,9 @@ get_header(); ?>
            // echo $antispam;
             //echo '</a>';
            // echo '</h2>';
-           // echo '<h2>';
-            //echo $phone;
-            //echo '</h2>';
+           echo '<h2>';
+            echo $phone;
+            echo '</h2>';
             // If we've counted to 1, get out of the loop
 
             if( $i == 1 ) {

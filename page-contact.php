@@ -116,7 +116,7 @@ if( !empty($image) ): ?>
 <div class="offices-phone">phone: <a href="tel:980-219-6013">980-219-6013</a></div>
 </div>
 
-<div class="about-office-contact"><div class="about-office-contact-padding"><a href="<?php bloginfo('url'); ?>/our-offices-elizabeth">View Agents</a></div></div>
+<div class="about-office-contact"><a href="<?php bloginfo('url'); ?>/our-offices-elizabeth">View Agents</a></div>
 </div>
 </div>
 

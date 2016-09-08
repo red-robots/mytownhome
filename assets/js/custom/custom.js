@@ -37,6 +37,8 @@ jQuery(document).ready(function ($) {
 	// Colorbox. 
 	// agent link iframes
 	$(".iframe").colorbox({iframe:true, width:"90%", height:"89%"});
+
+	$(".calculator").colorbox({iframe:true, width:"50%", height:"89%"});
 	
 	$(".group1").colorbox({rel:'group1'});
 	

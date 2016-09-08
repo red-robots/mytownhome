@@ -1517,7 +1517,9 @@ input{border-radius:5px;color:#000}
 }#home-row1{width:100%;float:left;border-bottom:19px solid #000}
 #home-slider{width:100%;float:left;position:relative;overflow:hidden}
 @media screen and (min-width:1200px){#home-slider{height:613px}
-}#mortgage-calc{padding:5% 8%;width:84%}
+}#mortgage-calc{padding:0;width:100%}
+.mortgage-calc-pad{padding:10%}
+.mort-calc-pad{width:100%;height:70px;background-color:rgba(0,0,0,0.8)}
 .calculator{border-style:solid;border-color:#fff;border-width:0;border-top:0;border-bottom:0;border-left:0;border-right:0;border:solid}
 blockquote{width:223px;padding-left:20px;padding-right:20px;padding-bottom:40px;float:right;font-size:19px;color:#118bbf;font-weight:bold;text-align:center;line-height:20px;margin-right:0;margin-top:0}
 .post-container{width:100%;float:left}
@@ -1824,9 +1826,9 @@ section.communities{width:100%;position:relative;overflow:hidden;clear:both}
 }.community-box img{width:100%}
 .community-box a{width:100%;height:100%;display:block;position:absolute;top:0;left:0;z-index:9;text-indent:-9999px}
 .communities-box-photo img{width:100%;height:218px;line-height:0}
-.communities-box-title{width:100%;height:61px;position:absolute;bottom:8px;left:0;z-index:8;font-size:18px;padding:12px 20px 10px 20px;background-color:rgba(0,0,0,0.7);background-repeat:repeat;display:block;color:#fff}
+.communities-box-title{width:100%;position:absolute;bottom:8px;left:0;z-index:8;font-size:18px;padding:12px 20px 10px 20px;background-color:rgba(0,0,0,0.7);background-repeat:repeat;display:block;color:#fff}
 @media screen and (min-width:600px){.communities-box-title{font-size:12px}
-}@media screen and (min-width:1200px){.communities-box-title{font-size:18px}
+}@media screen and (min-width:1200px){.communities-box-title{font-size:16px}
 }.communities-box-title a{color:#fff;text-decoration:none}
 .communities-box-title a:link{color:#fff;text-decoration:none}
 .communities-box-title a:visited{color:#fff;text-decoration:none}

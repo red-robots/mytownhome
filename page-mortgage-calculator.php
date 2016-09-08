@@ -88,8 +88,9 @@
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 <div id="mortgage-calc">
-
-<?php the_content(); ?>
+<div class="mort-calc-pad"></div>
+<div class="mortgage-calc-pad">
+    <?php the_content(); ?>
 
 <!-- -->
 <div id="mortgage-calc-left">
@@ -210,7 +211,7 @@
 <?php the_field("form"); ?>
 </div>
 
-
+</div><!-- mortgage-calc-pad -->
 <!-- -->
 <?php endwhile; endif; ?>
 </div>

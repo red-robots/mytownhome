@@ -1669,6 +1669,9 @@ ol.pings h3{font-size:.9em}
 #features{width:100%;float:left}
 @media screen and (min-width:600px){#features{width:60%}
 }@media screen and (min-width:1200px){#features{width:675px}
+}#features .responsive-tabs .responsive-tabs__list__item{font-size:16px}
+@media screen and (min-width:600px){#features .responsive-tabs .responsive-tabs__list__item{margin:0 5px 0 0;font-size:12px;padding:5px 5px 5px}
+}@media screen and (min-width:1200px){#features .responsive-tabs .responsive-tabs__list__item{padding:10px 12px 10px}
 }#features-agents{width:100%;float:right;margin-left:25px;margin-top:30px}
 @media screen and (min-width:600px){#features-agents{width:30%}
 }@media screen and (min-width:1200px){#features-agents{width:265px}

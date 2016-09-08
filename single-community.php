@@ -69,36 +69,36 @@ get_header(); ?>
           </div><!-- tab content -->  
 
           <?php if (strlen(get_post_meta($post->ID, "overview", true)) > 0) : ?>
-            <?php echo do_shortcode("[tabby title='Overview']"); ?>
+            <?php echo do_shortcode("[tabby title='Features & Amenities']"); ?>
             <div class="tab-content">
               <?php the_field("overview"); ?>
             </div><!--- / tab --> 
           <?php endif; ?>
 
 
-          <?php if (strlen(get_post_meta($post->ID, "property_alert", true)) > 0) : ?>
-            <?php echo do_shortcode("[tabby title='Property Alert']"); ?>
+          <?php if (strlen(get_post_meta($post->ID, "floorplans_&_downloads", true)) > 0) : ?>
+            <?php echo do_shortcode("[tabby title='Floorplans & Downloads']"); ?>
             <div class="tab-content">
-              <?php the_field("property_alert"); ?>
+              <?php the_field("floorplans_&_downloads"); ?>
             </div><!--- / tab -->  
            <?php endif; ?>
 
 
-          <?php if (strlen(get_post_meta($post->ID, "points_of_interest", true)) > 0) : ?>
-            <?php echo do_shortcode("[tabby title='Points of Interest']"); ?>
+          <?php if (strlen(get_post_meta($post->ID, "pricing_analysis", true)) > 0) : ?>
+            <?php echo do_shortcode("[tabby title='Pricing Analysis']"); ?>
             <div class="tab-content">
-              <?php the_field("points_of_interest"); ?>
+              <?php the_field("pricing_analysis"); ?>
             </div><!--- / tab --> 
           <?php endif; ?>
 
 
           
-          <?php if (strlen(get_post_meta($post->ID, "property_valuation", true)) > 0) : ?>
-            <?php echo do_shortcode("[tabby title='Property Valuation']"); ?>
-            <div class="tab-content">
-              <?php the_field("property_valuation"); ?>
-            </div><!--- / tab -->  
-           <?php endif; ?>
+          <?php //if (strlen(get_post_meta($post->ID, "property_valuation", true)) > 0) : ?>
+            <?php //echo do_shortcode("[tabby title='Property Valuation']"); ?>
+            <!--<div class="tab-content">
+              <?php //the_field("property_valuation"); ?>
+            </div> / tab -->  
+           <?php //endif; ?>
 
 
         <?php echo do_shortcode("[tabbyending]"); ?> 

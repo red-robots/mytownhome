@@ -386,6 +386,19 @@ height: auto; */
 	@media screen and (min-width: $deskwidth) {
 		width: 675px;
 	}
+	.responsive-tabs .responsive-tabs__list__item {
+		font-size: 16px;
+		
+		@media screen and (min-width: $tabwidth) {
+			margin: 0 5px 0 0 ;
+			font-size: 12px;
+			padding: 5px 5px 5px;
+		}
+
+		@media screen and (min-width: $deskwidth) {
+			padding: 10px 12px 10px;
+		}
+	}
 }
 #features-agents {
 	width: 100%;

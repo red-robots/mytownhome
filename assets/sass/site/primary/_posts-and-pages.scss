@@ -370,6 +370,8 @@ height: auto; */
 #page-right-column .agent-profile-box {
 	width: 184px;
 	height: 275px;
+
+	
 }
 #features-row {
 	width: 100%;
@@ -1246,12 +1248,18 @@ section.communities {
 	overflow: hidden;
 	clear: both;
 }
+section.comm-flex {
+	// display: flex;
+	// align-content: space-between;
+}
 .community-box {
 	width: 100%;
 	float: left;
 	margin: 0 0 15px 0;
 	position: relative;
 	z-index: 10;
+	// align-items: stretch;
+
 	@media screen and (min-width: $tabwidth) {
 		width: 22%;
 		margin: 0 2% 2% 0;
@@ -1758,6 +1766,13 @@ hr {
 	}
 	img {
 		width: 100%;
+		
+		filter: gray; /* IE6-9 */
+  	filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+
+		 
+	
 	}
 	.link a {
 		width: 100%;
@@ -1766,7 +1781,14 @@ hr {
 		top: 0;
 		left: 0;
 		z-index: 52;
+
+		
 	}
+
+	&:hover img {
+			filter: none;
+		  -webkit-filter: grayscale(0);
+		}
 }
 .agent-profile-box-content {
 	width: 100%;

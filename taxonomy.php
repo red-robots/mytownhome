@@ -69,7 +69,7 @@ get_header(); ?>
   */
 
   while ( have_posts() ) : the_post(); ?>
-    <div class="community-box">
+    <div class="community-box js-blocks">
   <a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
     <?php 
     $image = get_field('featured_photo');

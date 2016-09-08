@@ -1911,8 +1911,9 @@ hr{color:#000;background-color:#000;border:0;height:1px}
 @media screen and (min-width:600px){.agent-profile-box{width:28%;margin:2%}
 }@media screen and (min-width:1200px){.agent-profile-box{width:184px;margin:0 20px 15px 0}
 }.agent-profile-box a{color:#fff;text-decoration:none}
-.agent-profile-box img{width:100%}
+.agent-profile-box img{width:100%;-webkit-filter:gray;filter:gray;filter:grayscale(1);-webkit-filter:grayscale(1)}
 .agent-profile-box .link a{width:100%;height:100%;position:absolute;top:0;left:0;z-index:52}
+.agent-profile-box:hover img{filter:none;-webkit-filter:grayscale(0)}
 .agent-profile-box-content{width:100%;position:absolute;bottom:0;left:0;background-color:#239ccb;z-index:999999;font-size:12px;word-break:break-all;padding:10px;z-index:50}
 .agent-profile-box-content h2{font-size:15px;color:#fff;margin:0 0 20px 0}
 .agent-email{width:auto;position:absolute;bottom:5px;left:5px;z-index:55;font-size:10px}

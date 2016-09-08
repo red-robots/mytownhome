@@ -78,7 +78,7 @@
 
         ?>
 
-        <div class="agent-profile-box">
+        <div class="agent-profile-box js-blocks">
             
             
                 <img src="<?php echo $thumb; ?>" />

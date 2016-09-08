@@ -1332,7 +1332,7 @@ a,img{border:0}
 #cboxError{padding:50px;border:1px solid #ccc}
 #cboxLoadingOverlay{background:url(images/loading_background.png) no-repeat center center}
 #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center}
-#cboxTitle{position:absolute;bottom:-25px;left:0;text-align:left;width:60%;font-weight:bold;color:#fff;padding:4% 20% 8% 20%;line-height:1.3;font-size:20px}
+#cboxTitle{display:none}
 #cboxCurrent{position:absolute;bottom:-25px;left:58px;font-weight:bold;color:#7c7c7c}
 #cboxPrevious,#cboxNext,#cboxSlideshow,#cboxClose{border:0;padding:0;margin:0;overflow:visible;position:absolute;top:10px;background:url(images/controls-new.png);background-size:150px 100px;background-repeat:no-repeat;width:50px;height:50px;text-indent:-9999px;box-shadow:none}
 #cboxPrevious:active,#cboxNext:active,#cboxSlideshow:active,#cboxClose:active{outline:0}
@@ -1455,9 +1455,10 @@ input{border-radius:5px;color:#000}
 @media screen and (min-width:1200px){#main-header{width:85%;padding:0}
 }#main2{width:100%;margin-left:auto;margin-right:auto;position:relative}
 @media screen and (min-width:1200px){#main2{width:1120px}
-}#bottom-link{width:100%;margin-left:auto;margin-right:auto;position:relative;padding:30px 0 20px 0}
-@media screen and (min-width:1200px){#bottom-link{width:980px}
-}#main-wrapper{width:100%;float:left;background-image:url(images/charlotte-center-city.jpg);background-repeat:no-repeat;background-size:cover-x}
+}#bottom-link{width:auto;margin:30px 0}
+#bottom-link a{width:auto;background-color:#3753a1;border-radius:6px;line-height:4px !important;padding:20px 15px;display:inline-block;color:#fff;text-decoration:none}
+#bottom-link a:hover{background-color:rgba(55,83,161,0.7)}
+#main-wrapper{width:100%;float:left;background-image:url(images/charlotte-center-city.jpg);background-repeat:no-repeat;background-size:cover-x}
 #main{width:100%;margin-left:auto;margin-right:auto;position:relative}
 @media screen and (min-width:1200px){#main{width:980px}
 }.bw-search #main{width:100%}

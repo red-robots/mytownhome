@@ -229,8 +229,9 @@ get_header(); ?>
       <?php the_field("current_listings"); ?>
     </div><!-- current-listings-frame -->
   <?php endif; ?>
-
-<div id="bottom-link"><a href="<?php bloginfo('url'); ?>/neighborhoods/">view all neighborhoods</a></div><!-- -->
+  <div id="main">
+    <div id="bottom-link"><a href="<?php bloginfo('url'); ?>/townhome-communities/">View All Communities</a></div><!-- -->
+  </div><!-- main -->
 </div><!-- main2 -->
 <?php endwhile; endif; ?>   
 

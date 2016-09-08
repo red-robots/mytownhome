@@ -49,17 +49,18 @@
         #cboxLoadingOverlay{background:url(images/loading_background.png) no-repeat center center;}
         #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
         #cboxTitle{
-			position:absolute; 
-			bottom:-25px; 
-			left:0; 
-			text-align:left; 
-			width:60%; 
-			font-weight:bold; 
-			color:#fff;
-			/*background-color: rgba(0,0,0,.6);*/
-			padding: 4% 20% 8% 20%;
-			line-height: 1.3;
-			font-size: 20px;
+			// position:absolute; 
+			// bottom:-25px; 
+			// left:0; 
+			// text-align:left; 
+			// width:60%; 
+			// font-weight:bold; 
+			// color:#fff;
+			// background-color: rgba(0,0,0,.6);
+			// padding: 4% 20% 8% 20%;
+			// line-height: 1.3;
+			// font-size: 20px;
+			display: none;
 			}
         #cboxCurrent{position:absolute; bottom:-25px; left:58px; font-weight:bold; color:#7C7C7C;}
 

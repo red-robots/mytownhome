@@ -13,7 +13,7 @@
 	padding-top: 12px;
 	
 
-	@media screen and (min-width: $tabwidth) {
+	@media screen and (min-width: $navbreakwidth) {
 		width: auto;
 		float: right;
 	}
@@ -97,8 +97,13 @@
 		font-size: 14px;
 		width: 100%;
 
-		@media screen and (min-width: $tabwidth) {
+		@media screen and (min-width: $navbreakwidth) {
 			font-size: 12px;
+			width: auto;
+		}
+
+		@media screen and (min-width: $midwidth) {
+			font-size: 14px;
 			width: auto;
 		}
 
@@ -119,7 +124,7 @@
 			line-height: 4px!important;
 			padding: 20px 15px;
 			display: block;
-			@media screen and (min-width: $tabwidth) {
+			@media screen and (min-width: $navbreakwidth) {
 				padding: 20px 5px;
 			}
 
@@ -144,7 +149,7 @@
 		margin-bottom: 15px;
 		@include transition(all .3s ease);
 
-		@media screen and (min-width: $tabwidth) {
+		@media screen and (min-width: $navbreakwidth) {
 			padding: 18px 10px 10px 10px;
 		}
 
@@ -188,7 +193,7 @@
 }
 
 
-@media screen and (min-width: $tabwidth) {
+@media screen and (min-width: $navbreakwidth) {
 	.menu-toggle {
 		display: none;
 	}
@@ -199,21 +204,22 @@
 button.menu-toggle {
 	border: 0px;
 	text-shadow: none;
-	background-color: rgba(255,255,255,.1);
+	background-color: rgba($color-blue,1);
 	color: #fff;
 	box-shadow: none;
-	width: auto;
+	width: 100%;
 	display: inline-block;
 	margin: 10px auto;
 	border-radius: 0;
 	text-transform: uppercase;
+	padding: 10px 0;
 	font: {
 		
 		weight :300;
 		size: 20px;
 	}
 	
-	@media screen and (min-width: $tabwidth) {
+	@media screen and (min-width: $navbreakwidth) {
 		display: none;
 	}
 }

@@ -11,7 +11,7 @@
 
 <div id="main2">
     <div class="page-content">
-        <div id="main">    
+          
         <div id="page-heading"><h1><?php the_title()?></h1></div>
             <div id="page-text">
                 <div id="agents-page-content">
@@ -40,7 +40,7 @@
                 <?php endwhile; endif; ?>
                 </div><!-- agents-page-content -->
             </div><!-- page-text -->
-        </div><!-- main -->
+        
     <div id="agent-boxes">
         <?php
          

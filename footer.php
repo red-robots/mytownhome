@@ -7,16 +7,22 @@
 			<div id="footer-row1">
 				
 				<div id="footer-row1-box1">
-					<h2><?php the_field('office_name', 'option'); ?></h2>
-					<?php the_field('office_address', 'option'); ?> <?php the_field('office_address_line2', 'option'); ?> <?php the_field('office_address_line3', 'option'); ?>
-					<h2><?php the_field('office_name2', 'option'); ?></h2>
-					<?php the_field('office_address2', 'option'); ?> <?php the_field('office_address2_line2', 'option'); ?> <?php the_field('office_address2_line3', 'option'); ?>
-					<h2><?php the_field('office_name3', 'option'); ?></h2>
-					<?php the_field('office_address3', 'option'); ?> <?php the_field('office_address3_line2', 'option'); ?> <?php the_field('office_address3_line3', 'option'); ?>
+					<div class="item-address">
+						<h2><?php the_field('office_name', 'option'); ?></h2>
+						<?php the_field('office_address', 'option'); ?> <?php the_field('office_address_line2', 'option'); ?> <?php the_field('office_address_line3', 'option'); ?>
+					</div><!-- address -->
+					<div class="item-address">
+						<h2><?php the_field('office_name2', 'option'); ?></h2>
+						<?php the_field('office_address2', 'option'); ?> <?php the_field('office_address2_line2', 'option'); ?> <?php the_field('office_address2_line3', 'option'); ?>
+					</div><!-- address -->
+					<div class="item-address">
+						<h2><?php the_field('office_name3', 'option'); ?></h2>
+						<?php the_field('office_address3', 'option'); ?> <?php the_field('office_address3_line2', 'option'); ?> <?php the_field('office_address3_line3', 'option'); ?>
+					</div><!-- address -->
 				</div><!-- footer-row1-box1 -->
 
 				<div id="footer-newsletter">
-					<div class="agent-button-link">
+					<div class="newsletter-signup">
 						<a href="<?php bloginfo('url'); ?>/newsletter">Newsletter Signup</a>
 					</div><!-- agent-button-link -->
 				</div><!-- footer-newsletter -->

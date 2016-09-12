@@ -30,7 +30,7 @@ body {
 	width: 100%;
 	margin: 0 auto;
 	@media screen and (min-width: $deskwidth) {
-		width: 980px;
+		// width: 980px;
 	}
 }
 
@@ -92,12 +92,21 @@ body {
 }
 
 .idxprop {
-	width: 30%;
+	width: 100%;
 	float: left;
-	margin-right: 3%!important;
+	
 	margin-bottom: 15px!important;
-	height: 400px!important;
+	// height: 400px!important;
 	font-size: 14px!important;
+
+	@media screen and (min-width: $tabwidth) {
+		width: 30%;
+		margin-right: 3%!important;
+	}
+
+	@media screen and (min-width: $deskwidth) {
+	
+	}
 }
 
 .idxprop a {
@@ -340,12 +349,12 @@ input {
 }
 #main-header {
 	width: 100%;
-	padding: 5%;
+	
 	// height: 178px;
 	margin-left: auto;
 	margin-right: auto;
-	@media screen and (min-width: $tabwidth) {
-
+	@media screen and (min-width: $navbreakwidth) {
+		padding: 5%;
 	}
 
 	@media screen and (min-width: $deskwidth) {
@@ -355,20 +364,21 @@ input {
 }
 #main2 {
 	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 	position: relative;
 	@media screen and (min-width: $tabwidth) {
 
 	}
 
 	@media screen and (min-width: $deskwidth) {
-		width: 1120px;
+		// width: 1120px;
+		width: 90%;
 	}
 }
 #bottom-link {
 	width: auto;
 	margin:  30px 0;
+	float: left;
 	a {
 		width: auto;
 	    background-color: rgba(55,83,161, 1);
@@ -402,7 +412,8 @@ input {
 	}
 
 	@media screen and (min-width: $deskwidth) {
-		width: 980px;
+		// width: 980px;
+		width: 90%;
 	}
 }
 
@@ -558,6 +569,7 @@ input {
 	@media screen and (min-width: $tabwidth) {
 		text-align: right;
 		width: auto;
+		float: right;
 	}
 }
 #social-icons {
@@ -844,13 +856,43 @@ blockquote {
 	}
 
 	@media screen and (min-width: $deskwidth) {
-		width: 1130px;
+		// width: 1130px;
+		width: 90%;
 	}
 }
+
+
 #footer-newsletter {
-	width: 170px;
+	width: 100%;
 	float: left;
 	padding-top: 20px;
+
+	@media screen and (min-width: $tabwidth) {
+		width: 30%;
+	}
+}
+.newsletter-signup {
+	width: auto;
+	display: inline-block;
+	margin: 0 auto;
+	a {
+		width: auto;
+	    background-color: #3855A3;
+	    padding: 15px 20px;
+	    text-align: center;
+	    border-radius: 7px;
+	    margin-bottom: 20px;
+	    display: inline-block;
+	    font-size: 15px;
+	    text-decoration: none;
+	    color: #fff;
+	    @include transition(all 0.3s ease);
+	}
+
+	@media screen and (min-width: $tabwidth) {
+		// float: left;
+		margin: 0;
+	}
 }
 #footer-content2 {
 	width: 100%;
@@ -897,6 +939,7 @@ blockquote {
 	font-size: 14px;
 	font-weight: bold;
 	color: #666666;
+	margin: 40px 0 0 0;
 }
 #footer2 a:link {
 	color: #666666;
@@ -917,13 +960,22 @@ blockquote {
 	text-align: left;
 	color: #ffffff;
 	@media screen and (min-width: $tabwidth) {
-		width: 50%;
+		width: 40%;
 
 	}
 
 	@media screen and (min-width: $deskwidth) {
-		width: 525px;
+		width: 35%;
 		padding: 0;
+	}
+}
+.item-address {
+	width: 100%;
+	float: left;
+	margin: 0 0 20px 0;
+	text-align: center;
+	@media screen and (min-width: $tabwidth) {
+		text-align: left;
 	}
 }
 #footer-row1-box1 h2 {
@@ -931,7 +983,7 @@ blockquote {
 	font-size: 18px;
 	font-weight: bold;
 	margin-bottom: 5px;
-	margin-top: 20px;
+	
 }
 #page-heading {
 	margin-bottom: 15px;
@@ -952,7 +1004,7 @@ blockquote {
 	}
 
 	@media screen and (min-width: $deskwidth) {
-		width: 630px;
+		// width: 630px;
 	}
 }
 #page-text-left h2 {
@@ -1001,35 +1053,31 @@ blockquote {
 	font-size: 13px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
-}
-#filter-by-categories a {
-	background-color: #0099CF;
-	padding: 6px 13px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-}
-#filter-by-categories a:link {
-	color: #FFFFFF;
-	text-decoration: none;
-}
-#filter-by-categories a:visited {
-	color: #FFFFFF;
-	text-decoration: none;
-}
-#filter-by-categories a:hover {
-	color: #FFFFFF;
-	text-decoration: none;
-	background-color: #3551A3;
-}
-#filter-by-categories ul {
-	padding: 0px;
-	float: left;
-	margin: 0px;
-}
-#filter-by-categories li {
-	float: left;
-	list-style: none;
-	margin: 0px 8px 18px 0px;
+	a {
+		background-color: #0099CF;
+		padding: 6px 13px;
+		-moz-border-radius: 6px;
+		border-radius: 6px;
+		color: #FFFFFF;
+		text-decoration: none;
+		@include transition(.3s ease all);
+
+		&:hover {
+			color: #FFFFFF;
+			text-decoration: none;
+			background-color: #3551A3;
+		}
+	}
+	ul {
+		padding: 0px;
+		float: left;
+		margin: 0px;
+	}
+	li {
+		float: left;
+		list-style: none;
+		margin: 0px 8px 18px 0px;
+	}
 }
 .faqrow {
 	width: auto;

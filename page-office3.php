@@ -15,7 +15,7 @@
 
 <div class="page-content">
 
- <div id="main">    <div id="page-heading"><h1><?php the_title()?></h1></div>
+<div id="page-heading"><h1><?php the_title()?></h1></div>
 
  <div id="page-text">
  
@@ -52,7 +52,7 @@ an agent?</h3>
 <?php endwhile; endif; ?>
 
 </div>
-</div></div>
+</div>
 
 <div id="agent-boxes">
 
@@ -108,7 +108,7 @@ $thumb = $image['sizes'][ $size ];
 <?php if( $office == "Uptown" ) { ?>
 
 
-<div class="agent-profile-box">
+<div class="agent-profile-box  js-blocks">
 
 <div class="agent-photo"><a href="<?php echo $link; ?>"><img src="<?php echo $thumb; ?>" /></a></div>
 

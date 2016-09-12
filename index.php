@@ -295,38 +295,40 @@ $the_query = new WP_Query( $querySlides );
   <div id="home-row3-content">
     <div id="home-row3-content-heading">SELLING?  KNOWLEDGE IS EVERYTHING.</div><!-- home-row3-content-heading -->
       <?php $recent = new WP_Query("page_id=22"); while($recent->have_posts()) : $recent->the_post();?>
-        <div id="home-row3-content-box1">
+        
+        <div id="home-row3-content-box1" class="home-row3-content-box">
           <a href="<?php the_field("link_one"); ?>">
-            <img src="<?php bloginfo('template_url'); ?>/images/box1image.png" alt="" border="0">
-          </a>
-          <div class="home-row3-content-link">
-            <a href="<?php the_field("link_one"); ?>">
+            <div class="home-icon">
+              <img src="<?php bloginfo('template_url'); ?>/images/box1image.png" alt="" border="0">
+            </div><!-- home icon -->
+            <div class="home-row3-content-link">
               <?php the_field("link_one_text"); ?>
-            </a>
-          </div><!-- home-row3-content-link -->
+            </div><!-- home-row3-content-link -->
+           </a>
         </div><!-- home-row3-content-box1 -->
 
-        <div id="home-row3-content-box2">
+        <div id="home-row3-content-box2" class="home-row3-content-box">
           <a href="<?php the_field("link_two"); ?>">
-            <img src="<?php bloginfo('template_url'); ?>/images/box2image.png" alt="" border="0">
+            <div class="home-icon">
+              <img src="<?php bloginfo('template_url'); ?>/images/box2image.png" alt="" border="0">
+            </div><!-- home icon -->
+            <div class="home-row3-content-link">
+                <?php the_field("link_two_text"); ?>
+            </div><!-- home-row3-content-link -->
           </a>
-          <div class="home-row3-content-link">
-            <a href="<?php the_field("link_two"); ?>">
-              <?php the_field("link_two_text"); ?>
-            </a>
-          </div><!-- home-row3-content-link -->
         </div><!-- home-row3-content-box2 -->
 
-        <div id="home-row3-content-box3">
+        <div id="home-row3-content-box3" class="home-row3-content-box">
           <a href="<?php the_field("link_three"); ?>">
-            <img src="<?php bloginfo('template_url'); ?>/images/box3image.png" alt="" border="0">
+            <div class="home-icon">
+              <img src="<?php bloginfo('template_url'); ?>/images/box3image.png" alt="" border="0">
+            </div><!-- home icon -->
+            <div class="home-row3-content-link">
+                <?php the_field("link_three_text"); ?>
+            </div><!-- home-row3-content-link -->
           </a>
-          <div class="home-row3-content-link">
-            <a href="<?php the_field("link_three"); ?>">
-              <?php the_field("link_three_text"); ?>
-            </a>
-          </div><!-- home-row3-content-link -->
         </div><!-- home-row3-content-box3 -->
+
       <?php endwhile; wp_reset_postdata(); // end of the loop. ?>
   </div><!-- home-row3-content -->
 </div><!-- home-row3 -->
@@ -355,7 +357,7 @@ $the_query = new WP_Query( $querySlides );
       $size = 'agent_feed';
       $thumb = $image['sizes'][ $size ];
       ?>
-      <div class="agent-profile-box">
+      <div class="agent-profile-box  js-blocks">
         <div class="agent-photo">
           <a href="<?php echo $link; ?>"><img src="<?php echo $thumb; ?>" /></a>
         </div><!-- agent-photo -->

@@ -179,7 +179,8 @@ add_theme_support( 'post-thumbnails' );
 add_image_size( 'communities-gallery', 310, 205, true );
 // add_image_size( 'agent', 186, 217, true );
 // keep
- add_image_size( 'agent_feed', 184, 237, true );
+ add_image_size( 'agent_feed', 350, 451, true );
+ // add_image_size( 'agent_feed', 184, 237, true );
 add_image_size( 'single_agent', 290, 433, true );
 // add_image_size( 'single_community_agent', 197, 273, true );
 add_image_size( 'office_photo', 205, 223, true );

@@ -220,18 +220,18 @@ get_header(); ?>
 </div><!-- main-wrapper -->
 
 <div id="main2">
+  <div class="page-content">
+    <div id="communities-listings">
 
-<div id="communities-listings">
-
-  <?php if (strlen(get_post_meta($post->ID, "current_listings", true)) > 0) : ?>     
-    <div id="current-listings-header"><a name="listings"></a><h2>Current Listings</h2></div>
-    <div id="current-listings-frame">
-      <?php the_field("current_listings"); ?>
-    </div><!-- current-listings-frame -->
-  <?php endif; ?>
-  <div id="main">
+      <?php if (strlen(get_post_meta($post->ID, "current_listings", true)) > 0) : ?>     
+        <div id="current-listings-header"><a name="listings"></a><h2>Current Listings</h2></div>
+        <div id="current-listings-frame">
+          <?php the_field("current_listings"); ?>
+        </div><!-- current-listings-frame -->
+      <?php endif; ?>
+    </div><!-- communitites listings -->
     <div id="bottom-link"><a href="<?php bloginfo('url'); ?>/townhome-communities/">View All Communities</a></div><!-- -->
-  </div><!-- main -->
+  </div><!-- page content -->
 </div><!-- main2 -->
 <?php endwhile; endif; ?>   
 

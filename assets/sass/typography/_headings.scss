@@ -17,9 +17,11 @@ h1 {
 	color: #000000;
 	border-top: 4px solid #159ACD;
 	border-bottom: 4px solid #159ACD;
-	display: inline;
+	display: inline-block;
 	padding-bottom: 10px;
 	padding-top: 8px;
+	margin-bottom: 20px;
+	width: auto;
 }
 h2 {
 	font-size: 20px;

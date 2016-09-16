@@ -1411,9 +1411,9 @@ div{overflow-wrap:auto;word-wrap:auto;-ms-word-break:auto;word-break:auto;word-b
 .clear{clear:both}
 body{background-color:#fff;margin:0;font-family:'Fira Sans',sans-serif;font-size:16px;color:#000;font-weight:300;position:relative}
 #current-listings-frame{width:100%;margin:0 auto}
-#page-right-column .infusion-field-input-container{height:21px;border-radius:7px;width:70%}
-.infusion-field-input-container{height:30px;border-radius:7px;width:85%}
-.infusion-field textarea{border-radius:7px;width:100%}
+#page-right-column .infusion-field-input-container{border-radius:0x;width:70%}
+.infusion-field-input-container{border-radius:0;width:85%}
+.infusion-field textarea{border-radius:0;width:100%}
 #advanced-search-link{float:right;width:100%;text-align:right;margin-top:15px}
 #page-right-column #advanced-search-link{float:right;width:100%;text-align:left;margin-top:15px}
 .container{clear:both;width:100%;margin:0;padding:0}
@@ -1674,7 +1674,10 @@ ol.pings h3{font-size:.9em}
 .form-column{width:50%;float:left}
 .infusion-field{margin-bottom:25px !important;width:50%;float:left}
 .infusion-option{padding-right:15px;float:left}
-.infusion-submit{width:100%;float:left}
+.infusion-option input{margin:0 15px 0 0}
+.infusion-submit{width:100%;float:left;margin:20px 0}
+.infusion-submit input{width:100%;background-color:#0099cf;color:#fff;border:0;padding:10px 0}
+.infusion-submit input:hover{background-color:#0099cf}
 #page-right-column .agent-profile-box-content{width:100%;height:28px;padding-top:10px;text-align:center}
 #page-right-column .agent-profile-box{width:184px;height:275px}
 #features-row{width:100%;float:left;padding-top:25px}

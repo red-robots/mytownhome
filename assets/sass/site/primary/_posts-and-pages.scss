@@ -366,10 +366,27 @@
 .infusion-option {
 	padding-right: 15px;
 	float: left;
+
+	input {
+		margin: 0 15px 0 0;
+	}
 }
 .infusion-submit {
 	width: 100%;
 	float: left;
+	margin: 20px 0;
+
+	input {
+		width: 100%;
+		background-color: rgba(0,153,207,1);
+		color: #fff;
+		border: 0;
+		padding: 10px 0;
+
+		&:hover {
+			background-color: rgba(0,153,207,7);
+		}
+	}
 }
 #page-right-column .agent-profile-box-content {
 	width: 100%;

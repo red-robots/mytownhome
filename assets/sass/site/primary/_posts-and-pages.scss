@@ -200,10 +200,11 @@
 	@media screen and (min-width: $deskwidth) {
 		
 	}
+	h2 {
+		margin-bottom: 0px;
+	}
 }
-#current-listings-header h2 {
-	margin-bottom: 0px;
-}
+
 #community-realtors {
 	// width: 250px;
 	width: 100%;
@@ -425,10 +426,11 @@
 		// width: 265px;
 		width: 26%;
 	}
+	h2 {
+		text-align: center;
+	}
 }
-#features-agents h2 {
-	text-align: center;
-}
+
 #find-box-wrapper {
 	width: 100%;
 	// height: 192px;
@@ -1227,37 +1229,34 @@ input.qs-sub {
 	@media screen and (min-width: $deskwidth) {
 		// width: 353px;
 	}
-}
-
-#agents-page-box h3 {
-	color: #ffffff;
-	font-size: 23px;
-	line-height: 24px;
-}
-
-#agents-page-box img {
-	float: right;
-	margin-left: 20px;
-}
-
-#agents-page-box a {
-	width: 100%;
-	// height: 130px;
-	background-color: #0198CF;
-	padding: 30px;
-	display:block;
-	@media screen and (min-width: $tabwidth) {
-
+	h3 {
+		color: #ffffff;
+		font-size: 23px;
+		line-height: 24px;
 	}
+	img {
+		float: right;
+		margin-left: 20px;
+	}
+	a {
+		width: 100%;
+		// height: 130px;
+		background-color: #0198CF;
+		padding: 30px;
+		display:block;
+		text-decoration: none;
+		color: #ffffff; 
 
-	@media screen and (min-width: $deskwidth) {
-		// width: 293px;
+		@media screen and (min-width: $tabwidth) {
+
+		}
+
+		@media screen and (min-width: $deskwidth) {
+			// width: 293px;
+		}
 	}
 }
 
-#agents-page-box a:link { color: #ffffff; text-decoration: none; }
-#agents-page-box a:visited { color: #ffffff; text-decoration: none; }
-#agents-page-box a:hover { color: #ffffff; text-decoration: none; background-color: #3653A5; }
 
 .page-content {
 	float: left;
@@ -1276,12 +1275,13 @@ input.qs-sub {
 	@media screen and (min-width: $deskwidth) {
 		height: 400px;
 	}
+	img {
+		width: 100%;
+		height: auto;
+		margin-top: -100px;
+	}
 }
-#communities-heading-photo img {
-	width: 100%;
-	height: auto;
-	margin-top: -100px;
-}
+
 #communities-title-box {
 	width: 100%;
 	// height: 250px;
@@ -1332,30 +1332,27 @@ input.qs-sub {
 		bottom: 25px;
 		left: 50px;
 	}
+	a {
+		width: 100%;
+		display: block;
+		background-color: #3753A1;
+		padding: 14px 22px;
+		text-align: center;
+		-moz-border-radius: 7px;
+		border-radius: 7px;
+		display: block;
+		color: #ffffff;
+		text-decoration: none;	
+
+		&:hover {
+			color: #ffffff;
+			text-decoration: none;
+			background-color: #239BCB;
+		}
+	}
 }
-#communities-heading-link a {
-	width: 100%;
-	display: block;
-	background-color: #3753A1;
-	padding: 14px 22px;
-	text-align: center;
-	-moz-border-radius: 7px;
-	border-radius: 7px;
-	display: block;
-}
-#communities-heading-link a:link {
-	color: #ffffff;
-	text-decoration: none;
-}
-#communities-heading-link a:visited {
-	color: #ffffff;
-	text-decoration: none;
-}
-#communities-heading-link a:hover {
-	color: #ffffff;
-	text-decoration: none;
-	background-color: #239BCB;
-}
+
+
 section.community {
 	width: 100%;
 	position: relative;
@@ -1724,28 +1721,25 @@ hr {
 	width: 100%;
 	float: left;
 	padding-top: 30px;
-}
-#about-links h2 {
-	font-size: 30px;
-	font-weight: bold;
-	border-bottom: 4px solid #159ACD;
-	display: block;
-	padding-bottom: 6px;
-}
-#about-links a:link {
-	color: #000000;
-	text-decoration: none;
-}
-#about-links a:visited {
-	color: #000000;
-	text-decoration: none;
-}
-#about-links a:hover {
-	color: #159ACD;
-	text-decoration: none;
-}
-#about-links p {
-	margin-top: 5px!important;
+
+	h2 {
+		font-size: 30px;
+		font-weight: bold;
+		border-bottom: 4px solid #159ACD;
+		display: block;
+		padding-bottom: 6px;
+	}
+	a {
+		color: #000000;
+		text-decoration: none;
+		&:hover {
+			color: #159ACD;
+			text-decoration: none;
+		}
+	}
+	p {
+		margin-top: 5px!important;
+	}
 }
 .about-link1 {
 	width: 100%;
@@ -1886,18 +1880,6 @@ hr {
 	display: block;
 	color: #ffffff;
 	background-color: #3551A3;
-}
-.about-office-content a:link {
-	color: #ffffff;
-	text-decoration: none;
-}
-.about-office-content a:visited {
-	color: #ffffff;
-	text-decoration: none;
-}
-.about-office-content a:hover {
-	color: #ffffff;
-	text-decoration: none;
 }
 .agent-profile-box {
 	width: 100%;

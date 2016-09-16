@@ -1460,7 +1460,7 @@ input{border-radius:5px;color:#000}
 }#bottom-link{width:auto;margin:30px 0;float:left}
 #bottom-link a{width:auto;background-color:#3753a1;border-radius:6px;line-height:4px !important;padding:20px 15px;display:inline-block;color:#fff;text-decoration:none}
 #bottom-link a:hover{background-color:rgba(55,83,161,0.7)}
-#main-wrapper{width:100%;float:left;background-image:url(images/charlotte-center-city.jpg);background-repeat:no-repeat;background-size:cover-x}
+#main-wrapper{width:100%;float:left;background-image:url(images/charlotte-center-city.jpg);background-repeat:no-repeat;background-size:cover}
 #main{width:100%;margin-left:auto;margin-right:auto;position:relative}
 @media screen and (min-width:1200px){#main{width:90%}
 }.bw-search #main{width:100%}
@@ -1532,8 +1532,9 @@ blockquote{width:223px;padding-left:20px;padding-right:20px;padding-bottom:40px;
 #footer a:link{color:#fff;text-decoration:none}
 #footer a:visited{color:#fff;text-decoration:none}
 #footer a:hover{color:silver;text-decoration:none}
-#footer-wrapper{width:100%;margin:0 auto;background-image:url(images/bg-footer.png);background-repeat:no-repeat;background-position:bottom right;margin-top:30px;overflow:hidden}
-@media screen and (min-width:1200px){#footer-wrapper{width:90%}
+#footer-wrapper{width:100%;margin:0 auto;background-image:url(images/bg-footer-new.png);background-repeat:no-repeat;background-position:bottom;margin-top:30px;overflow:hidden}
+@media screen and (min-width:600px){#footer-wrapper{background-position:bottom right 15%}
+}@media screen and (min-width:1200px){#footer-wrapper{width:90%}
 }#footer-newsletter{width:100%;float:left;padding-top:20px}
 @media screen and (min-width:600px){#footer-newsletter{width:30%}
 }.newsletter-signup{width:auto;display:inline-block;margin:0 auto}
@@ -1806,10 +1807,7 @@ input.qs-sub:hover{background-color:rgba(51,78,165,0.7)}
 @media screen and (min-width:600px){#agents-page-box{width:33%}
 }#agents-page-box h3{color:#fff;font-size:23px;line-height:24px}
 #agents-page-box img{float:right;margin-left:20px}
-#agents-page-box a{width:100%;background-color:#0198cf;padding:30px;display:block}
-#agents-page-box a:link{color:#fff;text-decoration:none}
-#agents-page-box a:visited{color:#fff;text-decoration:none}
-#agents-page-box a:hover{color:#fff;text-decoration:none;background-color:#3653a5}
+#agents-page-box a{width:100%;background-color:#0198cf;padding:30px;display:block;text-decoration:none;color:#fff}
 .page-content{float:left;width:100%;margin-top:45px;padding:20px}
 @media screen and (min-width:1200px){.page-content{padding:0}
 }#communities-heading-photo{width:100%;overflow:hidden;position:relative}
@@ -1824,9 +1822,7 @@ input.qs-sub:hover{background-color:rgba(51,78,165,0.7)}
 .price-range a:hover{color:#ddd}
 #communities-heading-link{width:auto;font-size:25px;text-transform:uppercase}
 @media screen and (min-width:1200px){#communities-heading-link{position:absolute;bottom:25px;left:50px}
-}#communities-heading-link a{width:100%;display:block;background-color:#3753a1;padding:14px 22px;text-align:center;border-radius:7px;display:block}
-#communities-heading-link a:link{color:#fff;text-decoration:none}
-#communities-heading-link a:visited{color:#fff;text-decoration:none}
+}#communities-heading-link a{width:100%;display:block;background-color:#3753a1;padding:14px 22px;text-align:center;border-radius:7px;display:block;color:#fff;text-decoration:none}
 #communities-heading-link a:hover{color:#fff;text-decoration:none;background-color:#239bcb}
 section.community{width:100%;position:relative;overflow:hidden;clear:both}
 section.communities{width:100%;position:relative;overflow:hidden;clear:both}
@@ -1889,8 +1885,7 @@ hr{color:#000;background-color:#000;border:0;height:1px}
 #communities-title-box #page-heading{margin-bottom:0}
 #about-links{width:100%;float:left;padding-top:30px}
 #about-links h2{font-size:30px;font-weight:bold;border-bottom:4px solid #159acd;display:block;padding-bottom:6px}
-#about-links a:link{color:#000;text-decoration:none}
-#about-links a:visited{color:#000;text-decoration:none}
+#about-links a{color:#000;text-decoration:none}
 #about-links a:hover{color:#159acd;text-decoration:none}
 #about-links p{margin-top:5px !important}
 .about-link1{width:100%;float:left;margin-right:2%}
@@ -1919,9 +1914,6 @@ hr{color:#000;background-color:#000;border:0;height:1px}
 .about-office-text a{text-decoration:underline !important}
 .about-office-contact{width:100%;float:left;text-align:left;float:left;margin:5px 0 0 0;clear:both;position:absolute;bottom:0;right:0}
 .about-office-contact a{font-size:15px;padding:14px 15px 10px 15px;display:block;color:#fff;background-color:#3551a3}
-.about-office-content a:link{color:#fff;text-decoration:none}
-.about-office-content a:visited{color:#fff;text-decoration:none}
-.about-office-content a:hover{color:#fff;text-decoration:none}
 .agent-profile-box{width:100%;float:left;position:relative;z-index:50}
 @media screen and (min-width:600px){.agent-profile-box{width:28%;margin:2%}
 }@media screen and (min-width:1200px){.agent-profile-box{width:14%;margin:0 2.2% 20px 0}

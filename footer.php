@@ -71,6 +71,8 @@
 		</div><!-- chat-bar-background -->
 	</div><!-- chat-bar -->
 
+	
+
 </div><!-- main-wrapper-all -->
 <?php wp_footer(); ?>
 </body>

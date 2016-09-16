@@ -1530,13 +1530,13 @@ blockquote{width:223px;padding-left:20px;padding-right:20px;padding-bottom:40px;
 @media screen and (min-width:1200px){.post-container{width:1207px;padding-left:120px;min-height:400px}
 }#row1{width:100%;float:left}
 @media screen and (min-width:1200px){#row1{width:1254px;padding-left:146px}
-}#footer{width:100%;float:left;text-align:center;padding:0 0 120px 0;background-color:#000}
-#footer a:link{color:#fff;text-decoration:none}
+}#footer{width:100%;float:left;text-align:center;padding:0 0 120px 0;background-color:#000;background-image:url(images/bg-footer-new.png);background-repeat:no-repeat;background-position:bottom}
+@media screen and (min-width:600px){#footer{background-position:bottom 25% right 15%}
+}#footer a:link{color:#fff;text-decoration:none}
 #footer a:visited{color:#fff;text-decoration:none}
 #footer a:hover{color:silver;text-decoration:none}
-#footer-wrapper{width:100%;margin:0 auto;background-image:url(images/bg-footer-new.png);background-repeat:no-repeat;background-position:bottom;margin-top:30px;overflow:hidden}
-@media screen and (min-width:600px){#footer-wrapper{background-position:bottom right 15%}
-}@media screen and (min-width:1200px){#footer-wrapper{width:90%}
+#footer-wrapper{width:100%;margin:0 auto;margin-top:30px;overflow:hidden}
+@media screen and (min-width:1200px){#footer-wrapper{width:90%}
 }#footer-newsletter{width:100%;float:left;padding-top:20px}
 @media screen and (min-width:600px){#footer-newsletter{width:30%}
 }.newsletter-signup{width:auto;display:inline-block;margin:0 auto}

@@ -837,6 +837,12 @@ blockquote {
 	text-align: center;
 	padding: 0 0 120px 0;
 	background-color: #000000;
+	background-image: url(images/bg-footer-new.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	@media screen and (min-width: $tabwidth) {
+		background-position: bottom 25% right 15%;
+	}
 }
 #footer a:link {
 	color: #ffffff;
@@ -854,14 +860,10 @@ blockquote {
 	width: 100%;
 	// height: 305px;
 	margin: 0 auto;
-	background-image: url(images/bg-footer-new.png);
-	background-repeat: no-repeat;
-	background-position: bottom;
+	
 	margin-top: 30px;
 	overflow: hidden;
-	@media screen and (min-width: $tabwidth) {
-		background-position: bottom right 15%;
-	}
+	
 
 	@media screen and (min-width: $deskwidth) {
 		// width: 1130px;

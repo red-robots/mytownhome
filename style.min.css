@@ -1425,7 +1425,7 @@ body{background-color:#fff;margin:0;font-family:'Fira Sans',sans-serif;font-size
 .nav-tabs{padding:0 20px}
 .nav-tabs li{width:100%}
 @media screen and (min-width:600px){.nav-tabs li{width:auto}
-}.tab-content{padding:20px}
+}.tab-content{padding:20px;float:left;margin:0 0 30px 0;width:100%}
 #idxmap_canvas{height:380px !important;margin-top:18px !important}
 .idxprop{width:100%;float:left;margin-bottom:15px !important;font-size:14px !important}
 @media screen and (min-width:600px){.idxprop{width:30%;margin-right:3% !important}
@@ -1931,7 +1931,7 @@ hr{color:#000;background-color:#000;border:0;height:1px}
 .agent-photo img{width:100%;-webkit-filter:grayscale(100%);filter:grayscale(100%);-webkit-filter:gray;filter:gray}
 .agent-photo img:hover{width:100%;-moz-filter:grayscale(0);-ms-filter:grayscale(0);-o-filter:grayscale(0);filter:grayscale(0);-webkit-filter:grayscale(0);filter:none}
 .bw-search .container{width:100%;float:left;margin-top:30px}
-.bw-search .map-top-form{float:left;font-size:13px;padding-top:10px;margin-right:10px}
+.bw-search .map-top-form{float:left;width:100%;margin:0 0 20px 0}
 .bw-search .map-top-form input[type="submit"]{width:67px;height:34px;font-size:13px;padding-top:5px;text-align:center;background-color:#4288cd;border-radius:6px;color:#fff}
 .bw-search .map-top-form .btn{width:67px;height:30px;font-size:13px;padding-top:3px;text-align:center;background-color:#4288cd;border-radius:6px;color:#fff}
 .bw-search .map-top-form input{height:30px;padding-left:5px}

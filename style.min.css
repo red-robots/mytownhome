@@ -1473,8 +1473,8 @@ input{border-radius:5px;color:#000}
 }.bw-search #main{width:100%}
 #map-top-right{width:100%;float:left}
 @media screen and (min-width:600px){#map-top-right{width:auto;padding:10px}
-}.bw-search #map-top-left{width:100%;float:left;border-right:1px solid #131313}
-@media screen and (min-width:600px){.bw-search #map-top-left{width:auto;padding:10px}
+}.bw-search #map-top-left{width:100%;float:left}
+@media screen and (min-width:600px){.bw-search #map-top-left{width:auto;padding:10px;border-right:1px solid #131313}
 }#header{width:100%;float:left}
 #logo{width:280px;margin:0 auto;padding-top:12px}
 @media screen and (min-width:600px){#logo{float:left;margin:0}

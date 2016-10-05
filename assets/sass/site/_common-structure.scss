@@ -481,11 +481,12 @@ input {
     float: left;
     // padding-top: 5px;
     // padding-bottom: 5px;
-    border-right: 1px solid #131313;
+   
     // padding-right: 15px;
     @media screen and (min-width: $tabwidth) {
     	width: auto;
     	padding: 10px;
+    	 border-right: 1px solid #131313;
 	}
 }
 

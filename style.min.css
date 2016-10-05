@@ -1423,7 +1423,9 @@ body{background-color:#fff;margin:0;font-family:'Fira Sans',sans-serif;font-size
 .idx-search-pusher{margin-bottom:45px}
 #idx{width:100%;float:left}
 .nav-tabs{padding:0 20px}
-.tab-content{padding:20px}
+.nav-tabs li{width:100%}
+@media screen and (min-width:600px){.nav-tabs li{width:auto}
+}.tab-content{padding:20px}
 #idxmap_canvas{height:380px !important;margin-top:18px !important}
 .idxprop{width:100%;float:left;margin-bottom:15px !important;font-size:14px !important}
 @media screen and (min-width:600px){.idxprop{width:30%;margin-right:3% !important}

@@ -1920,8 +1920,8 @@ hr{color:#000;background-color:#000;border:0;height:1px}
 .about-office-text a{text-decoration:underline !important;color:#fff}
 .about-office-contact{width:100%;float:left;text-align:left;float:left;margin:5px 0 0 0;clear:both;position:absolute;bottom:0;right:0}
 .about-office-contact a{font-size:15px;padding:14px 15px 10px 15px;display:block;color:#fff;background-color:#3551a3}
-.agent-profile-box{width:100%;float:left;position:relative;z-index:50}
-@media screen and (min-width:600px){.agent-profile-box{width:28%;margin:2%}
+.agent-profile-box{width:100%;margin:0 auto 30px auto;position:relative;z-index:50}
+@media screen and (min-width:600px){.agent-profile-box{width:28%;margin:2%;float:left}
 }@media screen and (min-width:1200px){.agent-profile-box{width:14%;margin:0 2.2% 20px 0}
 }.agent-profile-box a{color:#fff;text-decoration:none}
 .agent-profile-box img{width:100%;-webkit-filter:gray;filter:gray;filter:grayscale(1);-webkit-filter:grayscale(1)}

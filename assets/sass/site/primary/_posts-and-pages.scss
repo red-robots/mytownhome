@@ -1903,13 +1903,14 @@ hr {
 }
 .agent-profile-box {
 	width: 100%;
-	float: left;
+	margin: 0 auto 30px auto;
 	position: relative;
 	
 	z-index: 50;
 	@media screen and (min-width: $tabwidth) {
 		width: 28%;
 		margin: 2%;
+		float: left;
 	}
 
 	@media screen and (min-width: $deskwidth) {

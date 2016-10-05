@@ -1471,15 +1471,7 @@ input{border-radius:5px;color:#000}
 #main{width:100%;margin-left:auto;margin-right:auto;position:relative}
 @media screen and (min-width:1200px){#main{width:90%}
 }.bw-search #main{width:100%}
-@media screen and (min-width:1200px){.bw-search #main{width:1120px}
-}.dfres-address-detail{line-height:22px;padding-bottom:9px}
-#map-top-right{width:100%;height:102px;float:left;padding-top:5px;padding-bottom:5px;padding-left:50px}
-@media screen and (min-width:1200px){#map-top-right{width:830px}
-}.bw-search #map-top-left{width:223px;height:102px;float:left;padding-top:5px;padding-bottom:5px;border-right:1px solid #131313;padding-right:15px}
-.bw-search #search-fields{width:290px;height:695px;float:left;padding-top:15px;color:#373737}
-.bw-search #google-search-map{width:100%;height:475px;float:left;margin-right:45px}
-@media screen and (min-width:1200px){.bw-search #google-search-map{width:655px}
-}#header{width:100%;float:left}
+#header{width:100%;float:left}
 #logo{width:280px;margin:0 auto;padding-top:12px}
 @media screen and (min-width:600px){#logo{float:left;margin:0}
 }@media screen and (min-width:1200px){#logo{width:362px}

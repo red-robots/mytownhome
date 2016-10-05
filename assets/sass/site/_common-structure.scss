@@ -460,31 +460,34 @@ input {
 // 		    padding-bottom: 9px;
 // }
 
-// #map-top-right {
-//     width: 100%;
-//     height: 102px;
-//     float: left;
-//     padding-top: 5px;
-//     padding-bottom: 5px;
-//     padding-left: 50px;
-//     @media screen and (min-width: $tabwidth) {
-
-// 	}
+#map-top-right {
+    width: 100%;
+    float: left;
+    // padding-top: 5px;
+    // padding-bottom: 5px;
+    // padding-left: 50px;
+    @media screen and (min-width: $tabwidth) {
+    	width: auto;
+    	padding: 10px;
+	}
 
 // 	@media screen and (min-width: $deskwidth) {
 // 		width: 830px;
 // 	}
-// }
+}
 
-// .bw-search #map-top-left {
-//     width: 223px;
-//     height: 102px;
-//     float: left;
-//     padding-top: 5px;
-//     padding-bottom: 5px;
-//     border-right: 1px solid #131313;
-//     padding-right: 15px;
-// }
+.bw-search #map-top-left {
+    width: 100%;
+    float: left;
+    // padding-top: 5px;
+    // padding-bottom: 5px;
+    border-right: 1px solid #131313;
+    // padding-right: 15px;
+    @media screen and (min-width: $tabwidth) {
+    	width: auto;
+    	padding: 10px;
+	}
+}
 
 // .bw-search #search-fields {
 //     width: 290px;

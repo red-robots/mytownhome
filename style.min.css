@@ -1680,9 +1680,12 @@ ol.pings h3{font-size:.9em}
 .infusion-submit{width:100%;float:left;margin:20px 0}
 .infusion-submit input{width:100%;background-color:#0099cf;color:#fff;border:0;padding:10px 0}
 .infusion-submit input:hover{background-color:#0099cf}
-#page-right-column .agent-profile-box-content{width:100%;height:28px;padding-top:10px;text-align:center}
-#page-right-column .agent-profile-box{width:184px;height:275px}
-#features-row{width:100%;float:left;padding-top:25px}
+#page-right-column .agent-profile-box-content{width:100%;padding-top:10px;text-align:center}
+#page-right-column .agent-profile-box-content h2{margin:0}
+#page-right-column .agent-profile-box{width:45%}
+@media screen and (min-width:900px){#page-right-column .agent-profile-box{width:100%}
+}@media screen and (min-width:1200px){#page-right-column .agent-profile-box{width:45%}
+}#features-row{width:100%;float:left;padding-top:25px}
 #features{width:100%;float:left}
 @media screen and (min-width:600px){#features{width:60%}
 }@media screen and (min-width:1200px){#features{width:66%}

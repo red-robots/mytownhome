@@ -392,13 +392,26 @@
 }
 #page-right-column .agent-profile-box-content {
 	width: 100%;
-	height: 28px;
+	// height: 28px;
 	padding-top: 10px;
 	text-align: center;
+	h2 {
+		margin: 0;
+	}
 }
 #page-right-column .agent-profile-box {
-	width: 184px;
-	height: 275px;
+	width: 45%;
+	// height: 275px;
+
+	@media screen and (min-width: $tabwidth) {
+		
+	}
+	@media screen and (min-width: $midwidth) {
+		width: 100%;
+	}
+	@media screen and (min-width: $deskwidth) {
+		width: 45%;
+	}
 
 	
 }

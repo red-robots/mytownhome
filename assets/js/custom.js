@@ -16,12 +16,14 @@ jQuery(document).ready(function ($) {
 	------------------------------------*/
 	$('.js-blocks').matchHeight();
 
+	$('.flexslider').imagesLoaded( function() {
+		$('.flexslider').flexslider({
+			animation: "fade",
+			slideshowSpeed: 5000,
+			smoothHeight: true,
+		}); // end register flexslider
+	});
 	
-	$('.flexslider').flexslider({
-		animation: "fade",
-		slideshowSpeed: 5000,
-		smoothHeight: true,
-	}); // end register flexslider
 
 	(function() {
  

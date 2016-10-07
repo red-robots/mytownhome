@@ -69,7 +69,7 @@ $the_query = new WP_Query( $querySlides );
 
                 <?php
                 $image = get_field('featured_photo');
-                $size = 'large';
+                $size = 'full';
                 if( !empty($image) ): ?>
                   <?php echo wp_get_attachment_image( $image, $size ); ?>
                 <?php endif; ?>

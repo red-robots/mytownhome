@@ -75,5 +75,10 @@
 
 </div><!-- main-wrapper-all -->
 <?php wp_footer(); ?>
+<script type="text/javascript">
+	jQuery(window).load(function ($) {
+	
+	});
+</script>
 </body>
 </html>

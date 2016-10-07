@@ -61,6 +61,35 @@ get_header(); ?>
     </ul>
   </div>
 
+   <div id="filter-by-categories-mobile">
+  <form id="category-select" class="category-select" action="<?php echo esc_url( home_url( '/' ) ); ?>" method="get">
+
+    <?php
+    $args = array(
+      'show_option_none' => __( 'Select Neighborhood' ),
+      'show_count'       => 1,
+      'orderby'          => 'name',
+      'taxonomy'           => 'neighborhood',
+      'name' => 'neighborhood',
+      'show_count' => false,
+      'echo'             => 0,
+      'value_field' => 'slug'
+    );
+    ?>
+
+    <?php $select  = wp_dropdown_categories( $args ); ?>
+    <?php $replace = "<select$1 onchange='return this.form.submit()'>"; ?>
+    <?php $select  = preg_replace( '#<select([^>]*)>#', $replace, $select ); ?>
+
+    <?php echo $select; ?>
+
+    <noscript>
+      <input type="submit" value="View" />
+    </noscript>
+
+  </form>
+ </div>
+
   <?php
 
   /* Start the Loop 

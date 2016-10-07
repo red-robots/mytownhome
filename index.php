@@ -231,7 +231,7 @@ $the_query = new WP_Query( $querySlides );
         $the_query = new WP_Query( $querySlides );
         // The Loop
        if ( $the_query->have_posts()) : ?>
-        <div class="flexslider2">
+        <div class="flexslider2 carousel">
           <ul class="slides">
             <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
               <li> 

@@ -16,20 +16,48 @@ jQuery(document).ready(function ($) {
 	------------------------------------*/
 	$('.js-blocks').matchHeight();
 
-	// front page slider 
+	
 	$('.flexslider').flexslider({
 		animation: "fade",
 		slideshowSpeed: 5000,
+		smoothHeight: true,
 	}); // end register flexslider
 
-	$('.flexslider2').flexslider({
-		animation: "slide",
-		animationLoop: true,
-		itemWidth: 275,
-		itemMargin: 0,
-		minItems: 2,
-		maxItems: 2
-	});
+	(function() {
+ 
+	  // store the slider in a local variable
+	  var $window = $(window),
+	      flexslider = { vars:{} };
+	 
+	  // tiny helper function to add breakpoints
+	  function getGridSize() {
+	    return (window.innerWidth < 600) ? 1 :
+	           (window.innerWidth < 900) ? 2 : 2;
+	  }
+	 
+	  // $(function() {
+	  //   SyntaxHighlighter.all();
+	  // });
+	 
+	  $window.load(function() {
+	    $('.flexslider2').flexslider({
+	      animation: "slide",
+	      animationLoop: true,
+	      itemWidth: 350,
+	      itemMargin: 15,
+	      minItems: getGridSize(), // use function to pull in initial value
+	      maxItems: getGridSize() // use function to pull in initial value
+	    });
+	  });
+	 
+	  // check grid size on resize event
+	  $window.resize(function() {
+	    var gridSize = getGridSize();
+	 
+	    flexslider.vars.minItems = gridSize;
+	    flexslider.vars.maxItems = gridSize;
+	  });
+	}());
 
 	$('.flexslider3').flexslider({
 		animation: "slide",
@@ -50,6 +78,8 @@ jQuery(document).ready(function ($) {
 	$(".group1").colorbox({rel:'group1'});
 	
 	$(".inline").colorbox({inline:true, width:"50%"});
+
+
 
 	// Google map
 (function($) {
@@ -224,3 +254,7 @@ $(document).ready(function(){
 
 
 });// END #####################################    END
+
+(function($) {
+  // your function
+})(jQuery);

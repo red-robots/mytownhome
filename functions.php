@@ -7,19 +7,21 @@
 		wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js', false, '1.7.2', true);
 		wp_enqueue_script('jquery');
 		
+		
+		
+		// Lightbox/Colorbox scripts...
+		wp_register_script(
+			'vendors',
+			get_bloginfo('template_directory') . '/assets/js/vendors.js',
+			array('jquery'),'1.0', false  );
+		wp_enqueue_script('vendors');
+
 		// Custom Theme scripts...
 		wp_register_script(
 			'custom',
 			get_bloginfo('template_directory') . '/assets/js/custom.js',
 			array('jquery'),'1.0', true  );
 		wp_enqueue_script('custom');
-		
-		// Lightbox/Colorbox scripts...
-		wp_register_script(
-			'vendors',
-			get_bloginfo('template_directory') . '/assets/js/vendors.js',
-			array('jquery'),'1.0', true  );
-		wp_enqueue_script('vendors');
 		
 		// Homepage slider 'flexslider' scripts...
         // wp_register_script(
@@ -179,6 +181,7 @@ add_theme_support( 'post-thumbnails' );
 add_image_size( 'communities-gallery', 310, 205, true );
 // add_image_size( 'agent', 186, 217, true );
 // keep
+ add_image_size( 'home-hero-slider', 1024, 500, true );
  add_image_size( 'agent_feed', 350, 451, true );
  // add_image_size( 'agent_feed', 184, 237, true );
 add_image_size( 'single_agent', 290, 433, true );

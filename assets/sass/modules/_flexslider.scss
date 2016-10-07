@@ -66,6 +66,8 @@
 .flexslider {
   margin: 0;
   padding: 0;
+  line-height: 0;
+  overflow: hidden;
 }
 .flexslider .slides > li {
   display: none;
@@ -83,12 +85,24 @@
 .flexslider2 {
   margin: 0;
   padding: 0;
+  width: 90%;
+
+  @media screen and (min-width: $tabwidth) {
+    width: 70%;
+    margin: 0 auto;
+  }
+  @media screen and (min-width: $deskwidth) {
+    width: 100%;
+    float: right;
+    margin: 0 50px 0 0;
+  }
 }
 .flexslider2 .slides > li {
   display: none;
   -webkit-backface-visibility: hidden;
   background: none;
   padding-left: 0px;
+  // width: 350px;
 } /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider2 .slides img {
   width: auto;
@@ -140,7 +154,7 @@ html[xmlns] .slides {
   zoom: 1;
 }
 .carousel li {
-  margin-right: 5px;
+  margin-right: 15px;
 }
 .flex-direction-nav {
  *height: 0;

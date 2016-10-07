@@ -20,7 +20,7 @@
 		wp_register_script(
 			'custom',
 			get_bloginfo('template_directory') . '/assets/js/custom.js',
-			array('jquery'),'1.0', true  );
+			array('jquery'),'1.0', false  );
 		wp_enqueue_script('custom');
 		
 		// Homepage slider 'flexslider' scripts...

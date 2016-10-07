@@ -13,14 +13,14 @@
 		wp_register_script(
 			'vendors',
 			get_bloginfo('template_directory') . '/assets/js/vendors.js',
-			array('jquery'),'1.0', false  );
+			array('jquery'),'1.0', true  );
 		wp_enqueue_script('vendors');
 
 		// Custom Theme scripts...
 		wp_register_script(
 			'custom',
 			get_bloginfo('template_directory') . '/assets/js/custom.js',
-			array('jquery'),'1.0', false  );
+			array('jquery'),'1.0', true  );
 		wp_enqueue_script('custom');
 		
 		// Homepage slider 'flexslider' scripts...

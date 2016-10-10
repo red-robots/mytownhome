@@ -382,3 +382,5 @@ function yoasttobottom() {
   return 'low';
 }
 add_filter( 'wpseo_metabox_prio', 'yoasttobottom');
+
+remove_action('wp_print_styles', 'cc_tabby_css', 30);

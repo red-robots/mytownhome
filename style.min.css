@@ -1435,7 +1435,7 @@ html[xmlns] .slides{display:block}
 .responsive-tabs .responsive-tabs__panel{background:#fff;border:1px solid #ccc;border-radius:0;border-top:0;margin:0;padding:0 20px;padding-top:20px}
 }.widget{margin:0 0 1.5em}
 .widget select{max-width:100%}
-div{-ms-hyphens:none;-moz-hyphens:none;-webkit-hyphens:none;hyphens:none}
+div{-ms-hyphens:none;-moz-hyphens:none;-webkit-hyphens:none;hyphens:none;word-break:normal}
 .clear{clear:both}
 body{background-color:#fff;margin:0;font-family:'Fira Sans',sans-serif;font-size:16px;color:#000;font-weight:300;position:relative}
 #current-listings-frame{width:100%;margin:0 auto}
@@ -1853,22 +1853,23 @@ input.qs-sub:hover{background-color:rgba(51,78,165,0.7)}
 }@media screen and (min-width:1200px){#agents-page-box h3{font-size:23px}
 }#agents-page-box img{float:right;margin-left:20px}
 #agents-page-box a{width:100%;background-color:#0198cf;padding:30px;display:block;text-decoration:none;color:#fff}
-.page-content{float:left;width:100%;margin-top:45px;padding:20px}
-@media screen and (min-width:1200px){.page-content{padding:0}
+.page-content{float:left;width:100%;margin-top:5px;padding:20px}
+@media screen and (min-width:1200px){.page-content{padding:0;margin-top:45px}
 }#communities-heading-photo{width:100%;overflow:hidden;position:relative}
-@media screen and (min-width:1200px){#communities-heading-photo{height:400px}
-}#communities-heading-photo img{width:100%;height:auto;margin-top:-100px}
-#communities-title-box{width:100%;padding:15px;background-image:url(images/bg-communities-box-header.png)}
-@media screen and (min-width:1200px){#communities-title-box{width:350px;position:absolute;bottom:25px;right:50px}
+#communities-heading-photo img{width:100%;height:auto}
+@media screen and (min-width:1200px){#communities-heading-photo img{margin-top:-100px}
+}#communities-title-box{width:100%;padding:15px;background-image:url(images/bg-communities-box-header.png)}
+@media screen and (min-width:900px){#communities-title-box{width:350px;position:absolute;bottom:25px;right:50px}
 }#communities-title-box #page-heading h1{color:#fff;margin-top:0;display:inline-block;margin-bottom:30px;line-height:37px}
 .price-range{width:100%;float:left;padding-top:0;font-size:12px;color:#ddd}
 .price-range a:link{color:#ddd}
 .price-range a:visited{color:#ddd}
 .price-range a:hover{color:#ddd}
-#communities-heading-link{width:auto;font-size:25px;text-transform:uppercase}
-@media screen and (min-width:1200px){#communities-heading-link{position:absolute;bottom:25px;left:50px}
-}#communities-heading-link a{width:100%;display:block;background-color:#3753a1;padding:14px 22px;text-align:center;border-radius:7px;display:block;color:#fff;text-decoration:none}
-#communities-heading-link a:hover{color:#fff;text-decoration:none;background-color:#239bcb}
+#communities-heading-link{width:auto;margin:10px auto;font-size:25px;text-transform:uppercase}
+@media screen and (min-width:900px){#communities-heading-link{position:absolute;bottom:25px;left:50px;margin:0}
+}#communities-heading-link a{width:100%;display:block;background-color:#3753a1;padding:14px 22px;text-align:center;border-radius:0;display:block;color:#fff;text-decoration:none}
+@media screen and (min-width:900px){#communities-heading-link a{border-radius:7px}
+}#communities-heading-link a:hover{color:#fff;text-decoration:none;background-color:#239bcb}
 section.community{width:100%;position:relative;overflow:hidden;clear:both}
 section.communities{width:100%;position:relative;overflow:hidden;clear:both}
 .community-box{width:100%;float:left;margin:0 0 15px 0;position:relative;z-index:10;overflow:hidden;line-height:0}
@@ -1968,9 +1969,10 @@ hr{color:#000;background-color:#000;border:0;height:1px}
 .about-office-contact a{font-size:15px;padding:14px 15px 10px 15px;display:block;color:#fff;background-color:#3551a3}
 .agent-profile-box{width:46%;margin:0 4% 30px 0;position:relative;float:left;z-index:50}
 @media screen and (min-width:600px){.agent-profile-box{width:28%;margin:2%;float:left}
-}@media screen and (min-width:1200px){.agent-profile-box{width:14%;margin:0 2.2% 20px 0}
+}@media screen and (min-width:1200px){.agent-profile-box{width:18%;margin:0 2% 20px 0}
 }.agent-profile-box a{color:#fff;text-decoration:none}
 .agent-profile-box img{width:100%;-webkit-filter:gray;filter:gray;filter:grayscale(1);-webkit-filter:grayscale(1)}
+.agent-profile-box h2,.agent-profile-box h3{word-break:normal}
 .agent-profile-box .link a{width:100%;height:100%;position:absolute;top:0;left:0;z-index:52}
 .agent-profile-box:hover img{filter:none;-webkit-filter:grayscale(0)}
 .agent-profile-box-content{width:100%;position:absolute;bottom:0;left:0;background-color:#239ccb;z-index:999999;font-size:12px;word-break:break-all;padding:10px;z-index:50}

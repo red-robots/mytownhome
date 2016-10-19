@@ -1826,8 +1826,11 @@ input.qs-sub:hover{background-color:rgba(51,78,165,0.7)}
 .home-agents h2 a:visited{color:#fff;text-decoration:none}
 .home-agents h2 a:hover{color:#3753a1;text-decoration:none}
 #home-agents .agent-profile-box-content h2{margin:0}
-#agents-box{width:100%;float:right;background-color:#239bcb;color:#fff;font-size:14px;font-weight:normal;padding:20px}
-@media screen and (min-width:600px){#agents-box{width:33%}
+@media screen and (min-width:600px){.mobile-agent{display:none}
+}.desktop-agent{display:none}
+@media screen and (min-width:600px){.desktop-agent{display:block}
+}#agents-box{width:90%;clear:both;background-color:#239bcb;color:#fff;font-size:14px;font-weight:normal;padding:20px 20px 50px 20px;margin:10px auto}
+@media screen and (min-width:600px){#agents-box{width:33%;float:right;clear:none;margin:0;padding:20px}
 }#agents-box img{float:right;padding-right:5px;padding-top:10px}
 #agents-box h2{font-size:24px;color:#fff;text-align:left;margin-bottom:25px}
 #view-all-agents{width:100%;float:left;padding-top:50px}

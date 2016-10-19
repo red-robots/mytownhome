@@ -1153,18 +1153,35 @@ input.qs-sub {
 	}
 
 }
+.mobile-agent {
+
+	@media screen and (min-width: $tabwidth) {
+		display: none;
+	}
+}
+.desktop-agent {
+	display: none;
+	@media screen and (min-width: $tabwidth) {
+		display: block;
+	}
+}
 #agents-box {
-	width: 100%;
+	width: 90%;
 	// height: 279px;
-	float: right;
+	clear: both;
 	background-color: #239BCB;
 	color: #ffffff;
 	font-size: 14px;
 	font-weight: normal;
-	padding: 20px;
+	padding: 20px 20px 50px 20px;
+	margin: 10px auto;
 	@media screen and (min-width: $tabwidth) {
 		// width: 186px;
 		width: 33%;
+		float: right;
+		clear: none;
+		margin: 0;
+		padding: 20px;
 	}
 }
 #agents-box img {

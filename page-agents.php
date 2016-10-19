@@ -90,9 +90,9 @@
                     </h2>
                     <div><?php echo $myField; ?></div>
                 </div><!-- agent-profile-box-content -->
-                <div class="agent-email">
+                <!--<div class="agent-email">
                     <a href="mailto:<?php echo $antispam; ?>"><?php echo $antispam; ?></a>
-                </div><!--agent-email-->
+                </div>agent-email -->
             <div class="link"><a href="<?php echo $link; ?>"></a></div>
         </div><!--  agent-profile-box -->
 

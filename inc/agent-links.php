@@ -151,6 +151,7 @@ $chippingcampden = get_field('chipping_campden', 'user_'.$author_id);
 $boxwood = get_field('boxwood', 'user_'.$author_id);
 $burningtree = get_field('burning_tree', 'user_'.$author_id);
 $grandinheights = get_field('grandin_heights', 'user_'.$author_id);
+$dilworth_walk = get_field('dilworth_walk', 'user_'.$author_id);
 
 
 
@@ -233,7 +234,8 @@ if( $favComm != '' ) :
 	if(in_array('Chipping Campden', $favComm)) {$commLinks['Chipping Campden'] = $chippingcampden;}	
 	if(in_array('Boxwood', $favComm)) {$commLinks['Boxwood'] = $boxwood;}		
 	if(in_array('Burning Tree', $favComm)) {$commLinks['Burning Tree'] = $burningtree;}	
-	if(in_array('Grandin Heights', $favComm)) {$commLinks['Grandin Heights'] = $grandinheights;}				
+	if(in_array('Grandin Heights', $favComm)) {$commLinks['Grandin Heights'] = $grandinheights;}
+	if(in_array('Dilworth Walk', $favComm)) {$commLinks['Dilworth Walk'] = $dilworth_walk;}				
 endif;
 
 /*####################################

@@ -82,7 +82,7 @@ else { document.getElementById(d).style.display = "none"; }
 }
 // --> 
 </script>
-
+<!-- new captcha -->
 <script src="https://www.google.com/recaptcha/api.js?onload=myCallBack&render=explicit" async defer></script>
 <script>
       var recaptcha1;

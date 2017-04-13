@@ -90,13 +90,13 @@ else { document.getElementById(d).style.display = "none"; }
       var myCallBack = function() {
         //Render the recaptcha1 on the element with ID "recaptcha1"
         recaptcha1 = grecaptcha.render('recaptcha1', {
-          'sitekey' : '6Lc_0f4SAAAAAF9ZA', //Replace this with your Site key
+          'sitekey' : '6LcD9BwUAAAAANiqrUTMgjkM1hrY_Dd_FTv9JOLR', //Replace this with your Site key
           'theme' : 'light'
         });
         
         //Render the recaptcha2 on the element with ID "recaptcha2"
         recaptcha2 = grecaptcha.render('recaptcha2', {
-          'sitekey' : '6Lc_0f4SAAAAAF9ZA', //Replace this with your Site key
+          'sitekey' : '6LcD9BwUAAAAANiqrUTMgjkM1hrY_Dd_FTv9JOLR', //Replace this with your Site key
           'theme' : 'dark'
         });
       };

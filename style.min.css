@@ -1439,6 +1439,7 @@ div{-ms-hyphens:none;-moz-hyphens:none;-webkit-hyphens:none;hyphens:none;word-br
 .clear{clear:both}
 body{background-color:#fff;margin:0;font-family:'Fira Sans',sans-serif;font-size:16px;color:#000;font-weight:300;position:relative}
 #current-listings-frame{width:100%;margin:0 auto}
+.g-recaptcha{width:100%;float:left}
 .row{margin-right:auto;margin-left:auto}
 #page-right-column .infusion-field-input-container{border-radius:0x;width:70%}
 .infusion-field-input-container{border-radius:0;width:85%}

@@ -83,7 +83,7 @@ else { document.getElementById(d).style.display = "none"; }
 // --> 
 </script>
 
- 
+ <script src='https://www.google.com/recaptcha/api.js'></script>
 
 
 <?php the_field('google_analytics', 'option'); ?>

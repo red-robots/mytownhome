@@ -27,7 +27,10 @@ body {
 		// width: 980px;
 	}
 }
-
+.g-recaptcha {
+	width: 100%;
+	float: left;
+}
 .class {
 
 	@media screen and (min-width: $tabwidth) {

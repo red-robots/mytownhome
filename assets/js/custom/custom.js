@@ -13,14 +13,14 @@ jQuery(document).ready(function ($) {
      document.getElementById("button1").disabled = true;
       document.getElementById("button2").disabled = true;
 
-      function enableBtn1(){
+      function enableBtno(){
         document.getElementById("button1").disabled = false;
        }
-       function enableBtn2(){
+       function enableBtnt(){
         document.getElementById("button2").disabled = false;
        }
 
-       
+
     /*
 	*
 	*	Equal Heights Divs

@@ -9,6 +9,18 @@ jQuery(document).ready(function ($) {
     $(".div2").delay( 3500 ).fadeIn(2400);
     $("#div3").delay( 4800 ).fadeIn(3000);
 
+
+     document.getElementById("button1").disabled = true;
+      document.getElementById("button2").disabled = true;
+
+      function enableBtn1(){
+        document.getElementById("button1").disabled = false;
+       }
+       function enableBtn2(){
+        document.getElementById("button2").disabled = false;
+       }
+
+       
     /*
 	*
 	*	Equal Heights Divs

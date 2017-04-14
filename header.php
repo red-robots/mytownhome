@@ -86,8 +86,7 @@ else { document.getElementById(d).style.display = "none"; }
 <script src="https://www.google.com/recaptcha/api.js?onload=myCallBack&render=explicit" async defer></script>
 <script>
 
-    document.getElementById("button1").disabled = true;
-      document.getElementById("button2").disabled = true;
+    
 
       function enableBtno(){
         document.getElementById("button1").disabled = false;

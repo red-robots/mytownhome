@@ -13,13 +13,7 @@ jQuery(document).ready(function ($) {
      document.getElementById("button1").disabled = true;
       document.getElementById("button2").disabled = true;
 
-      function enableBtno(){
-        document.getElementById("button1").disabled = false;
-       }
-       function enableBtnt(){
-        document.getElementById("button2").disabled = false;
-        console.log('wha');
-       }
+      
 
 
     /*

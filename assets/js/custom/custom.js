@@ -18,6 +18,7 @@ jQuery(document).ready(function ($) {
        }
        function enableBtnt(){
         document.getElementById("button2").disabled = false;
+        console.log('wha');
        }
 
 

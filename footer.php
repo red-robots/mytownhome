@@ -75,6 +75,7 @@
 
 </div><!-- main-wrapper-all -->
 <?php wp_footer(); ?>
+<script src="https://www.google.com/recaptcha/api.js?onload=myCallBack&render=explicit" async defer></script>
 <script type="text/javascript">
 	jQuery(window).load(function ($) {
 	

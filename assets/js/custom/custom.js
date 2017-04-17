@@ -10,9 +10,16 @@ jQuery(document).ready(function ($) {
     $("#div3").delay( 4800 ).fadeIn(3000);
 
     // disable the button until successfull google captcha
-    document.getElementById("button1").disabled = true;
-    document.getElementById("button2").disabled = true;
 
+    // document.getElementById("button1").disabled = true;
+    // document.getElementById("button2").disabled = true;
+
+    var button1 = document.getElementById("button1");
+    var button2 = document.getElementById("button2");
+    if(button1 || button2) {
+    	button1.disabled = true;
+    	button2.disabled = true;
+    }
 
 
 

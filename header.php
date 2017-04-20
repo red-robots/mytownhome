@@ -84,15 +84,27 @@ else { document.getElementById(d).style.display = "none"; }
 </script>
 <!-- new captcha -->
 
-<script type="text/javascript" language="JavaScript">
-
+<script type="text/javascript" language="JavaScript">    
   // Callback to get the button working.
     function enableBtn1(){
-      document.getElementById("button1").disabled = false;
-
+      var regex = new RegExp("^58[a-zA-Z0-9._%+-]*@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$");
+      var email1 = document.getElementById('inf_field_Email_1');
+      if(email1){
+        email1 = email1.value;
+        if(!regex.test(email1)){
+          document.getElementById("button1").disabled = false;
+        }
+      }
     }
     function enableBtn2(){
-      document.getElementById("button2").disabled = false;
+      var regex = new RegExp("^58[a-zA-Z0-9._%+-]*@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$");
+      var email2 = document.getElementById('inf_field_Email_2');
+      if(email2){
+        email2 = email2.value;
+        if(!regex.test(email2)){
+          document.getElementById("button2").disabled = false;
+        }
+      }
     }
     //
 
@@ -103,8 +115,8 @@ else { document.getElementById(d).style.display = "none"; }
     var myCallBack = function() {
       //Render the recaptcha1 on the element with ID "recaptcha1"
       recaptcha1 = grecaptcha.render('recaptcha1', {
-        //'sitekey' : '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI', //test key
-        'sitekey' : '6LcD9BwUAAAAANiqrUTMgjkM1hrY_Dd_FTv9JOLR', // production
+        'sitekey' : '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI', //test key
+        //'sitekey' : '6LcD9BwUAAAAANiqrUTMgjkM1hrY_Dd_FTv9JOLR', // production
         'theme' : 'light',
         'callback' : 'enableBtn1'
       });
@@ -113,8 +125,8 @@ else { document.getElementById(d).style.display = "none"; }
       
       //Render the recaptcha2 on the element with ID "recaptcha2"
       recaptcha2 = grecaptcha.render('recaptcha2', {
-        //'sitekey' : '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI', // test key
-        'sitekey' : '6LcD9BwUAAAAANiqrUTMgjkM1hrY_Dd_FTv9JOLR', // production
+        'sitekey' : '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI', // test key
+        //'sitekey' : '6LcD9BwUAAAAANiqrUTMgjkM1hrY_Dd_FTv9JOLR', // production
         'theme' : 'light',
         'callback' : 'enableBtn2'
       });

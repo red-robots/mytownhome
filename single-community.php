@@ -188,7 +188,7 @@ get_header(); ?>
       </div><!--- / features row -->
 
 
-      <div id="communities-gallery">
+      <div id="communities-gallery" class="no-mobile">
        <?php 
       $images = get_field('gallery');
       if( $images ): ?>
@@ -211,6 +211,42 @@ get_header(); ?>
                      <!--  <p><?php echo $image['caption']; ?></p> -->
                   </div><!-- community-gallery-photo -->
               <?php endforeach; ?>
+      <?php endif; ?>
+      </div><!-- communities-gallery -->
+
+
+<!-- 
+
+####################   Only show on mobile 
+
+
+ -->
+      <div class="slider-mobile">
+       <?php 
+      $images = get_field('gallery');
+      if( $images ): ?>
+      <h2>Photo Gallery</h2>
+
+      <div class="flexslider4">
+        <ul class="slides">
+      
+              <?php 
+              $i=0;
+              foreach( $images as $image ): $i++; 
+
+              if( $i == 3 ) {
+                $photoClass = 'last';
+                $i = 0;
+              } else {
+                $photoClass = 'first';
+              }
+              ?>
+                 <li class="img-slide">
+                        <img src="<?php echo $image['sizes']['large']; ?>" alt="<?php echo $image['alt']; ?>" />
+                 </li>
+              <?php endforeach; ?>
+              </ul>
+          </div>
       <?php endif; ?>
       </div><!-- communities-gallery -->
 

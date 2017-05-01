@@ -49,29 +49,29 @@
 	// min-height: 613px!important;
 	height: auto!important;
 }
-.communities-short-description-wrapper {
-	width: 100%;
-	height: 100%;
+// .communities-short-description-wrapper {
+// 	width: 100%;
+// 	height: 100%;
 	
-	left: 0px;
-	bottom: 0px;
-	z-index: 99999;
+// 	left: 0px;
+// 	bottom: 0px;
+// 	z-index: 99999;
 
-}
-.communities-short-description-content {
-	width: 100%;
-	height: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	position: relative;
-	@media screen and (min-width: $tabwidth) {
+// }
+// .communities-short-description-content {
+// 	width: 100%;
+// 	height: 100%;
+// 	margin-left: auto;
+// 	margin-right: auto;
+// 	position: relative;
+// 	@media screen and (min-width: $tabwidth) {
 
-	}
+// 	}
 
-	@media screen and (min-width: $deskwidth) {
-		width: 1100px;
-	}
-}
+// 	@media screen and (min-width: $deskwidth) {
+// 		width: 1100px;
+// 	}
+// }
 .communities-short-description {
 	
 	// height: 168px;
@@ -87,10 +87,11 @@
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	@media screen and (min-width: $navbreakwidth) {
-		width: 272px;
+		// width: 272px;
+		width: 30%;
 		position: absolute;
 		top: 144px;
-		right: 5px;
+		right: 5%;
 		float: none;
 	}
 }
@@ -222,12 +223,17 @@
 }
 .community-realtor {
 	// width: 250px;
-	width: 100%;
-	float: right;
+	width: 50%;
+	margin: 20px auto;
 	background-color: #DDDDDD;
 	-moz-border-radius: 12px;
 	border-radius: 12px;
 	padding: 15px 0;
+	@media screen and (min-width: $tabwidth) {
+		width: 100%;
+		float: right;
+		margin: 0;
+	}
 
 
 }
@@ -299,6 +305,24 @@
 	width: 100%;
 	float: left;
 	padding-top: 25px;
+
+	&.no-mobile {
+		display: none;
+		@media screen and (min-width: $tabwidth) {
+			display: block;
+		}
+	}
+}
+.slider-mobile {
+	width: 100%;
+	float: left;
+	position: relative;
+	@media screen and (min-width: $tabwidth) {
+		display: none;
+	}
+}
+li.img-slide {
+	img {width: 100%;}
 }
 .community-gallery-photo {
 	width: 100%;
@@ -447,11 +471,13 @@
 }
 #features-agents {
 	width: 100%;
-	float: right;
-	margin-left: 25px;
-	margin-top: 30px;
+	margin: 20px auto;
+	float: left;
 	@media screen and (min-width: $tabwidth) {
 		width: 30%;
+		float: right;
+		margin-left: 25px;
+		margin-top: 30px;
 	}
 
 	@media screen and (min-width: $deskwidth) {
@@ -695,18 +721,19 @@ input.qs-sub {
 #home-slider2 {
 	width: 100%;
 	float: left;
+	position: relative;
 }
 #home-slider2 .flex-next {
-	background-image: url(images/arrow-black.png);
-	background-repeat: no-repeat;
+	// background-image: url(images/arrow-black.png);
+	// background-repeat: no-repeat;
 }
 #home-slider2 .flex-direction-nav .flex-next {
 	// right: -15px;
-	right: -50px;
+	// right: -50px;
 }
 #home-slider2 .flex-direction-nav a {
-	margin: -130px 0 0;
-	height: 50px;
+	// margin: -130px 0 0;
+	// height: 50px;
 }
 #home-row2 {
 	width: 100%;

@@ -75,15 +75,14 @@ $the_query = new WP_Query( $querySlides );
                 <?php endif; ?>
 
               </div><!-- communities-photo -->
-              <div class="communities-short-description-wrapper">
-                <div class="communities-short-description-content">
+              
                   <div class="communities-short-description">
                     <h3><?php echo $myTerm; ?></h3>
                     <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                     <a href="<?php the_permalink(); ?>"><?php the_field("short_description"); ?></a>
                   </div><!-- communities-short-description -->
-                </div><!-- communities-short-description-content -->
-              </div><!-- communities-short-description-wrapper -->
+               
+               
             </li>
             <?php endwhile; ?>
          </ul><!-- slides -->

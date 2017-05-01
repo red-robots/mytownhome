@@ -35,6 +35,7 @@ jQuery(document).ready(function ($) {
 			animation: "fade",
 			slideshowSpeed: 5000,
 			smoothHeight: true,
+			controlNav: false
 		}); // end register flexslider
 	});
 	
@@ -61,6 +62,9 @@ jQuery(document).ready(function ($) {
 	      animationLoop: true,
 	      itemWidth: 350,
 	      itemMargin: 15,
+	      controlNav: false,
+	      // directionNav: false,
+	      customDirectionNav: ".caro-nav",
 	      minItems: getGridSize(), // use function to pull in initial value
 	      maxItems: getGridSize() // use function to pull in initial value
 	    });
@@ -75,6 +79,11 @@ jQuery(document).ready(function ($) {
 	  });
 	}());
 
+	$('.flex-norm').flexslider({
+		animation: "slide",
+		slideshowSpeed: 6000,
+	}); 
+
 	$('.flexslider3').flexslider({
 		animation: "slide",
 		slideshowSpeed: 6000,
@@ -83,6 +92,7 @@ jQuery(document).ready(function ($) {
 		$('.flexslider4').flexslider({
 		animation: "fade",
 		slideshowSpeed: 5000,
+		smoothHeight: true
 	}); 
 
 	// Colorbox. 

@@ -280,13 +280,29 @@ function get_excerpt($count){
 
 
 
-//
-// Custom login function 
-//
-function custom_login_logo() {
-        echo '<style type="text/css">h1 a { background: url('.get_bloginfo('template_directory').'/images/login-logo.png) no-repeat !important; width: 340px!important; height: 140px!important; }</style>';
-}
-add_action('login_head', 'custom_login_logo'); 
+/*-------------------------------------
+	Custom client login, link and title.
+---------------------------------------*/
+function my_login_logo() { ?>
+<style type="text/css">
+  body.login div#login h1 a {
+  	background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/my-townhome-logo.png);
+  	background-size: 362px 103px;
+  	width: 362px;
+  	height: 103px;
+  }
+  body.login, body.login form {
+    background-color: #000;
+  }
+  .wp-core-ui .button-primary {
+    background-color: #CC3127 !important;
+    border: 1px solid #CC3127 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+</style>
+<?php }
+add_action( 'login_enqueue_scripts', 'my_login_logo' );
 
 function my_login_logo_url() {
     return get_bloginfo( 'url' );

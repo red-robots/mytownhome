@@ -788,6 +788,12 @@ input {
 	@media screen and (min-width: $deskwidth) {
 		// height: 613px;
 	}
+	.flex-direction-nav {
+		display: none;
+		@media screen and (min-width: $tabwidth) {
+			display: block;
+		}
+	}
 }
 #mortgage-calc {
 	padding: 0%;

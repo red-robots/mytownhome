@@ -118,9 +118,16 @@
 	display: inline-block;
 }
 .communities-short-description h2 {
-	font-size: 43px;
+	font-size: 30px;
 	margin-bottom: 20px;
-	line-height: 37px;
+	line-height: 1.1;
+	@media screen and (min-width: $tabwidth) {
+		font-size: 20px;
+	}
+
+	@media screen and (min-width: $deskwidth) {
+		font-size: 43px;
+	}
 }
 .communities-short-description h2 a:link {
 	color: #000000;
@@ -1318,7 +1325,7 @@ input.qs-sub {
 	margin: 20px auto;
 	@media screen and (min-width: $tabwidth) {
 		width: 33%;
-		margin: 0;
+		margin: 0 0 20px 0;
 	}
 
 	@media screen and (min-width: $deskwidth) {
@@ -1349,11 +1356,11 @@ input.qs-sub {
 		color: #ffffff; 
 
 		@media screen and (min-width: $tabwidth) {
-
+			padding: 10px;
 		}
 
 		@media screen and (min-width: $deskwidth) {
-			// width: 293px;
+			padding: 30px;
 		}
 	}
 }

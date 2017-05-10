@@ -1,6 +1,5 @@
 <?php 
 /**
-* Template Name: Our Agents
 */
  get_header(); ?>
 
@@ -43,46 +42,9 @@
         
     <div id="agent-boxes">
         <?php
-        $response = wp_remote_get( 'http://localhost/bellaworks/myhomenc/wp-json/wp/v2/users?per_page=100' );
-        if( is_array($response) ) {
-            $code = wp_remote_retrieve_response_code( $response );
-            if(!empty($code) && intval(substr($code,0,1))===2){ 
-                $body = json_decode(wp_remote_retrieve_body( $response),true);
-                //print_r($body);
-                // loop trough each author
-                foreach ($body as $author) {
-                    // get all the user's data
-                        $link = $author['link'];
-                        $agentName = $author['name'];
-                        $email = null;
-                        $antispam = null;
-                        $thumb = null;
-                        if(isset($author['acf'])):
-                            // email 
-                            $email = $author['acf']['email'];
-                            $antispam = antispambot($email);
-                            if(isset($author['acf']['photo'])):
-                                $thumb = $author['acf']['photo']['sizes'][ 'agent_feed' ];
-                            endif;
-                        endif;
-                    ?>
-
-                    <div class="agent-profile-box js-blocks">
-                        <?php if($thumb):?>
-                            <img src="<?php echo $thumb; ?>" />
-                        <?php endif;?>
-                        <div class="agent-profile-box-content">
-                            <h2>
-                                <?php echo $agentName; ?>
-                            </h2>
-                        </div><!-- agent-profile-box-content -->
-                        <div class="link"><a href="<?php echo $link; ?>"></a></div>
-                    </div><!--  agent-profile-box -->
-                <?php }
-            }
-        }
+         
         // WP_User_Query arguments
-        /*$args = array (
+        $args = array (
             'role' => 'Agent',
             'order' => 'ASC',
             'orderby' => 'display_name',
@@ -97,9 +59,46 @@
         // Check for results
         if (!empty($authors)) {
             
-        
+            // loop trough each author
+        foreach ($authors as $author) {
+        // get all the user's data
+            $author_info = get_userdata($author->ID);
+            $author_id = $author_info->ID;
+            $myField2 = get_field( 'custom_bio', 'user_'.$author_id );
+            $link = get_author_posts_url($author_id);
+            $agentName = get_field( 'first_name', 'user_'.$author_id );
+            $agentName2 = get_field( 'last_name', 'user_'.$author_id );
+            // email 
+            $email = get_field( 'email', 'user_'.$author_id );
+            $antispam = antispambot($email);
+            $image = get_field( 'photo', 'user_'.$author_id );
+            $size = 'agent_feed';
+            $thumb = $image['sizes'][ $size ];
+
+        ?>
+
+        <div class="agent-profile-box js-blocks">
+            
+            
+                <img src="<?php echo $thumb; ?>" />
+                <div class="agent-profile-box-content">
+                    <h2>
+                    <?php 
+                    if( $agentName ) echo $agentName . ' '; 
+                    if( $agentName2 ) echo $agentName2; ?>
+                    </h2>
+                    <div><?php echo $myField; ?></div>
+                </div><!-- agent-profile-box-content -->
+                <!--<div class="agent-email">
+                    <a href="mailto:<?php echo $antispam; ?>"><?php echo $antispam; ?></a>
+                </div>agent-email -->
+            <div class="link"><a href="<?php echo $link; ?>"></a></div>
+        </div><!--  agent-profile-box -->
+
+        <?php 
+            }
           
-        } */
+        } 
         ?>
     </div><!-- agent-boxes  -->
 

@@ -130,7 +130,7 @@ get_header(); ?>
             $userID = $myTemp['ID'];
             $myUser = get_userdata($userID);
             $displayName = $myUser->display_name;
-           $phone = get_field( 'office_phone', 'user_'.$userID );
+            $phone = get_field( 'office_phone', 'user_'.$userID );
                 // email if you add the custom field to the profile
                 // see above if you want it to be the email tied to the login   
             $email = get_field( 'email', 'user_'.$userID );   
@@ -170,7 +170,7 @@ get_header(); ?>
             //echo '</a>';
            // echo '</h2>';
            echo '<h2>';
-            echo $phone;
+            echo '<a href="callto://'.$phone.'" class="analytics action:phone label:'.$phone.' cat:header">'.$phone."</a>";
             echo '</h2>';
             // If we've counted to 1, get out of the loop
 

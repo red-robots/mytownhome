@@ -16,8 +16,10 @@ jQuery(document).ready(function ($) {
 
     var button1 = document.getElementById("button1");
     var button2 = document.getElementById("button2");
-    if(button1 || button2) {
+    if(button1) {
     	button1.disabled = true;
+    }
+    if(button2) {
     	button2.disabled = true;
     }
 

@@ -74,6 +74,7 @@ jQuery(document).ready(function ($) {
 	*
 	------------------------------------*/
 	$('.js-blocks').matchHeight();
+	$('.js-titles').matchHeight();
 
 	$('.flexslider').imagesLoaded( function() {
 		$('.flexslider').flexslider({

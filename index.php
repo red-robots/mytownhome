@@ -338,7 +338,7 @@ $the_query = new WP_Query( $querySlides );
       <?php
       $args = array (
       'role' => 'Agent',
-      'number' => 4,
+      'number' => 3,
       'orderby' => 'rand',
       );
       $wp_user_query = new WP_User_Query($args);
@@ -358,7 +358,7 @@ $the_query = new WP_Query( $querySlides );
         <div class="agent-photo">
           <a href="<?php echo $link; ?>"><img src="<?php echo $thumb; ?>" /></a>
         </div><!-- agent-photo -->
-        <div class="agent-profile-box-content">
+        <div class="agent-profile-box-content-home js-titles">
           <h2>
             <a href="<?php echo $link; ?>">
               <?php echo $agentName; ?> <?php echo $agentName2; ?>
@@ -366,10 +366,14 @@ $the_query = new WP_Query( $querySlides );
           </h2>
         </div><!-- agent-profile-box-content -->
       </div><!-- agent-profile-box -->
-      <?php }
-      } 
-
-      ?>
+      <?php } ?>
+      <div class="view-all-agents-link js-blocks">
+      <span class="text">View All Agents</span>
+        <a href="<?php bloginfo('url'); ?>/my-townhome-agents">
+            View All Agents
+        </a>
+      </div>
+     <?php } ?>
     </div><!-- home-agents -->
 
     <div id="agents-page-box">

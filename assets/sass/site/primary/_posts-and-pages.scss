@@ -1084,8 +1084,31 @@ input.qs-sub {
 		// width: 915px;
 		width: 60%;
 	}
-	.agent-profile-box {
-		    width: 46%;
+	.view-all-agents-link {
+		background-color: #239BCB;
+		color: #fff;
+		text-decoration: none;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		font-size: 20px;
+		a {
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			text-indent: -90000px;
+		}
+		.text {
+			line-height: 1.2;
+			padding: 5%;
+		}
+	}
+	.agent-profile-box, .view-all-agents-link {
+		width: 46%;
     	margin: 0 2% 15px 2%;
 		position: relative;
 		
@@ -1105,7 +1128,8 @@ input.qs-sub {
 		a {
 			color: #ffffff;
 			text-decoration: none;
-			
+			display: block;
+			line-height: 0;
 		}
 		img {
 			width: 100%;
@@ -1148,6 +1172,35 @@ input.qs-sub {
 			@media screen and (min-width: $deskwidth) {
 				font-size: 15px;
 			}
+		}
+		.agent-profile-box-content-home {
+			width: 100%;
+			// position: absolute;
+			// bottom: 0px;
+			// left: 0px;
+			float: left;
+			background-color: #239CCB;
+			z-index: 999999;
+			font-size: 12px;
+			word-break: break-all;
+			padding: 10px;
+			z-index: 50;
+			h2 {
+				font-size: 15px;
+				color: #fff;
+				margin: 10px 0 10px 0;
+				line-height: 1.1;
+				@media screen and (min-width: $tabwidth) {
+					font-size: 13px;
+				}
+				@media screen and (min-width: $deskwidth) {
+					font-size: 15px;
+				}
+				a {
+					line-height: 1.1;
+				}
+			}
+
 		}
 	} // Agent profile box 
 }

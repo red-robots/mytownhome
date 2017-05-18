@@ -44,13 +44,13 @@
     <div id="agent-boxes">
         <?php
         $response = wp_remote_get( 'http://myhomenorthcarolina.com/wp-json/wp/v2/users?per_page=100' );
-        if( is_array($response) ) {
+        if( is_array($response) ) :
             $code = wp_remote_retrieve_response_code( $response );
-            if(!empty($code) && intval(substr($code,0,1))===2){ 
+            if(!empty($code) && intval(substr($code,0,1))===2): 
                 $body = json_decode(wp_remote_retrieve_body( $response),true);
                 //print_r($body);
                 // loop trough each author
-                foreach ($body as $author) {
+                foreach ($body as $author) :
                     // get all the user's data
                         $link = $author['link'];
                         $agentName = $author['name'];
@@ -80,9 +80,9 @@
                                 <div class="link"><a href="<?php echo $link; ?>" target="_blank"></a></div>
                             </div><!--  agent-profile-box -->
                         <?php endif; 
-                }
-            }
-        }
+                endforeach;
+            endif;
+        endif;
         // WP_User_Query arguments
         /*$args = array (
             'role' => 'Agent',

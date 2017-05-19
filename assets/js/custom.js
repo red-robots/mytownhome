@@ -109,7 +109,7 @@ jQuery(document).ready(function ($) {
 					maxHeight: ""
 				});
 				$active_tab.off('click',uncrop);
-				$active_tab.remove($overlay);	
+				$overlay.remove();	
 			}
 			$active_tab.click(uncrop);
 		}

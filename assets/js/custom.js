@@ -94,7 +94,26 @@ jQuery(document).ready(function ($) {
 			});
 		}
     });
-
+	$(window).load(function(){	
+		if(window.innerWidth<=900){
+			var $active_tab = $('.responsive-tabs .responsive-tabs__panel--active .tab-content');
+			var $overlay = $('<div class="overlay">Click here to read more!</div>');
+			$active_tab.append($overlay);
+			$active_tab.css({
+				overflow:"hidden",
+				maxHeight: "200px"
+			});
+			function uncrop(){
+				$active_tab.css({
+					overflow: "",
+					maxHeight: ""
+				});
+				$active_tab.off('click',uncrop);
+				$active_tab.remove($overlay);	
+			}
+			$active_tab.click(uncrop);
+		}
+	});
     // disable the button until successfull google captcha
 
     // document.getElementById("button1").disabled = true;

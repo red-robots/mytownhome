@@ -1446,7 +1446,8 @@ body{background-color:#fff;margin:0;font-family:'Fira Sans',sans-serif;font-size
 .nav-tabs{padding:0 20px}
 .nav-tabs li{width:100%}
 @media screen and (min-width:600px){.nav-tabs li{width:auto}
-}.tab-content{padding:20px;float:left;margin:0 0 30px 0;width:100%}
+}.tab-content{padding:20px;float:left;margin:0 0 30px 0;width:100%;position:relative}
+.tab-content .overlay{cursor:pointer;padding:20px 20px 0 20px;text-align:center;bottom:0;position:absolute;width:100%;left:0;background:white;background:-webkit-linear-gradient(rgba(255,255,255,0.7),white);background:linear-gradient(rgba(255,255,255,0.7),white)}
 #idxmap_canvas{height:380px !important;margin-top:18px !important}
 .idxprop{width:100%;float:left;margin-bottom:15px !important;font-size:14px !important}
 @media screen and (min-width:600px){.idxprop{width:30%;margin-right:3% !important}

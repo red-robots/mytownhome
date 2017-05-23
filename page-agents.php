@@ -19,7 +19,7 @@
                         <?php the_content(); ?>
                         <div id="agent-search">SEARCH BY NAME
                         <!-- --> 
-                            <form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
+                            <form method="get" id="searchform" action="https://myhomenorthcarolina.com/" target="_blank">
                             <div>
                                 <input name="s" type="text" id="agent-search1" placeholder="enter name here" value="<?php echo wp_specialchars($s, 1); ?>" size="18" />
                                 <input type="hidden" name="search_type" value="agent" />

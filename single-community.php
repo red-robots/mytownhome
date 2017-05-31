@@ -110,77 +110,59 @@ get_header(); ?>
 
           <div id="community-realtors">
             <div class="community-realtor">
-            <?php
-
+            <?php $realtor_ids = get_field("realtor_ids");
+            $active_realtors = array();
+            if($realtor_ids):
+              $realtor_ids = explode(",",$realtor_ids);
+              $response = wp_remote_get( 'https://myhomenorthcarolina.com/wp-json/wp/v2/users?per_page=100' );
+              if( is_array($response) ) :
+                  $code = wp_remote_retrieve_response_code( $response );
+                  if(!empty($code) && intval(substr($code,0,1))===2): 
+                      $body = json_decode(wp_remote_retrieve_body( $response),true);
+                      foreach( $body as $realtor):
+                        if(in_array($realtor['id'],$realtor_ids)):
+                          $active_realtors[] = $realtor;
+                        endif;
+                      endforeach;
+                  endif;
+              endif;
+            endif;
             // start your counter
+            if(!empty($active_realtors)):
+              $max = count($active_realtors);
+              $index = random_int(0,$max-1);
+              $active_realtor = $active_realtors[$index];
+              // get the id
+              $displayName = $active_realtor['name'];
+              $link = $active_realtor['link'];
+              $phone = null;
+              $thumb = null;
+              if(isset($active_realtor['acf'])):
+                  if(isset($active_realtor['acf']['photo'])):
+                      $thumb = $active_realtor['acf']['photo']['sizes'][ 'agent_feed' ];
+                  endif;
+                  if(isset($active_realtor['acf']['office_phone'])):
+                    $phone = $active_realtor['acf']['office_phone'];
+                  endif;
+              endif;
+              echo '<div class="communities-agents-photo">';
+              if($thumb):
+                echo '<img src="';
+                echo $thumb;
+                echo '" />';
+              endif;
+              echo '</div>';
+              echo '<h2 class="community-realtor-name">';
+              echo $displayName;
+              echo '</h2>';
+              if($phone):
+                echo '<h2>';
+                echo '<a href="callto://'.$phone.'" class="analytics action:phone label:'.$phone.' cat:header">'.$phone."</a>";
+                echo '</h2>';
+              endif;
 
-            $i = 0;
-            //get your array
-            $myField = get_field('community_realtor'); 
-
-            // mix it up
-            shuffle($myField);
-
-            foreach($myField as $myTemp) :
-            // count up
-                $i++;
-
-
-            // get the id
-            $userID = $myTemp['ID'];
-            $myUser = get_userdata($userID);
-            $displayName = $myUser->display_name;
-            $phone = get_field( 'office_phone', 'user_'.$userID );
-                // email if you add the custom field to the profile
-                // see above if you want it to be the email tied to the login   
-            $email = get_field( 'email', 'user_'.$userID );   
-            $antispam = antispambot($email);
-            // image stuff
-            $size = 'agent_feed';
-           $image = get_field( 'photo', 'user_'.$userID );
-
-           // echo '<pre>';
-           // print_r($image);
-           // echo '</pre>';
-           // $size = 'single_community_agent';
-            $thumb = $image['sizes'][ $size ];
-            $link = get_author_posts_url($userID);
-            echo '<div class="communities-agents-photo">';
-            //echo '<a href="';
-            //echo $link;
-            //echo '">';
-            echo '<img src="';
-            // echo wp_get_attachment_image( $image, $size );
-            echo $thumb;
-            echo '" />';
-           // echo '</a>';
-            echo '</div>';
-            echo '<h2 class="community-realtor-name">';
-            //echo '<a href="';
-           // echo $link;
-            //echo '">';
-            echo $displayName;
-            //echo '</a>';
-            echo '</h2>';
-            //echo '<h2 class="community-realtor-email">';
-            //echo '<a href="mailto:';
-            //echo $antispam;
-            //echo '">';
-           // echo $antispam;
-            //echo '</a>';
-           // echo '</h2>';
-           echo '<h2>';
-            echo '<a href="callto://'.$phone.'" class="analytics action:phone label:'.$phone.' cat:header">'.$phone."</a>";
-            echo '</h2>';
-            // If we've counted to 1, get out of the loop
-
-            if( $i == 1 ) {
-               break;
-            }
-            endforeach;
+            endif;
             ?>
-
-              <div class="agent-neighborhood-quote"><?php the_field("agent_neighborhood_quote"); ?></div>
 
             </div> <!-- community-realtor --> 
           </div><!-- #community-realtors -->

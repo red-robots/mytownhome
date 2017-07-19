@@ -1545,6 +1545,7 @@ input{border-radius:5px;color:#000}
 }#home-row1{width:100%;float:left;border-bottom:19px solid #000}
 @media screen and (min-width:600px){.template-sell #page-text-left{width:50%}
 }.template-sell #page-text-left .infusion-submit input{background-color:#3753a1;font-size:25px}
+.template-sell #page-text-left .infusion-field textarea{width:85%}
 @media screen and (min-width:600px){.template-sell #page-right-column{width:40%}
 }.template-sell #page-right-column .button{cursor:pointer;display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-justify-content:space-between;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center;-webkit-flex-direction:row;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;text-align:center;padding:20px;background-color:#3753a1;margin:20px 0 0 0;color:white;border-radius:6px;vertical-align:middle}
 @media screen and (min-width:600px){.template-sell #page-right-column .button{width:100%}

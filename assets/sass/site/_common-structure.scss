@@ -803,6 +803,9 @@ input {
 			background-color: #3753A1;
 			font-size: 25px;
 		}
+		.infusion-field textarea {
+			width: 85%;
+		}
 	}
 	#page-right-column {
 		@media screen and (min-width: $tabwidth) {

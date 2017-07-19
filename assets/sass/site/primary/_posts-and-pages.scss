@@ -1076,6 +1076,10 @@ input.qs-sub {
 	// height: 279px;
 	// margin-right: 10px;
 	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: stretch;
 	@media screen and (min-width: $tabwidth) {
 		width: 60%;
 	}

@@ -370,7 +370,7 @@ $the_query = new WP_Query( $querySlides );
                     endif;
                     if($thumb): ?>
 
-                        <div class="agent-profile-box  js-blocks">
+                        <div class="agent-profile-box  ">
                           <div class="agent-photo">
                             <a href="<?php echo $link; ?>"><img src="<?php echo $thumb; ?>" /></a>
                           </div><!-- agent-photo -->
@@ -385,7 +385,7 @@ $the_query = new WP_Query( $querySlides );
       
                     <?php endif; 
                 endforeach;?>
-                <div class="view-all-agents-link js-blocks">
+                <div class="view-all-agents-link ">
                   <span class="text">View All Agents</span>
                     <a href="<?php bloginfo('url'); ?>/my-townhome-agents">
                         View All Agents

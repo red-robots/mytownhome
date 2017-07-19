@@ -823,8 +823,7 @@ input {
 			border-radius: 6px;
 			vertical-align: middle;
 			@media screen and (min-width: $tabwidth) {
-				width: 80%;
-				min-width: 200px;
+				width: 100%;
 			}
 			&:first-child {
 				margin-top: 0;
@@ -832,7 +831,9 @@ input {
 			a {
 				color: inherit;
 				text-decoration: none;
-				font-size: 25px;
+				@media screen and (min-width: $tabwidth) {
+					font-size: 25px;
+				}
 				&:hover {
 					color: inherit;
 				}
@@ -907,8 +908,7 @@ input {
 				border-radius: 6px;
 				vertical-align: middle;
 				@media screen and (min-width: $tabwidth) {
-					width: 80%;
-					min-width: 200px;
+					width: 100%;
 				}
 				&:first-child {
 					margin-top: 0;
@@ -916,6 +916,7 @@ input {
 				a {
 					color: inherit;
 					text-decoration: none;
+					font-size: 16px;
 					&:hover {
 						color: inherit;
 					}

@@ -831,7 +831,7 @@ input {
 			a {
 				color: inherit;
 				text-decoration: none;
-				@media screen and (min-width: $tabwidth) {
+				@media screen and (min-width: $midwidth) {
 					font-size: 25px;
 				}
 				&:hover {
@@ -916,7 +916,7 @@ input {
 				a {
 					color: inherit;
 					text-decoration: none;
-					font-size: 16px;
+					font-size: 14px;
 					&:hover {
 						color: inherit;
 					}

@@ -794,6 +794,145 @@ input {
 	float: left;
 	border-bottom: 19px solid #000000;
 }
+.template-sell {
+	#page-text-left {
+		@media screen and (min-width: $tabwidth) {
+			width: 50%;
+		}
+		.infusion-submit input {
+			background-color: #3753A1;
+			font-size: 25px;
+		}
+	}
+	#page-right-column {
+		@media screen and (min-width: $tabwidth) {
+			width: 40%;
+		}
+		.button {
+			cursor: pointer;
+			@include flexbox();
+			@include flexbox-justify(space-between);
+			@include flexbox-align-items(center);
+			@include flexbox-align-content(center);
+			@include flexbox-direction(row);
+			text-align: center;
+			padding: 20px;
+			background-color: #3753A1;
+			margin: 20px 0 0 0;
+			color: white;
+			border-radius: 6px;
+			vertical-align: middle;
+			@media screen and (min-width: $tabwidth) {
+				width: 80%;
+				min-width: 200px;
+			}
+			&:first-child {
+				margin-top: 0;
+			}
+			a {
+				color: inherit;
+				text-decoration: none;
+				font-size: 25px;
+				&:hover {
+					color: inherit;
+				}
+			}
+			&:after {
+				font-family: "flexslider-icon";
+				font-size: 30px;
+				color: white;
+				display: block;
+				content: '\f002';
+				margin-left: 10px;
+				line-height: 1;
+				vertical-align: middle;
+			}
+		}
+	}
+}
+#home-row1 {
+	#sell-box {
+		@media screen and (min-width: $midwidth) {
+			padding: 8% 15%;
+		}
+		@media screen and (min-width: $deskwidth) {
+			padding: 8% 10%;
+		}
+		&:after {
+			clear: both;
+			content: "";
+			display: block;
+		}
+		>.col-1 {
+			@media screen and (min-width: $tabwidth) {
+				float: left;
+				width: 50%;
+			}
+			@media screen and (min-width: $midwidth) {
+				width: 60%;
+			}
+			h1,h2,h3,h4 {
+				color: white;
+			}
+			h2 {
+				font-size: 25px;
+				text-transform: uppercase;
+				font-weight: 500;
+			}
+
+
+		}
+		>.col-2 {
+			@media screen and (min-width: $tabwidth) {
+				float: left;
+				width: 50%;
+				padding: 0 0 0 5%;
+			}
+			@media screen and (min-width: $midwidth) {
+				width: 40%;
+			}
+			.button {
+				cursor: pointer;
+				@include flexbox();
+				@include flexbox-justify(space-between);
+				@include flexbox-align-items(center);
+				@include flexbox-align-content(center);
+				@include flexbox-direction(row);
+				padding: 10px;
+				background-color: #3753A1;
+				margin: 20px 0 0 0;
+				text-align: center;
+				text-decoration: none;
+				color: white;
+				border-radius: 6px;
+				vertical-align: middle;
+				@media screen and (min-width: $tabwidth) {
+					width: 80%;
+					min-width: 200px;
+				}
+				&:first-child {
+					margin-top: 0;
+				}
+				a {
+					color: inherit;
+					text-decoration: none;
+					&:hover {
+						color: inherit;
+					}
+				}
+				&:after {
+					font-family: "flexslider-icon";
+					font-size: 15px;
+					color: white;
+					display: block;
+					content: '\f002';
+					margin-left: 10px;
+					line-height: 1;
+				}
+			}
+		}
+	}
+}
 #home-slider {
 	width: 100%;
 	

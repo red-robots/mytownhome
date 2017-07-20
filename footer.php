@@ -64,8 +64,8 @@
 				    var lhnInviteN = 21336;
 				    var lhnChatPosition = 'default';
 				</script>
-				<a href="http://www.livehelpnow.net/products/live-chat-system" target="_blank" style="font-size:10px;" id="lhnHelp">best live chat</a>
-				<script src="//www.livehelpnow.net/lhn/widgets/chatbutton/lhnchatbutton-current.min.js" type="text/javascript" id="lhnscript"></script>
+				<a href="https://www.livehelpnow.net/products/live-chat-system" target="_blank" style="font-size:10px;" id="lhnHelp">best live chat</a>
+				<script src="https://www.livehelpnow.net/lhn/widgets/chatbutton/lhnchatbutton-current.min.js" type="text/javascript" id="lhnscript"></script>
 				</div><!-- chat-tab -->
 			</div><!-- chat-bar-background-wrapper -->
 		</div><!-- chat-bar-background -->

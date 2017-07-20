@@ -31,15 +31,15 @@
         // wp_enqueue_script('flexslider');
 		
 		// Custom Theme scripts 1
-		wp_register_script('cloudscript', 'http://c1203812.cdn.cloudfiles.rackspacecloud.com/jquery.autocomplete.min.js');
+		wp_register_script('cloudscript', 'https://c1203812.cdn.cloudfiles.rackspacecloud.com/jquery.autocomplete.min.js');
 		wp_enqueue_script('cloudscript');
 		  
 		// Custom Theme scripts 2...
-		wp_register_script('localdata', 'http://img.davisfarrell.com/js/localdata.js');
+		wp_register_script('localdata', 'https://img.davisfarrell.com/js/localdata.js');
 		wp_enqueue_script('localdata');
 		  
 		// Custom Theme scripts 3...
-		wp_register_script('autosub', 'http://img.davisfarrell.com/js/autosub_so.js');
+		wp_register_script('autosub', 'https://img.davisfarrell.com/js/autosub_so.js');
 		wp_enqueue_script('autosub');
 		
 		// Google Map...

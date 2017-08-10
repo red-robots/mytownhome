@@ -103,7 +103,7 @@
           </div><!-- offices-phone -->
         </div><!--  about-office-text -->
         <div class="about-office-contact">
-        <a href="<?php bloginfo('url'); ?>/our-offices-elizabeth">View Agents</a>
+        <a href="<?php bloginfo('url'); ?>/my-townhome-agents">View Agents</a>
         </div><!-- about-office-contact -->
       </div><!-- about-office-content -->
     </div><!-- about-office -->
@@ -149,7 +149,7 @@
         </div><!-- offices-phone -->
       </div><!-- about-office-text -->
       <div class="about-office-contact">
-        <a href="<?php bloginfo('url'); ?>/south-end-office">View Agents</a>
+        <a href="<?php bloginfo('url'); ?>/my-townhome-agents">View Agents</a>
       </div><!-- about-office-contact -->
     </div><!-- about-office-content -->
     </div><!-- about-office -->
@@ -195,7 +195,7 @@
         </div><!-- offices-phone -->
       </div><!-- "about-office-text -->
       <div class="about-office-contact">
-        <a href="<?php bloginfo('url'); ?>/uptown-office">View Agents</a>
+        <a href="<?php bloginfo('url'); ?>/my-townhome-agents">View Agents</a>
       </div><!--  about-office-contact -->
     </div><!-- about-office-content -->
   </div><!-- about-office -->

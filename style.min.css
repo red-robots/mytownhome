@@ -1617,7 +1617,7 @@ blockquote{width:223px;padding-left:20px;padding-right:20px;padding-bottom:40px;
 #page-text-left{margin-bottom:15px;float:left;width:100%}
 @media screen and (min-width:900px){#page-text-left{width:60%}
 }#page-text-left h2{width:100% !important;float:left !important;margin-top:20px !important}
-#page-text-left p{width:100% !important;float:left !important;margin-top:20px !important}
+#page-text-left p{margin-top:20px !important}
 .text{width:100% !important;float:left !important;margin-top:20px !important}
 .offices-phone{padding-top:8px;font-size:12px}
 .sidebar-directions{font-size:12px;padding-top:6px}

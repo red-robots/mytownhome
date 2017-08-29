@@ -1618,6 +1618,13 @@ blockquote{width:223px;padding-left:20px;padding-right:20px;padding-bottom:40px;
 @media screen and (min-width:900px){#page-text-left{width:60%}
 }#page-text-left h2{width:100% !important;float:left !important;margin-top:20px !important}
 #page-text-left p{margin-top:20px !important}
+#page-text-left .purple-button{cursor:pointer;display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-justify-content:space-between;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center;-webkit-flex-direction:row;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;text-align:center;padding:20px;background-color:#3753a1;margin:20px 0 0 0;color:white;border-radius:6px;vertical-align:middle}
+@media screen and (min-width:600px){#page-text-left .purple-button{width:100%;max-width:250px}
+}#page-text-left .purple-button:first-child{margin-top:0}
+#page-text-left .purple-button a{color:inherit;text-decoration:none}
+@media screen and (min-width:900px){#page-text-left .purple-button a{font-size:18px}
+}#page-text-left .purple-button a:hover{color:inherit}
+#page-text-left .purple-button:after{font-family:"flexslider-icon";font-size:30px;color:white;display:block;content:'\f002';margin-left:10px;line-height:1;vertical-align:middle}
 .text{width:100% !important;float:left !important;margin-top:20px !important}
 .offices-phone{padding-top:8px;font-size:12px}
 .sidebar-directions{font-size:12px;padding-top:6px}

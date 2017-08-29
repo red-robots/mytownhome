@@ -1212,6 +1212,48 @@ blockquote {
 	p {
 		margin-top: 20px!important;
 	}
+	.purple-button {
+		cursor: pointer;
+		@include flexbox();
+		@include flexbox-justify(space-between);
+		@include flexbox-align-items(center);
+		@include flexbox-align-content(center);
+		@include flexbox-direction(row);
+		text-align: center;
+		padding: 20px;
+		background-color: #3753A1;
+		margin: 20px 0 0 0;
+		color: white;
+		border-radius: 6px;
+		vertical-align: middle;
+		@media screen and (min-width: $tabwidth) {
+			width: 100%;
+			max-width: 250px;
+		}
+		&:first-child {
+			margin-top: 0;
+		}
+		a {
+			color: inherit;
+			text-decoration: none;
+			@media screen and (min-width: $midwidth) {
+				font-size: 18px;
+			}
+			&:hover {
+				color: inherit;
+			}
+		}
+		&:after {
+			font-family: "flexslider-icon";
+			font-size: 30px;
+			color: white;
+			display: block;
+			content: '\f002';
+			margin-left: 10px;
+			line-height: 1;
+			vertical-align: middle;
+		}
+	}
 }
 .text {
 	width: 100%!important;

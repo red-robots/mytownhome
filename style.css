@@ -6801,7 +6801,7 @@ blockquote {
     @media screen and (min-width: 600px) {
       #page-text-left .purple-button {
         width: 100%;
-        max-width: 250px; } }
+        max-width: 300px; } }
     #page-text-left .purple-button:first-child {
       margin-top: 0; }
     #page-text-left .purple-button a {

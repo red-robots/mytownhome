@@ -163,7 +163,7 @@ else { document.getElementById(d).style.display = "none"; }
               <div id="social2"><a href="<?php the_field('youtube_link', 'option'); ?>" target="_blank"></a></div><!-- social1 -->
             </div><!-- social-icons -->
 
-            <div id="header-content2"><a href="callto://7043774567" class="analytics action:phone label:7043774567 cat:header">704.377.4567</a></div><!-- header-content2 -->
+            <div id="header-content2"><a href="callto://7043774567" class="analytics action:phone label:7043774567 cat:header">(704) 377-4567</a></div><!-- header-content2 -->
             </div><!-- header cont right -->
             
           </div><!-- header-content -->

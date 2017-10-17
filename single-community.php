@@ -77,7 +77,7 @@ get_header(); ?>
 
 
           <?php if (strlen(get_post_meta($post->ID, "floorplans_&_downloads", true)) > 0) : ?>
-            <?php echo do_shortcode("[tabby title='Floorplans & Downloads']"); ?>
+            <?php echo do_shortcode("[tabby title='Contact Us']"); ?>
             <div class="tab-content">
               <?php the_field("floorplans_&_downloads"); ?>
             </div><!--- / tab -->  

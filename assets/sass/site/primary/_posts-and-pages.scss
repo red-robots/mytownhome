@@ -1490,7 +1490,7 @@ input.qs-sub {
 .price-range a:hover {
 	color: #DDDDDD;
 }
-#communities-heading-link {
+#communities-heading-link, #communities-tour-link {
 	width: auto;
 	margin: 10px auto;
 	font-size: 25px;
@@ -1524,7 +1524,15 @@ input.qs-sub {
 		}
 	}
 }
-
+#communities-tour-link {
+	@media screen and (min-width: $midwidth) {
+		bottom: 100px;
+	}
+	@media screen and (min-width: $deskwidth) {
+		bottom: 25px;
+		left: 276px;
+	}
+}
 
 section.community {
 	width: 100%;

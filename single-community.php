@@ -15,6 +15,7 @@ get_header(); ?>
         <div id="communities-heading-photo">
         <?php
           $image = get_field('featured_photo');
+          $virtual_tour = get_field("virtual_tour");
           $url = $image['url'];
           $title = $image['title'];
           $alt = $image['alt'];
@@ -26,16 +27,13 @@ get_header(); ?>
           $width = $image['sizes'][ $size . '-width' ];
           $height = $image['sizes'][ $size . '-height' ];
 
-          echo '<!-- ';
-          echo '<pre>';
-          print_r($image);
-          echo '</pre>';
-          echo ' -->';
-
         if( !empty($image) ): ?>
          <?php echo wp_get_attachment_image( $image, $size ); ?>
         <?php endif; ?>
           <div id="communities-heading-link"><a href="#listings">View Listings</a></div>
+          <?php if($virtual_tour):?>
+            <div id="communities-tour-link"><a href="#virtual-tour">Virtual Tour</a></div>
+          <?php endif;?>
           <div id="communities-title-box"><div id="page-heading"><h2><?php
         $category = get_the_category(); 
         echo $category[0]->cat_name;
@@ -231,8 +229,15 @@ get_header(); ?>
           </div>
       <?php endif; ?>
       </div><!-- communities-gallery -->
-
-
+      
+      <?php if($virtual_tour):?>
+        <div class="clear"></div>
+        <a name="virtual-tour"></a>
+        <div id="communities-tour">
+          <h2>Virtual Tour</h2>
+          <?php echo $virtual_tour;?>
+        </div><!--.communities-tour-->
+      <?php endif;?>
     </div><!-- page-content -->
   </div><!-- main -->
 </div><!-- main-wrapper -->

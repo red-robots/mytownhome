@@ -39,7 +39,7 @@ get_header(); ?>
       <li>
         <a href="<?php bloginfo('url'); ?>/townhome-communities">ALL</a>
       </li>
-      <?php wp_list_cats('sort_column=name') ?>
+      <?php wp_list_categories(array('taxonomy'=>'neighborhood','orderby'=>'term_order','order'=>'ASC')); ?>
     </ul>
   </div><!-- filter-by-categories -->
 

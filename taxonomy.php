@@ -37,7 +37,7 @@ get_header(); ?>
       </li>
       <?php //wp_list_cats('sort_column=name') 
 
-      $args = array( 'hide_empty=0' );
+      $args = array( 'hide_empty=0', 'order'=>'ASC','orderby'=>'term_order' );
  
       $terms = get_terms( 'neighborhood', $args );
 
@@ -48,6 +48,7 @@ get_header(); ?>
           // $count = count( $terms );
           // $i = 0;
           //$term_list = '<p class="my_term-archive">';
+          $term_list = '';
           foreach ( $terms as $term ) {
               
               $term_list .= '<li>';

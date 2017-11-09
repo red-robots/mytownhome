@@ -40,6 +40,7 @@
           // $count = count( $terms );
           // $i = 0;
           //$term_list = '<p class="my_term-archive">';
+          $term_list = '';
           foreach ( $terms as $term ) {
               
               $term_list .= '<li>';

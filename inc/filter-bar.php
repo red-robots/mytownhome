@@ -35,7 +35,7 @@
           'order'=>'ASC',
           'orderby'=>'term_order',
           'hide_empty'=>0,
-          'name' => 'orice',
+          'name' => 'price',
           'show_count' => 0,
           'echo' => 0,
           'value_field' => 'slug');

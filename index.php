@@ -12,7 +12,7 @@ $querySlides = array(
 'orderby'        => 'rand',
 'tax_query' => array(
     array(
-      'taxonomy' => 'neighborhood', // your custom taxonomy
+      'taxonomy' => 'type', // your custom taxonomy
       'field' => 'slug',
       'terms' => array( 'featured' ) // the terms (categories) you created
     )

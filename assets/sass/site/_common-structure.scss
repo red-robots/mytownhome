@@ -1280,6 +1280,19 @@ blockquote {
 		font-size: 12px;
 }
 
+#filter-bar .col {
+	width: 100%;
+	text-align: center;
+	@media screen and (min-width: $tabwidth){
+		width: 50%;
+		float: left;
+		min-width: 200px;
+		padding: 0 10px;
+	}
+	@media screen and (min-width: $deskwidth){
+		width: 25%;
+	}
+}
 #filter-by {
 	width: 100%;
 	float: left;
@@ -1291,10 +1304,6 @@ blockquote {
 	font-size: 13px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
-	display: none;
-	@media screen and (min-width: $tabwidth) {
-		display: block;
-	}
 	a {
 		background-color: #0099CF;
 		padding: 6px 13px;

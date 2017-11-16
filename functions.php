@@ -378,16 +378,49 @@ add_action( 'init', 'build_taxonomies', 0 );
 function build_taxonomies() {
 // cusotm tax
     register_taxonomy( 'neighborhood', 'community',
-	 array( 
-	'hierarchical' => true, // true = acts like categories false = acts like tags
-	'label' => 'Neighborhoods', 
-	'query_var' => true, 
-	'rewrite' => true ,
-	'show_admin_column' => true,
-	'public' => true,
-	'rewrite' => array( 'slug' => 'neighborhood' ),
-	'_builtin' => true
-	) );
+	array( 
+   'hierarchical' => true, // true = acts like categories false = acts like tags
+   'label' => 'Neighborhoods', 
+   'query_var' => true, 
+   'rewrite' => true ,
+   'show_admin_column' => true,
+   'public' => true,
+   'rewrite' => array( 'slug' => 'neighborhood' ),
+   '_builtin' => true
+   ) );
+   register_taxonomy( 'price', 'community',
+	array( 
+   'hierarchical' => true, // true = acts like categories false = acts like tags
+   'label' => 'Price', 
+   'query_var' => true, 
+   'rewrite' => true ,
+   'show_admin_column' => true,
+   'public' => true,
+   'rewrite' => array( 'slug' => 'price' ),
+   '_builtin' => true
+   ) );
+   register_taxonomy( 'type', 'community',
+	array( 
+   'hierarchical' => true, // true = acts like categories false = acts like tags
+   'label' => 'Type', 
+   'query_var' => true, 
+   'rewrite' => true ,
+   'show_admin_column' => true,
+   'public' => true,
+   'rewrite' => array( 'slug' => 'type' ),
+   '_builtin' => true
+   ) );
+   register_taxonomy( 'virtual-tour', 'community',
+	array( 
+   'hierarchical' => true, // true = acts like categories false = acts like tags
+   'label' => 'Virtual Tour', 
+   'query_var' => true, 
+   'rewrite' => true ,
+   'show_admin_column' => true,
+   'public' => true,
+   'rewrite' => array( 'slug' => 'virtual-tour' ),
+   '_builtin' => true
+   ) );
 	
 } // End build taxonomies
 

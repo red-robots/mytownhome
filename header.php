@@ -98,8 +98,8 @@ else { document.getElementById(d).style.display = "none"; }
       
       //Render the recaptcha1 on the element with ID "recaptcha1"
       recaptcha1 = grecaptcha.render('recaptcha1', {
-        'sitekey' : '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI', //test key
-        //'sitekey' : '6LcD9BwUAAAAANiqrUTMgjkM1hrY_Dd_FTv9JOLR', // production
+        //'sitekey' : '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI', //test key
+        'sitekey' : '6LcD9BwUAAAAANiqrUTMgjkM1hrY_Dd_FTv9JOLR', // production
         'theme' : 'light',
         'callback' : 'enableBtn1'
       });

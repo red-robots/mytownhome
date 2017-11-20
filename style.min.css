@@ -1465,21 +1465,21 @@ input{border-radius:5px;color:#000}
 .nivo-lightbox-wrap{position:absolute;top:20% !important;bottom:10%;left:35% !important;right:0 !important}
 #chat-bar{position:fixed;bottom:-184px;right:0;width:100%;z-index:9999999;-webkit-transition:bottom 1s;transition:bottom 1s}
 #chat-bar:hover{bottom:0}
-@media screen and (min-width:600px){#chat-bar{bottom:-107px}
+@media screen and (min-width:900px){#chat-bar{bottom:-107px}
 }#chat-bar-background-wrapper{width:100%;position:relative}
 #chat-bar-background{width:100%;position:absolute;bottom:0;left:0;padding:20px 0;background-color:#334ea5}
-@media screen and (min-width:600px){#chat-bar-background{padding:27px}
+@media screen and (min-width:900px){#chat-bar-background{padding:27px}
 }#recaptcha1{-webkit-transform:scale(0.6);-ms-transform:scale(0.6);transform:scale(0.6)}
-@media screen and (min-width:600px){#recaptcha1{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);float:right;left:0}
+@media screen and (min-width:900px){#recaptcha1{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);float:right;left:0}
 }#recaptcha1>div{margin:0 auto}
-@media screen and (min-width:600px){#recaptcha1>div{margin:0}
+@media screen and (min-width:900px){#recaptcha1>div{margin:0}
 }#recaptcha-text{color:white;max-width:300px;padding:10px;text-align:center;font-size:16px;margin:0 auto}
-@media screen and (min-width:600px){#recaptcha-text{float:right;text-align:left;padding:0 10px 0 0;margin:0}
+@media screen and (min-width:900px){#recaptcha-text{float:right;text-align:left;padding:0 10px 0 0;margin:0}
 }#chat-tab{width:151px;height:36px;z-index:9999999;position:absolute;top:-50px;display:none;right:10%}
-@media screen and (min-width:600px){#chat-tab{top:-59px}
+@media screen and (min-width:900px){#chat-tab{top:-59px}
 }#chat-tab img{border-radius:5px;border:2px solid green}
 #chat-tab-fake{background-color:#334ea5;text-transform:uppercase;width:151px;height:36px;z-index:9;position:absolute;top:-50px;right:10%;color:white;padding:10px;border:1px solid #334ea5;text-align:center;border-radius:5px}
-@media screen and (min-width:600px){#chat-tab-fake{top:-59px}
+@media screen and (min-width:900px){#chat-tab-fake{top:-59px}
 }.dfres-subdivision-detail{margin-bottom:20px !important}
 .idxdisclosure{font-size:12px !important;margin-top:15px !important}
 .idximgnoborder{margin-top:15px !important}

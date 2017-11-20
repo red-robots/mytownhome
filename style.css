@@ -5975,7 +5975,7 @@ input {
   transition: bottom 1s; }
   #chat-bar:hover {
     bottom: 0; }
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 900px) {
     #chat-bar {
       bottom: -107px; } }
 
@@ -5990,7 +5990,7 @@ input {
   left: 0px;
   padding: 20px 0;
   background-color: #334EA5; }
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 900px) {
     #chat-bar-background {
       padding: 27px; } }
 
@@ -5998,7 +5998,7 @@ input {
   -webkit-transform: scale(0.6);
   -ms-transform: scale(0.6);
       transform: scale(0.6); }
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 900px) {
     #recaptcha1 {
       -webkit-transform: scale(1);
       -ms-transform: scale(1);
@@ -6007,7 +6007,7 @@ input {
       left: 0; } }
   #recaptcha1 > div {
     margin: 0 auto; }
-    @media screen and (min-width: 600px) {
+    @media screen and (min-width: 900px) {
       #recaptcha1 > div {
         margin: 0; } }
 
@@ -6018,7 +6018,7 @@ input {
   text-align: center;
   font-size: 16px;
   margin: 0 auto; }
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 900px) {
     #recaptcha-text {
       float: right;
       text-align: left;
@@ -6033,7 +6033,7 @@ input {
   top: -50px;
   display: none;
   right: 10%; }
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 900px) {
     #chat-tab {
       top: -59px; } }
   #chat-tab img {
@@ -6054,7 +6054,7 @@ input {
   border: 1px solid #334EA5;
   text-align: center;
   border-radius: 5px; }
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 900px) {
     #chat-tab-fake {
       top: -59px; } }
 

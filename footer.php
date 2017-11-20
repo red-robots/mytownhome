@@ -53,6 +53,14 @@
 	<div id="chat-bar">
 		<div id="chat-bar-background">
 			<div id="chat-bar-background-wrapper">
+				<div id="recaptcha1">
+				</div><!--#recaptcha1-->
+				<div id="recaptcha-text">
+					Please check the checkbox to prove you are not a robot, then click the live chat now link.
+				</div><!--.recaptcha-text-->
+				<div id="chat-tab-fake">
+					Live Chat Now
+				</div><!--#chat-tab-fake-->
 				<div id="chat-tab">
 				<!-- This code must be installed within the body tags -->
 				<script type="text/javascript">

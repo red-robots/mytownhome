@@ -105,6 +105,31 @@ body {
 		}
 	}
 }
+#sub-home-search-padding {
+	button[type=submit]{
+
+		width: auto;
+		background-color: #3753A1;
+		-moz-border-radius: 6px;
+		border-radius: 6px;
+		padding: 10px 15px;
+		color: white;
+		border: none;
+		box-shadow: none;
+		text-shadow: none;
+		display: block;
+		@media screen and (min-width: $navbreakwidth) {
+			padding: 10px 5px;
+		}
+
+		@media screen and (min-width: $deskwidth) {
+			padding: 10px 15px;
+		}	
+		&:hover {
+			background-color: #359DC7;
+		}
+	}
+}
 .tab-content {
 	padding: 20px;
 	float: left;

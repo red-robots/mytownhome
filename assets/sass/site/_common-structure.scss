@@ -118,13 +118,6 @@ body {
 		box-shadow: none;
 		text-shadow: none;
 		display: block;
-		@media screen and (min-width: $navbreakwidth) {
-			padding: 10px 5px;
-		}
-
-		@media screen and (min-width: $deskwidth) {
-			padding: 10px 15px;
-		}	
 		&:hover {
 			background-color: #359DC7;
 		}

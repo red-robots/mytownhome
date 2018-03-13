@@ -92,7 +92,7 @@ $the_query = new WP_Query( $querySlides );
     <?php echo do_shortcode("[tabby title='QUICK SEARCH']"); ?>
 
     <div id="home-search">
-      <form name="dfform" action="http://mytownhome.localhomesearch.net/idx/">
+      <form name="dfform" action="https://mytownhome.localhomesearch.net/idx/">
         <input type="hidden" name="op" value="query">
         <input type="hidden" name="_srf" value="1">
         

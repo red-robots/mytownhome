@@ -89,5 +89,187 @@
 	
 	});
 </script>
+<link rel="stylesheet" type="text/css" href="https://www.mytownhome.com/bw/wp-content/themes/mytownhome/list/slick.css">
+  <link rel="stylesheet" type="text/css" href="https://www.mytownhome.com/bw/wp-content/themes/mytownhome/list/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="https://www.mytownhome.com/bw/wp-content/themes/mytownhome/list/lightbox.min.css">
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 50%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: 1;
+    }
+    
+    .slick-active {
+      opacity: 1;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+	
+	
+  </style>
+  <script src="https://www.mytownhome.com/bw/wp-content/themes/mytownhome/list/lightbox-plus-jquery.min.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+   
+   var el = document.getElementsByClassName("idxclear");
+while(el.length > 0) {
+		el[0].parentNode.removeChild(el[0]);
+	}
+	
+    $(document).on('ready', function() {
+   
+      $("#idx").slick({
+        dots: false,
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+		responsive: [
+                    {
+                        breakpoint: 360,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 450,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    },
+                    
+                    {
+                        breakpoint: 700,
+                        settings: {
+                             rows: 1,
+                            slidesToShow: 2,
+            }
+        }
+                ]
+      });
+
+$("#sl-2").slick({
+        dots: false,
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+		responsive: [
+                    {
+                        breakpoint: 360,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 450,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    },
+                    
+                    {
+                        breakpoint: 700,
+                        settings: {
+                             rows: 1,
+                             slidesToShow: 1,
+            }
+        }
+                ]
+      });
+      
+    
+
+$("#sl-3").slick({
+        dots: false,
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+		responsive: [
+                    {
+                        breakpoint: 360,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 450,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    },
+                   
+                    {
+                        breakpoint: 700,
+                        settings: {
+                           
+                            slidesToShow: 2,
+            }
+        }
+                ]
+      });
+	  
+	  
+	  $("#sl-4").slick({
+        dots: false,
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+		responsive: [
+                    {
+                        breakpoint: 360,
+                        settings: {
+
+                            slidesToShow: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 450,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    },
+                   
+                    {
+                        breakpoint: 700,
+                        settings: {
+                           
+                            slidesToShow: 2,
+            }
+        }
+                ]
+      });
+      
+    });
+		
+</script>
 </body>
 </html>

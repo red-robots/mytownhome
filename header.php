@@ -9,6 +9,8 @@
 
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/style.css?ver=0123" />
 
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBY6nKXBgmFv9vric53ojjdnnxn3OZ0PSQ"></script>
+
 <!-- <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/colorbox.css" /> -->
 
 <!-- <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/tabs.css" /> -->

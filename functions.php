@@ -43,11 +43,11 @@
 		wp_enqueue_script('autosub');
 		
 		// Google Map...
-		wp_register_script(
-			'googlemap',
-			get_bloginfo('template_directory') . '/js/google-map.js',
-			array('jquery'), '1.0' );
-		wp_enqueue_script('googlemap');
+		// wp_register_script(
+		// 	'googlemap',
+		// 	get_bloginfo('template_directory') . '/js/google-map.js',
+		// 	array('jquery'), '1.0' );
+		// wp_enqueue_script('googlemap');
 	
 	}
 }

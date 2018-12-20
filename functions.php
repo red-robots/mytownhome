@@ -435,15 +435,9 @@ add_filter( 'wpseo_metabox_prio', 'yoasttobottom');
 remove_action('wp_print_styles', 'cc_tabby_css', 30);
 
 function my_acf_init() {
-  acf_update_setting('google_api_key', 'AIzaSyCifsjitKgXZEl08R8JwrKFkpacFZOZzdg');
+  acf_update_setting('google_api_key', 'AIzaSyCyZBtcV1dykxw5WZrkjXYhy0f6ncC_nxA');
   // acf_update_setting('google_api_key', 'AIzaSyDNhlDNYBZaM_GpXoWr9MDBO9mc68VP5js');
 }
 
 add_action('acf/init', 'my_acf_init');
 
-function my_acf_init() {
-  
-  acf_update_setting('google_api_key', 'AIzaSyCifsjitKgXZEl08R8JwrKFkpacFZOZzdg');
-}
-
-add_action('acf/init', 'my_acf_init');

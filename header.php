@@ -9,7 +9,7 @@
 
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/style.css?ver=0123" />
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCifsjitKgXZEl08R8JwrKFkpacFZOZzdg"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyZBtcV1dykxw5WZrkjXYhy0f6ncC_nxA"></script>
 
 <!-- <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/colorbox.css" /> -->
 
